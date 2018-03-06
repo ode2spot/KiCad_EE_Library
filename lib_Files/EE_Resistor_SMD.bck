@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP Resistor_SMD_10k_ThinFilm_1%_100mW_50ppm_0603
-D 10k ThinFilm 1% 100mW 50ppm 0603
-K 10k ThinFilm 1% 0603
-F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
-$ENDCMP
-#
-#End Doc Library
