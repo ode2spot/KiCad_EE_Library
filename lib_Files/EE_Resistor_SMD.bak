@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# R_Template
+#
+DEF ~R_Template R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "R_Template" -200 0 60 V I C CNN
+F2 "" 0 -100 60 V I C CNN
+F3 "" 200 0 60 V I C CNN
+F4 "R" -100 0 60 V V C CNN "PartValue"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_10k_ThinFilm_1%_100mW_50ppm_0603
+#
+DEF ~Resistor_SMD_10k_ThinFilm_1%_100mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_10k_ThinFilm_1%_100mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistors_SMD:R_0603" 200 -100 60 V I C CNN
+F3 "http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F5 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
+F6 "0.11" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+F7 "0.18" 2100 0 60 V I C CNN "DigiKeyPrice"
+F8 "1%" 500 0 60 V I C CNN "Precision"
+F9 "100mW" 600 0 60 V I C CNN "PowerRating"
+F10 "50ppm" 900 0 60 V I C CNN "Tempco"
+F11 "594-MCT06030C1002FP5" 1400 0 60 V I C CNN "MouserPN"
+F12 "754-RR0816P-103D" 2650 -50 60 V I C CNN "ALTMouserPN"
+F13 "MCT0603-10.0K-CFCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "MCT06030C1002FP500" 1300 50 60 V I C CNN "MPN"
+F15 "10k" -100 0 60 V V C CNN "PartValue"
+F16 "RR0816P-103-D" 2550 0 60 V I C CNN "ALTMPN"
+F17 "RR08P10.0KDCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F18 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F19 "Vishay" 1200 0 60 V I C CNN "Manufacturer"
+F20 "Y" 1000 0 60 V I C CNN "PbFree"
+F21 "Y" 1100 0 60 V I C CNN "RoHS"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

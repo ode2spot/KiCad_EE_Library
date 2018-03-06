@@ -1,0 +1,10 @@
+#!/bin/bash 
+
+FIRST_ARGUMENT="$1"
+echo "Running FreeCadMacro on $FIRST_ARGUMENT"
+
+/Applications/FreeCAD.app/Contents/bin/FreeCAD /Users/marthmac/Library/Preferences/FreeCAD/Macro/kicad-StepUp-tools.FCMacro $FIRST_ARGUMENT
+
+# # Get current directory of this file
+# DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+

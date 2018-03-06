@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TL074CDR_SOIC14
+D Quad Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Quad Low-Noise JFET OpAmp
+F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tl074&fileType=pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PinSocket_1x7_2.5mm_Vert
+#
+DEF ~PinSocket_1x7_2.5mm_Vert J 0 40 Y N 1 F N
+F0 "J" 50 400 50 H V C CNN
+F1 "PinSocket_1x7_2.5mm_Vert" 0 -550 50 H I C CNN
+F2 "EE_PinSocket:PinSocket_1x07_P2.54mm_Vertical" 0 -650 50 H I C CNN
+F3 "" -300 -100 50 H I C CNN
+F4 "PinSocket_1x7_2.54mm_Vert" 0 -450 50 H V C CNN "PartValue"
+DRAW
+S 0 -295 50 -305 1 1 6 N
+S 0 -195 50 -205 1 1 6 N
+S 0 -95 50 -105 1 1 6 N
+S 0 5 50 -5 1 1 6 N
+S 0 105 50 95 1 1 6 N
+S 0 205 50 195 1 1 6 N
+S 0 305 50 295 1 1 6 N
+S 0 350 100 -350 1 1 10 f
+X Pin_1 1 -150 300 150 R 50 50 1 1 P
+X Pin_2 2 -150 200 150 R 50 50 1 1 P
+X Pin_3 3 -150 100 150 R 50 50 1 1 P
+X Pin_4 4 -150 0 150 R 50 50 1 1 P
+X Pin_5 5 -150 -100 150 R 50 50 1 1 P
+X Pin_6 6 -150 -200 150 R 50 50 1 1 P
+X Pin_7 7 -150 -300 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

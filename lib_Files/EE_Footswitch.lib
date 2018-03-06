@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Footswitch_3PDTPRO
+#
+DEF ~Footswitch_3PDTPRO SW 0 40 Y N 3 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "Footswitch_3PDTPRO" 0 -300 50 H I C CNN
+F2 "EE_Footswitch:Footswitch_3PDT" 0 -400 50 H I C CNN
+F3 "https://cdn.shopify.com/s/files/1/1353/1185/files/4SFS3PDT-LS_PR_LSP_MSP_LSAU_Data_Sheet.pdf?12867592396497858423" 800 -500 50 H I C CNN
+F4 "3PDT" 0 -200 50 H V C CNN "PartValue"
+F5 "30VDC" 0 -600 50 H I C CNN "VoltageRating"
+F6 "4A" 0 -700 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -800 50 H I C CNN "PbFree"
+F8 "Y" 0 -900 50 H I C CNN "RoHS"
+F9 "3PDT" 0 -1000 50 H I C CNN "MPN"
+F10 "0200BB" 0 -1100 50 H I C CNN "SmallBearPN"
+F11 "FS3PDT-PRO" 0 -1200 50 H I C CNN "MammothPN"
+F12 "A-331" 0 -1300 50 H I C CNN "TaydaPN"
+F13 "4.95" 0 -1400 50 H I C CNN "SmallBearPrice"
+F14 "3.90" 0 -1500 50 H I C CNN "MammothPrice"
+F15 "2.49" 0 -1600 50 H I C CNN "TaydaPrice"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+X A 4 200 100 100 L 50 50 2 1 P
+X B 5 -200 0 100 R 50 50 2 1 P
+X C 6 200 -100 100 L 50 50 2 1 P
+X A 7 200 100 100 L 50 50 3 1 P
+X B 8 -200 0 100 R 50 50 3 1 P
+X C 9 200 -100 100 L 50 50 3 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

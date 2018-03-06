@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BatteryClip_Keystone_629
+#
+DEF ~BatteryClip_Keystone_629 GS 0 40 Y N 1 F N
+F0 "GS" 100 -50 50 H V C CNN
+F1 "BatteryClip_Keystone_629" 0 400 50 H I C CNN
+F2 "EE_BatteryClip:BatteryClip_Keystone_629" 50 600 50 H I C CNN
+F3 "https://www.mouser.com/ds/2/215/29-743118.pdf" 100 500 50 H I C CNN
+F4 "GND_SPRING" 0 250 50 H V C CNN "PartValue"
+F5 "Steel/Tin-Nickle" -50 700 50 H I C CNN "Composition"
+F6 "Y" 0 800 50 H I C CNN "PbFree"
+F7 "Y" 0 900 50 H I C CNN "RoHS"
+F8 "Keystone" 0 1000 50 H I C CNN "Manufacturer"
+F9 "629" 0 1100 50 H I C CNN "MPN"
+F10 "534-629" 0 1200 50 H I C CNN "MouserPN"
+F11 "36-629-ND" 0 1300 50 H I C CNN "DigiKeyPN"
+F12 "0.79" 0 1400 50 H I C CNN "MouserPrice"
+F13 "0.93" 0 1500 50 H I C CNN "DigiKeyPrice"
+DRAW
+A -361 -9 461 270 11 0 1 0 N 50 200 100 0
+A -250 100 364 -159 159 0 1 0 N 100 0 100 200
+A -200 100 269 218 -218 0 1 0 N 50 200 50 0
+A -115 45 265 358 11 0 1 0 N 100 200 150 50
+A 50 100 112 266 -266 0 1 0 N 150 150 150 50
+S -50 200 50 0 0 1 0 f
+P 5 0 1 0 50 200 100 0 100 200 150 50 150 150 N
+X SPRING 1 0 -200 200 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

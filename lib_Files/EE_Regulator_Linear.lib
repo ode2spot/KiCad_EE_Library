@@ -1,0 +1,130 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Regulator_Linear_AP2210K-3.3_+3.3V_300mA
+#
+DEF ~Regulator_Linear_AP2210K-3.3_+3.3V_300mA U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Regulator_Linear_AP2210K-3.3_+3.3V_300mA" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-5" 0 650 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2210.pdf" 0 550 50 H I C CNN
+F4 "AP2210K-3.3" 0 200 40 H V C CNN "PartValue"
+F5 "ULDO" 200 550 50 H I C CNN "Composition"
+F6 "1%" 300 650 50 H I C CNN "Precision"
+F7 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F8 "3.3V" 500 850 50 H I C CNN "VoltageRating"
+F9 "300mA" 600 950 50 H I C CNN "CurrentRating"
+F10 "48ppm/C" 700 1050 50 H I C CNN "Tempco"
+F11 "Y" 800 1150 50 H I C CNN "PbFree"
+F12 "Y" 900 1250 50 H I C CNN "RoHS"
+F13 "Diodes Inc." 1000 1350 50 H I C CNN "Manufacturer"
+F14 "AP2210K-3.3TRG1" 1100 1450 50 H I C CNN "MPN"
+F15 "621-AP2210K-3.3TRG1" 1200 1550 50 H I C CNN "MouserPN"
+F16 "AP2210K-3.3TRG1DICT-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F17 "0.41" 1700 2050 50 H I C CNN "MouserPrice"
+F18 "0.42" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -200 0 1 0 f
+X VIN 1 -350 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -350 0 100 R 50 50 1 1 I
+X BYP 4 350 0 100 L 50 50 1 1 I
+X VOUT 5 350 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_AP2210K-5.0_+5V_300mA
+#
+DEF ~Regulator_Linear_AP2210K-5.0_+5V_300mA U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Regulator_Linear_AP2210K-5.0_+5V_300mA" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-5" 0 650 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2210.pdf" 0 550 50 H I C CNN
+F4 "AP2210K-5.0" 0 200 40 H V C CNN "PartValue"
+F5 "ULDO" 200 550 50 H I C CNN "Composition"
+F6 "1%" 300 650 50 H I C CNN "Precision"
+F7 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F8 "5V" 500 850 50 H I C CNN "VoltageRating"
+F9 "300mA" 600 950 50 H I C CNN "CurrentRating"
+F10 "48ppm/C" 700 1050 50 H I C CNN "Tempco"
+F11 "Y" 800 1150 50 H I C CNN "PbFree"
+F12 "Y" 900 1250 50 H I C CNN "RoHS"
+F13 "Diodes Inc." 1000 1350 50 H I C CNN "Manufacturer"
+F14 "AP2210K-5.0TRG1" 1100 1450 50 H I C CNN "MPN"
+F15 "621-AP2210K-5.0TRG1" 1200 1550 50 H I C CNN "MouserPN"
+F16 "AP2210K-5.0TRG1DICT-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F17 "0.42" 1700 2050 50 H I C CNN "MouserPrice"
+F18 "0.43" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -200 0 1 0 f
+X VIN 1 -350 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -350 0 100 R 50 50 1 1 I
+X BYP 4 350 0 100 L 50 50 1 1 I
+X VOUT 5 350 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_MIC5205-5.0_+5V_150mA_LowNoise
+#
+DEF ~Regulator_Linear_MIC5205-5.0_+5V_150mA_LowNoise U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Regulator_Linear_MIC5205-5.0_+5V_150mA_LowNoise" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-5" 0 650 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005785A.pdf" 0 550 50 H I C CNN
+F4 "MIC5205-5.0" 0 200 40 H V C CNN "PartValue"
+F5 "LowNoise-ULDO" 200 550 50 H I C CNN "Composition"
+F6 "1%" 300 650 50 H I C CNN "Precision"
+F7 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F8 "5V" 500 850 50 H I C CNN "VoltageRating"
+F9 "150mA" 600 950 50 H I C CNN "CurrentRating"
+F10 "40ppm/C" 700 1050 50 H I C CNN "Tempco"
+F11 "Y" 800 1150 50 H I C CNN "PbFree"
+F12 "Y" 900 1250 50 H I C CNN "RoHS"
+F13 "Microchip" 1000 1350 50 H I C CNN "Manufacturer"
+F14 "MIC5205-5.0YM5-TR" 1100 1450 50 H I C CNN "MPN"
+F15 "998-MIC5205-5.0YM5TR" 1200 1550 50 H I C CNN "MouserPN"
+F16 "576-1261-1-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F17 "0.48" 1700 2050 50 H I C CNN "MouserPrice"
+F18 "0.42" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -200 0 1 0 f
+X VIN 1 -350 100 100 R 50 50 1 1 W
+X GND 2 0 -300 100 U 50 50 1 1 W
+X EN 3 -350 0 100 R 50 50 1 1 I
+X BYP 4 350 0 100 L 50 50 1 1 I
+X VOUT 5 350 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_MIC5270-5.0_-5V_100mA
+#
+DEF ~Regulator_Linear_MIC5270-5.0_-5V_100mA U 0 10 Y Y 1 F N
+F0 "U" 0 -250 50 H V C CNN
+F1 "Regulator_Linear_MIC5270-5.0_-5V_100mA" -150 700 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-5" -100 900 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic5270.pdf" -100 800 50 H I C CNN
+F4 "MIC5270-5.0" 0 -150 40 H V C CNN "PartValue"
+F5 "ULDO" 100 800 50 H I C CNN "Composition"
+F6 "2%" 200 900 50 H I C CNN "Precision"
+F7 "Thermally Limited" 300 1000 50 H I C CNN "PowerRating"
+F8 "-5V" 400 1100 50 H I C CNN "VoltageRating"
+F9 "100mA" 500 1200 50 H I C CNN "CurrentRating"
+F10 "100ppm/C" 600 1300 50 H I C CNN "Tempco"
+F11 "Y" 700 1400 50 H I C CNN "PbFree"
+F12 "Y" 800 1500 50 H I C CNN "RoHS"
+F13 "Microchip" 900 1600 50 H I C CNN "Manufacturer"
+F14 "MIC5270-5.0YM5-TR" 1000 1700 50 H I C CNN "MPN"
+F15 "998-MIC5270-5.0YM5TR" 1100 1800 50 H I C CNN "MouserPN"
+F16 "576-1294-1-ND" 1200 1900 50 H I C CNN "DigiKeyPN"
+F17 "1.85" 1600 2300 50 H I C CNN "MouserPrice"
+F18 "1.63" 1700 2400 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 200 250 -200 0 1 0 f
+X GND 2 0 300 100 D 50 50 1 1 W
+X VOUT 4 350 0 100 L 50 50 1 1 w
+X VIN 5 -350 0 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library

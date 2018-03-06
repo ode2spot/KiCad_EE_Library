@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+# Macro Begin: /Users/marthmac/Library/Preferences/FreeCAD/Macro/exportDAE.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++
+import FreeCAD
+import importDAE
+
+__objs__=[]
+__objs__.append(FreeCAD.getDocument("KiCad_Sandbox").getObject("Step_Models"))
+__objs__.append(FreeCAD.getDocument("KiCad_Sandbox").getObject("PCB_Sketch"))
+__objs__.append(FreeCAD.getDocument("KiCad_Sandbox").getObject("Shape"))
+__objs__.append(FreeCAD.getDocument("KiCad_Sandbox").getObject("Pcb"))
+__objs__.append(FreeCAD.getDocument("KiCad_Sandbox").getObject("Board_Geoms"))
+importDAE.export(__objs__,u"/Users/marthmac/Seed/Projects/Eclipse_Effects/KiCad_Sandbox/KiCad_Sandbox.dae")
+
+del __objs__
+# Macro End: /Users/marthmac/Library/Preferences/FreeCAD/Macro/exportDAE.FCMacro +++++++++++++++++++++++++++++++++++++++++++++++++

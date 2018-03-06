@@ -1,0 +1,48 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal
+#
+DEF ~Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal" 50 -600 50 H I C CNN
+F2 "EE_Connector_Audio:Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal" 50 -700 50 H I C CNN
+F3 "http://www.neutrik.us/en-us/plugs-jacks/m-series/nmj6hcd2" 100 -800 50 H I C CNN
+F4 "6.35mm PC Audio Jack" 50 -450 50 H V C CNN "PartValue"
+F5 "Plastic/Chrome" 200 650 50 H I C CNN "Composition"
+F6 "50V" 500 950 50 H I C CNN "VoltageRating"
+F7 "3A" 600 1050 50 H I C CNN "CurrentRating"
+F8 "Y" 800 1250 50 H I C CNN "PbFree"
+F9 "Y" 900 1350 50 H I C CNN "RoHS"
+F10 "Neutrik" 1000 1450 50 H I C CNN "Manufacturer"
+F11 "NMJ6HCD2" 1100 1550 50 H I C CNN "MPN"
+F12 "550-22302" 1200 1650 50 H I C CNN "MouserPN"
+F13 "0604E" 1400 1850 50 H I C CNN "SmallBearPN"
+F14 "JK103S" 1500 1950 50 H I C CNN "MammothPN"
+F15 "1.46" 1700 2150 50 H I C CNN "MouserPrice"
+F16 "1.35" 1900 2350 50 H I C CNN "SmallBearPrice"
+F17 "1.50" 2000 2450 50 H I C CNN "MammothPrice"
+DRAW
+T 0 200 400 50 0 0 0 R Normal 0 C C
+T 0 200 300 50 0 0 0 RN Normal 0 C C
+T 0 200 -300 50 0 0 0 S Normal 0 C C
+T 0 200 -200 50 0 0 0 SN Normal 0 C C
+T 0 200 0 50 0 0 0 T Normal 0 C C
+T 0 200 100 50 0 0 0 TN Normal 0 C C
+P 5 0 0 0 -500 -350 -650 -350 -650 350 -500 350 -500 -350 f
+P 2 0 1 0 250 -350 -500 -350 N
+P 5 0 1 0 -150 -50 0 -50 50 0 100 -50 250 -50 N
+P 5 0 1 0 250 -250 -350 -250 -400 -350 -450 -250 -350 -250 f
+P 5 0 1 0 250 50 -50 50 -100 -50 -150 50 -50 50 f
+P 5 0 1 0 250 250 -250 250 -300 350 -350 250 -250 250 f
+P 5 0 1 0 250 350 -100 350 -150 300 -200 350 -400 350 N
+X TN 1 450 50 200 L 50 50 1 1 P
+X SN 2 450 -250 200 L 50 50 1 1 P
+X RN 3 450 250 200 L 50 50 1 1 P
+X T 4 450 -50 200 L 50 50 1 1 P
+X S 5 450 -350 200 L 50 50 1 1 P
+X R 6 450 350 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
