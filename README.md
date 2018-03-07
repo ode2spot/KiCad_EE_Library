@@ -95,7 +95,7 @@ run "kicadStepDAE [BoardFileName]" from the BoardFileName's directory
 "kicadStepDAE" is a script located in "/usr/local/bin"
 this script runs a FreeCAD macro on the supplied file name
 
-The FreeCAD macro is called "kicad-StepUp-tools.FCMacro" and is located at "~/Library/Preferences/FreeCAD/Macro"
+The FreeCAD macro is called "kicad-StepUp-tools.FCMacro" and is located at "\~/Library/Preferences/FreeCAD/Macro"
 This macro uses "~/ksu-config.ini" for its configuration settings
 
 "~/ksu-config.ini" points to "~/Seed/Resources/KiCadLibrary/packages3d/" as the location
