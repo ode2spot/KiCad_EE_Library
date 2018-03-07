@@ -50,7 +50,7 @@ ENDDEF
 DEF ~Diode_SMD_Zener_5.1V_300mW_Dual_CA ZD 0 40 Y N 2 F N
 F0 "ZD" 0 150 50 H V C CNN
 F1 "Diode_SMD_Zener_5.1V_300mW_Dual_CA" 0 -250 50 H I C CNN
-F2 "EE_Diode_SMD:D_SOD-323" -50 -350 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23" -50 -350 50 H I C CNN
 F3 "https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf" 50 -450 50 H I C CNN
 F4 "AZ23C5V1" 0 -150 50 H V C CNN "PartValue"
 F5 "Si Zener" 0 -550 50 H I C CNN "Composition"

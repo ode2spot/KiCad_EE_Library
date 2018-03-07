@@ -1,4 +1,4 @@
-(module Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal (layer F.Cu) (tedit 5A9DFA62)
+(module Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal (layer F.Cu) (tedit 5A9F3EB2)
   (descr "NMJ6HCD2, TRS 1/4\\\\\\\\\\\\\\\\ (http://www.neutrik.com/zoolu-website/media/download/2890/Drawing+NMJ6HCD2)")
   (tags "NMJ6HCD2 TRS stereo jack connector")
   (fp_text reference REF** (at 0.89 18.41) (layer F.SilkS)
@@ -49,7 +49,7 @@
   (pad 4 thru_hole circle (at 16.23 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 0 6.35) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 0 12.7) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
-  (pad 1 thru_hole rect (at 0 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask))
+  (pad 1 thru_hole roundrect (at 0 0) (size 3 3) (drill 1.5) (layers *.Cu *.Mask)(roundrect_rratio 0.25))
   (model ${KIUSR3DMOD}/EE_Connector_Audio.3dshapes/Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal.step
     (offset (xyz 8.102599878311157 -17.01799974441528 0))
     (scale (xyz 1 1 1))
