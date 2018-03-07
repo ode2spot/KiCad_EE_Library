@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Capacitor_SMD_100p_C0G_5%_50V_0603
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
 #End Doc Library
