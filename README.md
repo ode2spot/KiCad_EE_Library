@@ -10,7 +10,7 @@ Library Naming Conventions
 
 ### Schematic Library Setup
 
-Schematic Libraries are located at "~/Seed/Resources/KiCad_EE_Library/lib_Files/[LibraryName].lib"
+Schematic Libraries are located at "\~/Seed/Resources/KiCad_EE_Library/lib_Files/[LibraryName].lib"
 
 Add schematic library to library list:
 1) open Schematic Library Editor
@@ -59,7 +59,7 @@ NOTE: * = default
 
 ### Footprint Setup
 
-Local footprints are located at "~/Seed/Resources/KiCad_EE_Library/footprints/[LibraryName(.pretty)]/"
+Local footprints are located at "\~/Seed/Resources/KiCad_EE_Library/footprints/[LibraryName(.pretty)]/"
 
 Add footprint Library to library list:
 1) open PCB Footprint Editor
@@ -71,7 +71,7 @@ Add footprint Library to library list:
 
 ### 3D Setup
 
-3D packages exist at "~/Seed/Resources/KiCad_EE_Library/packages3d/[LibraryName(.3dshapes)]/"
+3D packages exist at "\~/Seed/Resources/KiCad_EE_Library/packages3d/[LibraryName(.3dshapes)]/"
 
 each package has two 3D models: .step, .wrl
 
@@ -83,7 +83,7 @@ To set a part's 3D model:
 4) click Add 3D Shape and navigate to desired 3D model
 
 
-built-in 3D models can be found at "~/Seed/Resources/KiCad_GIT_Library/kicad-packages3D/"
+built-in 3D models can be found at "\~/Seed/Resources/KiCad_GIT_Library/kicad-packages3D/"
 which is downloaded from the KiCad git page
 
 
@@ -96,9 +96,9 @@ run "kicadStepDAE [BoardFileName]" from the BoardFileName's directory
 this script runs a FreeCAD macro on the supplied file name
 
 The FreeCAD macro is called "kicad-StepUp-tools.FCMacro" and is located at "\~/Library/Preferences/FreeCAD/Macro"
-This macro uses "~/ksu-config.ini" for its configuration settings
+This macro uses "\~/ksu-config.ini" for its configuration settings
 
-"~/ksu-config.ini" points to "~/Seed/Resources/KiCadLibrary/packages3d/" as the location
+"\~/ksu-config.ini" points to "\~/Seed/Resources/KiCadLibrary/packages3d/" as the location
 for the local 3D models
 
 The "kicad-StepUp-tools.FCMacro" opens the BoardFile in FreeCAD, loads each part's 3D model from the local file path
