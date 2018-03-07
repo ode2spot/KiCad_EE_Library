@@ -24,7 +24,7 @@ NOTE: add these through KiCad -> Preferences -> Template Field Names
 
 Field					Description
 
-* 'Reference:				reference designator
+* 'Reference:\t\t\t\treference designator
 * 'Value:					unique name of the part, include all relevant data points except manufacturer
 * 'Footprint:				filepath to footprint -> [FootprintLibrary(.pretty)]:[FootprintName], click "assign footprint" for wizard
 * 'Datasheet:				URL for datasheet
