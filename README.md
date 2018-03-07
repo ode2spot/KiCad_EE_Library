@@ -1,6 +1,4 @@
 # KiCad_EE_Library
-________________________________________________________________________________________________
-________________________________________________________________________________________________
 
 ##KiCAD Library Setup
 
@@ -9,11 +7,8 @@ Library Naming Conventions
 > prefix with unique designator for compatibility, eg EE_[NAME]
 > should be as generic as possible, eg EE_Resistor_SMD, EE_Capacitor_SMD, EE_OpAmp ...
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
 
 ###Schematic Library Setup
-____________________________________
 
 Schematic Libraries are located at "/Users/marthmac/Seed/Resources/KiCad_EE_Library/lib_Files/[LibraryName].lib"
 
@@ -23,8 +18,6 @@ Add schematic library to library list:
 3) add library
 
 Make a new library by "saving as" with a library open
-
-____________________________________
 
 ####Part Field Properties
 NOTE: add these through KiCad -> Preferences -> Template Field Names
@@ -64,11 +57,7 @@ ALTDigiKeyPrice:		ALT Part price for 1 unit @ DigiKey
 
 NOTE: * = default
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-
 ###Footprint Setup
-____________________________________
 
 Local footprints are located at "~/Seed/Resources/KiCad_EE_Library/footprints/[LibraryName(.pretty)]/"
 
@@ -80,11 +69,7 @@ Add footprint Library to library list:
 
 
 
-________________________________________________________________________________________________
-________________________________________________________________________________________________
-
 ###3D Setup
-____________________________________
 
 3D packages exist at "~/Seed/Resources/KiCad_EE_Library/packages3d/[LibraryName(.3dshapes)]/"
 
@@ -102,7 +87,6 @@ built-in 3D models can be found in kicad-extras -> modules
 
 
 ###3D Exporting
-____________________________________
 
 To generate a 3D .dae board file:
 run "kicadStepDAE [BoardFileName]" from the BoardFileName's directory
