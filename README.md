@@ -22,13 +22,13 @@ Make a new library by "saving as" with a library open
 ####Part Field Properties
 NOTE: add these through KiCad -> Preferences -> Template Field Names
 
-Field					Description
-
-* 'Reference:\t\t\t\treference designator
-* 'Value:					unique name of the part, include all relevant data points except manufacturer
-* 'Footprint:				filepath to footprint -> [FootprintLibrary(.pretty)]:[FootprintName], click "assign footprint" for wizard
-* 'Datasheet:				URL for datasheet
-PartValue:				displayed value of the part, eg Resistors -> resistance, Capacitors -> capacitance, IC's -> part number
+Field|Description
+-----------------------|---------------------------------------------------
+*Reference:|reference designator
+*Value:|unique name of the part, include all relevant data points except manufacturer
+*Footprint:|filepath to footprint -> [FootprintLibrary(.pretty)]:[FootprintName], click "assign footprint" for wizard
+*Datasheet:|URL for datasheet
+PartValue:|displayed value of the part, eg Resistors -> resistance, Capacitors -> capacitance, IC's -> part number
 Composition:			construction material, eg Resistors -> ThinFilm/ThickFilm, Capacitors -> C0G/PPS ...
 Precision:				precision of part
 PowerRating:			maximum power dissipation of part
@@ -55,7 +55,7 @@ ALTDigiKeyPN:			ALT Part DigiKey Part Number
 ALTMouserPrice:			ALT Part price for 1 unit @ Mouser
 ALTDigiKeyPrice:		ALT Part price for 1 unit @ DigiKey
 
-NOTE: ' = default
+NOTE: * = default
 
 ###Footprint Setup
 
