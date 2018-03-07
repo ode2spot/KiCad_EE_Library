@@ -3,9 +3,9 @@
 ##KiCAD Library Setup
 
 Library Naming Conventions
-> must not be the same as built-in library
-> prefix with unique designator for compatibility, eg EE_[NAME]
-> should be as generic as possible, eg EE_Resistor_SMD, EE_Capacitor_SMD, EE_OpAmp ...
+* must not be the same as built-in library
+* prefix with unique designator for compatibility, eg EE_[NAME]
+* should be as generic as possible, eg EE_Resistor_SMD, EE_Capacitor_SMD, EE_OpAmp ...
 
 
 ###Schematic Library Setup
@@ -24,10 +24,10 @@ NOTE: add these through KiCad -> Preferences -> Template Field Names
 
 Field					Description
 
-*Reference:				reference designator
-*Value:					unique name of the part, include all relevant data points except manufacturer
-*Footprint:				filepath to footprint -> [FootprintLibrary(.pretty)]:[FootprintName], click "assign footprint" for wizard
-*Datasheet:				URL for datasheet
+* 'Reference:				reference designator
+* 'Value:					unique name of the part, include all relevant data points except manufacturer
+* 'Footprint:				filepath to footprint -> [FootprintLibrary(.pretty)]:[FootprintName], click "assign footprint" for wizard
+* 'Datasheet:				URL for datasheet
 PartValue:				displayed value of the part, eg Resistors -> resistance, Capacitors -> capacitance, IC's -> part number
 Composition:			construction material, eg Resistors -> ThinFilm/ThickFilm, Capacitors -> C0G/PPS ...
 Precision:				precision of part
@@ -55,7 +55,7 @@ ALTDigiKeyPN:			ALT Part DigiKey Part Number
 ALTMouserPrice:			ALT Part price for 1 unit @ Mouser
 ALTDigiKeyPrice:		ALT Part price for 1 unit @ DigiKey
 
-NOTE: * = default
+NOTE: ' = default
 
 ###Footprint Setup
 
