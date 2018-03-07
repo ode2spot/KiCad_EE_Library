@@ -6,7 +6,13 @@ K Dual SingleSupply BiPolar OpAmp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf
 $ENDCMP
 #
-$CMP OpAmp_TL074CDR_SOIC14
+$CMP OpAmp_TL072_SOIC8
+D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Dual Low-Noise JFET OpAmp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP OpAmp_TL074_SOIC14
 D Quad Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
 K Quad Low-Noise JFET OpAmp
 F http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=tl074&fileType=pdf
