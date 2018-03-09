@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Diode_SMD_AZ23C3V6_DualCA_Zener_3.6V_300mW
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
 $CMP Diode_SMD_AZ23C5V1_DualCA_Zener_5.1V_300mW
 D Dual Common Anode 5.1V 300mW Zener
 K Dual CA 5.1V 300mW Zener
