@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Cyrstal_8MHz_10ppm_18pF_HC49-SMD
+#
+DEF ~Cyrstal_8MHz_10ppm_18pF_HC49-SMD X 0 40 Y N 1 F N
+F0 "X" 0 150 50 H V C CNN
+F1 "Cyrstal_8MHz_10ppm_18pF_HC49-SMD" 0 -300 50 H I C CNN
+F2 "EE_Crystal:Crystal_SMD_HC49-SD" 0 -400 50 H I C CNN
+F3 "http://www.txccrystal.com/images/pdf/9c-accuracy.pdf" 50 -500 50 H I C CNN
+F4 "8MHz" 0 -150 50 H V C CNN "PartValue"
+F5 "Cyrstal" 0 -600 50 H I C CNN "Composition"
+F6 "10ppm" 0 -700 50 H I C CNN "Precision"
+F7 "100uW" 0 -800 50 H I C CNN "PowerRating"
+F8 "10ppm" 0 -900 50 H I C CNN "Tempco"
+F9 "Y" 0 -1050 50 H I C CNN "PbFree"
+F10 "Y" 0 -1150 50 H I C CNN "RoHS"
+F11 "TXC" 0 -1250 50 H I C CNN "Manufacturer"
+F12 "9C-8.000MEEJ-T" 0 -1350 50 H I C CNN "MPN"
+F13 "717-9C-8.000MEEJ-T" 0 -1450 50 H I C CNN "MouserPN"
+F14 "887-1263-1-ND" 0 -1550 50 H I C CNN "DigiKeyPN"
+F15 "0.54" 0 -1650 50 H I C CNN "MouserPrice"
+F16 "0.59" 0 -1750 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -45 100 45 -100 0 1 12 N
+P 2 0 1 0 -100 0 -75 0 N
+P 2 0 1 20 -75 -50 -75 50 N
+P 2 0 1 20 75 -50 75 50 N
+P 2 0 1 0 100 0 75 0 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

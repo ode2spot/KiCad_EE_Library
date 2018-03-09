@@ -17,6 +17,38 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_100n_X7R_10%_50V_0603
+#
+DEF ~Capacitor_SMD_100n_X7R_10%_50V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_100n_X7R_10%_50V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" 350 0 60 V I C CNN
+F4 "100n" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Wurth" 850 0 50 V I C CNN "Manufacturer"
+F11 "885012206095" 950 -50 50 V I C CNN "MPN"
+F12 "710-885012206095" 1050 -50 50 V I C CNN "MouserPN"
+F13 "732-8013-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.10" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.10" 1350 0 50 V I C CNN "DigiKeyPrice"
+F16 "CC0603JRX7R9BB104" 1450 0 50 V I C CNN "ALTMPN"
+F17 "603-CC603JRX7R9BB104" 1550 0 50 V I C CNN "ALTMouserPN"
+F18 "311-1779-1-ND" 1650 0 50 V I C CNN "ALTDigiKeyPN"
+F19 "0.10" 1750 0 50 V I C CNN "ALTMouserPrice"
+F20 "0.10" 1850 0 50 V I C CNN "ALTDigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_100p_C0G_5%_50V_0603
 #
 DEF ~Capacitor_SMD_100p_C0G_5%_50V_0603 C 0 40 N N 1 F N
@@ -43,6 +75,225 @@ F19 "0.07" 1750 0 50 V I C CNN "ALTMouserPrice"
 F20 "0.10" 1850 0 50 V I C CNN "ALTDigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_100u_ALP_20%_35V_6.3x7.7mm
+#
+DEF ~Capacitor_SMD_100u_ALP_20%_35V_6.3x7.7mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_100u_ALP_20%_35V_6.3x7.7mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_6.3x7.7" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080545012.pdf" 350 0 60 V I C CNN
+F4 "100u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "35" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080545012" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080545012" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8511-1-ND" 1250 0 50 V I C CNN "DigiKeyPN"
+F14 "0.36" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.33" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_10u_ALP_20%_35V_4x5.5mm
+#
+DEF ~Capacitor_SMD_10u_ALP_20%_35V_4x5.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_10u_ALP_20%_35V_4x5.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_4x5.7" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080540004.pdf" 350 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "35" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080540004" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080540004" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8503-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.20" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.19" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_15p_C0G_5%_50V_0603
+#
+DEF ~Capacitor_SMD_15p_C0G_5%_50V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_15p_C0G_5%_50V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" 350 0 60 V I C CNN
+F4 "15p" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Vishay" 850 0 50 V I C CNN "Manufacturer"
+F11 "VJ0603A150JXACW1BC" 950 -50 50 V I C CNN "MPN"
+F12 "77-VJ0603A150JXACBC" 1050 -50 50 V I C CNN "MouserPN"
+F13 "0.06" 1250 0 50 V I C CNN "MouserPrice"
+F14 "C0603C150J5GACTU" 1450 0 50 V I C CNN "ALTMPN"
+F15 "80-C0603C150J5G" 1550 0 50 V I C CNN "ALTMouserPN"
+F16 "399-1051-1-ND" 1650 0 50 V I C CNN "ALTDigiKeyPN"
+F17 "0.10" 1750 0 50 V I C CNN "ALTMouserPrice"
+F18 "0.10" 1850 0 50 V I C CNN "ALTDigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_1u_ALP_20%_50V_4x5.5mm
+#
+DEF ~Capacitor_SMD_1u_ALP_20%_50V_4x5.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_1u_ALP_20%_50V_4x5.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_4x5.7" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080640001.pdf" 350 0 60 V I C CNN
+F4 "1u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "50" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080640001" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080640001" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8446-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.19" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.18" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_2.2u_ALP_20%_50V_4x5.5mm
+#
+DEF ~Capacitor_SMD_2.2u_ALP_20%_50V_4x5.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_2.2u_ALP_20%_50V_4x5.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_4x5.7" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080640002.pdf" 350 0 60 V I C CNN
+F4 "2.2u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "50" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080640002" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080640002" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8447-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.20" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.19" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_220u_ALP_20%_35V_8x10.5mm
+#
+DEF ~Capacitor_SMD_220u_ALP_20%_35V_8x10.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_220u_ALP_20%_35V_8x10.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_8x10.5" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080553014.pdf" 350 0 60 V I C CNN
+F4 "220u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "35" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080553014" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080553014" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8513-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.67" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.62" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_4.7u_ALP_20%_35V_4x5.5mm
+#
+DEF ~Capacitor_SMD_4.7u_ALP_20%_35V_4x5.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_4.7u_ALP_20%_35V_4x5.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_4x5.7" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080540002.pdf" 350 0 60 V I C CNN
+F4 "4.7u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "35" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080540002" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080540002" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8501-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.19" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.17" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_47u_ALP_20%_35V_6.3x5.5mm
+#
+DEF ~Capacitor_SMD_47u_ALP_20%_35V_6.3x5.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_47u_ALP_20%_35V_6.3x5.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Elec_6.3x5.7" 250 0 60 V I C CNN
+F3 "http://katalog.we-online.de/pbs/datasheet/865080543009.pdf" 350 0 60 V I C CNN
+F4 "47u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "35" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Wurth" 950 0 50 V I C CNN "Manufacturer"
+F11 "865080543009" 1050 -50 50 V I C CNN "MPN"
+F12 "710-865080543009" 1150 -50 50 V I C CNN "MouserPN"
+F13 "732-8508-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.28" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.26" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
 P 2 0 1 20 -80 30 80 30 N
 X ~ 1 0 150 110 D 50 50 1 1 P
 X ~ 2 0 -150 110 U 50 50 1 1 P

@@ -1,4 +1,4 @@
-(module CP_Elec_4x5.7 (layer F.Cu) (tedit 5A9F67E0)
+(module CP_Elec_4x5.7 (layer F.Cu) (tedit 5AA2044B)
   (descr "SMT capacitor, aluminium electrolytic, 4x5.7")
   (attr smd)
   (fp_text reference REF** (at 0 3.54) (layer F.SilkS)

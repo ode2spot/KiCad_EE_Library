@@ -1,6 +1,60 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP Capacitor_SMD_100n_X7R_10%_50V_0603
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
 $CMP Capacitor_SMD_100p_C0G_5%_50V_0603
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_100u_ALP_20%_35V_6.3x7.7mm
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_10u_ALP_20%_35V_4x5.5mm
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_15p_C0G_5%_50V_0603
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_1u_ALP_20%_50V_4x5.5mm
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_2.2u_ALP_20%_50V_4x5.5mm
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_220u_ALP_20%_35V_8x10.5mm
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_4.7u_ALP_20%_35V_4x5.5mm
+D 100p C0G 5% 50V 0603
+K 100p C0G 5% 50V 0603
+F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
+$ENDCMP
+#
+$CMP Capacitor_SMD_47u_ALP_20%_35V_6.3x5.5mm
 D 100p C0G 5% 50V 0603
 K 100p C0G 5% 50V 0603
 F https://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf
