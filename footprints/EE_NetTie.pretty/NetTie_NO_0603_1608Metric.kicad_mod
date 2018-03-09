@@ -1,0 +1,29 @@
+(module NetTie_NO_0603_1608Metric (layer F.Cu) (tedit 5AA24A67)
+  (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+  (tags resistor)
+  (attr smd)
+  (fp_text reference REF** (at 0 -1.65) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value NetTie_NO_0603_1608Metric (at 0 1.65) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.46 0.75) (end -1.46 -0.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -1.46 -0.75) (end 1.46 -0.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.46 -0.75) (end 1.46 0.75) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 1.46 0.75) (end -1.46 0.75) (layer F.CrtYd) (width 0.05))
+  (pad 1 smd custom (at -0.5715 0.0635) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5715 -0.572777) (xy 0.0635 -0.572777) (xy 0.5715 -0.064777) (xy 0.0635 0.443223) (xy -0.5715 0.443223)
+) (width 0.15))
+    ))
+  (pad 2 smd custom (at 0.8255 0.0635) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -0.702333 -0.572777) (xy -0.194333 -0.064777) (xy -0.702333 0.443223) (xy 0.313667 0.443223) (xy 0.313667 -0.572777)
+) (width 0.15))
+    ))
+)
