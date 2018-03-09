@@ -1,6 +1,48 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# OpAmp_LM324_SOIC14
+#
+DEF ~OpAmp_LM324_SOIC14 U 0 10 Y Y 5 L N
+F0 "U" 0 200 60 H V C CNN
+F1 "OpAmp_LM324_SOIC14" 0 -400 60 H I C CNN
+F2 "EE_Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" -50 -500 60 H I C CNN
+F3 "http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=lm324-n&fileType=pdf" 0 -650 60 H I C CNN
+F4 "LM324" 100 -200 60 H V C CNN "PartValue"
+F5 "BiPolar" 0 -750 60 H I C CNN "Composition"
+F6 "32V" 0 -1050 60 H I C CNN "VoltageRating"
+F7 "7uV/C" 0 -1250 60 H I C CNN "Tempco"
+F8 "Y" 0 -1350 60 H I C CNN "PbFree"
+F9 "Y" 0 -1450 60 H I C CNN "RoHS"
+F10 "Texas Instruments" 0 -1550 60 H I C CNN "Manufacturer"
+F11 "LM324MX/NOPB" 0 -1650 60 H I C CNN "MPN"
+F12 "926-LM324MX/NOPB" 0 -1750 60 H I C CNN "MouserPN"
+F13 "LM324MX/NOPBCT-ND" 0 -1850 60 H I C CNN "DigiKeyPN"
+F14 "0.99" 0 -2250 60 H I C CNN "MouserPrice"
+F15 "1.02" 0 -2350 60 H I C CNN "DigiKeyPrice"
+DRAW
+S -200 150 0 -150 5 1 10 f
+P 4 1 1 10 -200 200 200 0 -200 -200 -200 200 f
+P 4 2 1 10 -200 -200 -200 200 200 0 -200 -200 f
+P 4 3 1 10 -200 -200 -200 200 200 0 -200 -200 f
+P 4 4 1 10 -200 -200 -200 200 200 0 -200 -200 f
+X ~ 1 300 0 100 L 50 50 1 1 O
+X - 2 -300 100 100 R 50 50 1 1 I
+X + 3 -300 -100 100 R 50 50 1 1 I
+X + 5 -300 -100 100 R 50 50 2 1 I
+X - 6 -300 100 100 R 50 50 2 1 I
+X ~ 7 300 0 100 L 50 50 2 1 O
+X + 10 -300 -100 100 R 50 50 3 1 I
+X ~ 8 300 0 100 L 50 50 3 1 O
+X - 9 -300 100 100 R 50 50 3 1 I
+X + 12 -300 -100 100 R 50 50 4 1 I
+X - 13 -300 100 100 R 50 50 4 1 I
+X ~ 14 300 0 100 L 50 50 4 1 O
+X V- 11 -100 -300 150 U 50 50 5 1 W
+X V+ 4 -100 300 150 D 50 50 5 1 W
+ENDDRAW
+ENDDEF
+#
 # OpAmp_LM358_SOIC8
 #
 DEF ~OpAmp_LM358_SOIC8 U 0 10 Y Y 3 L N

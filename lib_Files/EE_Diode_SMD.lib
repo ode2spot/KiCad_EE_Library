@@ -17,6 +17,38 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Diode_SMD_AZ23C3V0_DualCA_Zener_3.0V_300mW
+#
+DEF ~Diode_SMD_AZ23C3V0_DualCA_Zener_3.0V_300mW ZD 0 40 Y N 2 F N
+F0 "ZD" 0 150 50 H V C CNN
+F1 "Diode_SMD_AZ23C3V0_DualCA_Zener_3.0V_300mW" 0 -250 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23" -50 -350 50 H I C CNN
+F3 "https://www.mouser.com/ds/2/115/ds18003-73511.pdf" 50 -450 50 H I C CNN
+F4 "3.0V" 0 -150 50 H V C CNN "PartValue"
+F5 "Si Zener" 0 -550 50 H I C CNN "Composition"
+F6 "300mW" 0 -650 50 H I C CNN "PowerRating"
+F7 "3.0V" 0 -750 50 H I C CNN "VoltageRating"
+F8 "100mA" 0 -850 50 H I C CNN "CurrentRating"
+F9 "-600ppm/C" 0 -950 50 H I C CNN "Tempco"
+F10 "Y" 0 -1100 50 H I C CNN "PbFree"
+F11 "Y" 0 -1200 50 H I C CNN "RoHS"
+F12 "Diodes Inc." 0 -1300 50 H I C CNN "Manufacturer"
+F13 "AZ23C3V0-7-F" 0 -1400 50 H I C CNN "MPN"
+F14 "621-AZ23C3V0-F" 0 -1500 50 H I C CNN "MouserPN"
+F15 "AZ23C3V0-FDICT-ND" 0 -1600 50 H I C CNN "DigiKeyPN"
+F16 "0.41" 0 -1700 50 H I C CNN "MouserPrice"
+F17 "0.45" 0 -1800 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 3 150 0 100 L 50 50 1 1 P
+X K 2 -150 0 100 R 50 50 2 1 P
+X A 3 150 0 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
 # Diode_SMD_AZ23C3V6_DualCA_Zener_3.6V_300mW
 #
 DEF ~Diode_SMD_AZ23C3V6_DualCA_Zener_3.6V_300mW ZD 0 40 Y N 2 F N
@@ -29,7 +61,7 @@ F5 "Si Zener" 0 -550 50 H I C CNN "Composition"
 F6 "300mW" 0 -650 50 H I C CNN "PowerRating"
 F7 "3.6V" 0 -750 50 H I C CNN "VoltageRating"
 F8 "83mA" 0 -850 50 H I C CNN "CurrentRating"
-F9 "55ppm/C" 0 -950 50 H I C CNN "Tempco"
+F9 "-550ppm/C" 0 -950 50 H I C CNN "Tempco"
 F10 "Y" 0 -1100 50 H I C CNN "PbFree"
 F11 "Y" 0 -1200 50 H I C CNN "RoHS"
 F12 "MCC" 0 -1300 50 H I C CNN "Manufacturer"
@@ -61,7 +93,7 @@ F5 "Si Zener" 0 -550 50 H I C CNN "Composition"
 F6 "300mW" 0 -650 50 H I C CNN "PowerRating"
 F7 "5.1V" 0 -750 50 H I C CNN "VoltageRating"
 F8 "58mA" 0 -850 50 H I C CNN "CurrentRating"
-F9 "50ppm/C" 0 -950 50 H I C CNN "Tempco"
+F9 "-500ppm/C" 0 -950 50 H I C CNN "Tempco"
 F10 "Y" 0 -1100 50 H I C CNN "PbFree"
 F11 "Y" 0 -1200 50 H I C CNN "RoHS"
 F12 "MCC" 0 -1300 50 H I C CNN "Manufacturer"
