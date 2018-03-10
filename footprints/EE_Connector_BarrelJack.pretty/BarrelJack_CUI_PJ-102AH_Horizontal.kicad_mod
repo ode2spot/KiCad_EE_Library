@@ -1,4 +1,4 @@
-(module BarrelJack_CUI_PJ-102AH_Horizontal (layer F.Cu) (tedit 5A9DA29B)
+(module BarrelJack_CUI_PJ-102AH_Horizontal (layer F.Cu) (tedit 5AA3559A)
   (descr "Thin-pin DC Barrel Jack, https://cdn-shop.adafruit.com/datasheets/21mmdcjackDatasheet.pdf")
   (tags "Power Jack")
   (fp_text reference REF** (at 5.75 8.45 90) (layer F.SilkS)
@@ -36,7 +36,7 @@
   (fp_line (start -4.5 0.3) (end -3.5 -0.7) (layer F.Fab) (width 0.1))
   (fp_line (start -3.5 -0.7) (end 4.5 -0.7) (layer F.Fab) (width 0.1))
   (fp_line (start -4.5 10.2) (end 4.5 10.2) (layer F.Fab) (width 0.1))
-  (pad 1 thru_hole rect (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask))
+  (pad 1 thru_hole roundrect (at 0 0) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask)(roundrect_rratio 0.25))
   (pad 2 thru_hole circle (at 0 6) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask))
   (pad 3 thru_hole circle (at 4.7 3) (size 2.6 2.6) (drill 1.6) (layers *.Cu *.Mask))
   (model ${KIUSR3DMOD}/EE_Connector_BarrelJack.3dshapes/BarrelJack_CUI_PJ-102AH_Horizontal.step
