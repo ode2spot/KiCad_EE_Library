@@ -1,0 +1,68 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Reference_LM4030C_2.5V_0.5%_30ppm_SOT23
+#
+DEF ~Reference_LM4030C_2.5V_0.5%_30ppm_SOT23 REF 0 40 Y N 1 F N
+F0 "REF" 150 50 50 H V C CNN
+F1 "Reference_LM4030C_2.5V_0.5%_30ppm_SOT23" 0 -500 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23" 0 -600 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm4030.pdf" 0 -700 50 H I C CNN
+F4 "2.5V" 150 -50 50 H V C CNN "PartValue"
+F5 "Si" 0 -800 50 H I C CNN "Composition"
+F6 "0.5%" 0 -900 50 H I C CNN "Precision"
+F7 "350mW" 0 -1000 50 H I C CNN "PowerRating"
+F8 "30mA" 0 -1100 50 H I C CNN "CurrentRating"
+F9 "30ppm" 0 -1200 50 H I C CNN "Tempco"
+F10 "Y" 0 -1350 50 H I C CNN "PbFree"
+F11 "Y" 0 -1450 50 H I C CNN "RoHS"
+F12 "TI" 0 -1550 50 H I C CNN "Manufacturer"
+F13 "LM4030CMF-2.5/NOPB" 0 -1650 50 H I C CNN "MPN"
+F14 "926-LM4030CMF25NOPB" 0 -1750 50 H I C CNN "MouserPN"
+F15 "LM4030CMF-2.5/NOPBCT-ND" 0 -1850 50 H I C CNN "DigiKeyPN"
+F16 "1.30" 0 -1950 50 H I C CNN "MouserPrice"
+F17 "1.35" 0 -2050 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 0 0 -50 0 50 N
+P 3 0 1 8 -50 50 50 50 50 30 N
+P 4 0 1 8 -50 -50 50 -50 0 50 -50 -50 F
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Reference_TL4050_5V_0.5%_50ppm_SOT23
+#
+DEF ~Reference_TL4050_5V_0.5%_50ppm_SOT23 REF 0 40 Y N 1 F N
+F0 "REF" 150 50 50 H V C CNN
+F1 "Reference_TL4050_5V_0.5%_50ppm_SOT23" 0 -500 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23" 0 -600 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tl4050c.pdf" 0 -700 50 H I C CNN
+F4 "5V" 150 -50 50 H V C CNN "PartValue"
+F5 "Si" 0 -800 50 H I C CNN "Composition"
+F6 "0.5%" 0 -900 50 H I C CNN "Precision"
+F7 "20mA" 0 -1000 50 H I C CNN "CurrentRating"
+F8 "50ppm" 0 -1100 50 H I C CNN "Tempco"
+F9 "Y" 0 -1250 50 H I C CNN "PbFree"
+F10 "Y" 0 -1350 50 H I C CNN "RoHS"
+F11 "TI" 0 -1450 50 H I C CNN "Manufacturer"
+F12 "TL4050C50IDBZR" 0 -1550 50 H I C CNN "MPN"
+F13 "595-TL4050C50IDBZR" 0 -1650 50 H I C CNN "MouserPN"
+F14 "296-22823-1-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F15 "1.12" 0 -1850 50 H I C CNN "MouserPrice"
+F16 "1.16" 0 -1950 50 H I C CNN "DigiKeyPrice"
+F17 "LM4050CIM3X-5.0/NOPB" 0 -2050 50 H I C CNN "ALTMPN"
+F18 "926-LM4050CIM3X50NPB" 0 -2150 50 H I C CNN "ALTMouserPN"
+F19 "296-38747-1-ND" 0 -2250 50 H I C CNN "ALTDigiKeyPN"
+F20 "1.82" 0 -2350 50 H I C CNN "ALTMouserPrice"
+F21 "1.87" 0 -2450 50 H I C CNN "ALTDigiKeyPrice"
+DRAW
+P 2 0 1 0 0 -50 0 50 N
+P 3 0 1 8 -50 50 50 50 50 30 N
+P 4 0 1 8 -50 -50 50 -50 0 50 -50 -50 F
+X K 1 0 150 100 D 50 50 1 1 P
+X A 2 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
