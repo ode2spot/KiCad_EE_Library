@@ -29,4 +29,32 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Button_Tact_6x6mm_h13mm
+#
+DEF ~Button_Tact_6x6mm_h13mm BTN 0 40 Y N 1 F N
+F0 "BTN" 0 -100 50 H V C CNN
+F1 "Button_Tact_6x6mm_h13mm" 0 -200 50 H I C CNN
+F2 "EE_Button:BTN_TACT_6mm_h13mm" -50 -300 50 H I C CNN
+F3 "https://www.mouser.com/ds/2/26/MJTP_6MM-25494.pdf" 0 -400 50 H I C CNN
+F4 "50mA" 0 -700 50 H I C CNN "CurrentRating"
+F5 "Y" 0 -800 50 H I C CNN "PbFree"
+F6 "Y" 0 -900 50 H I C CNN "RoHS"
+F7 "Wealth Metal" 0 -1000 50 H I C CNN "Manufacturer"
+F8 "Tact Switch 6*6mm 13mm" 0 -1100 50 H I C CNN "MPN"
+F9 "642-MJTP1230D" 0 -1200 50 H I C CNN "MouserPN"
+F10 "679-2432-ND" 0 -1300 50 H I C CNN "DigiKeyPN"
+F11 "A-5156" 1600 1500 50 H I C CNN "TaydaPN"
+F12 "0.26" 0 -1400 50 H I C CNN "MouserPrice"
+F13 "0.26" 0 -1500 50 H I C CNN "DigiKeyPrice"
+F14 "0.07" 2100 2000 50 H I C CNN "TaydaPrice"
+DRAW
+C -80 0 20 0 1 0 N
+C 80 0 20 0 1 0 N
+P 2 0 1 0 0 50 0 120 N
+P 2 0 1 0 100 50 -100 50 N
+X 1 1 -200 0 100 R 50 50 0 1 P
+X 2 2 200 0 100 L 50 50 0 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
