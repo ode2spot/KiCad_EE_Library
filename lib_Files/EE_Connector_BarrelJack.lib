@@ -22,6 +22,7 @@ F14 "0.75" 0 -2150 50 H I C CNN "MouserPrice"
 F15 "0.76" 0 -2250 50 H I C CNN "DigiKeyPrice"
 DRAW
 A -230 100 25 901 -901 0 1 10 F -230 125 -230 75
+T 0 650 0 50 0 0 0 CHECK~PINOUT!! Normal 0 C C
 S 45 125 -230 75 0 1 10 F
 P 2 0 1 10 -50 -90 -25 -65 N
 P 2 0 1 10 100 100 50 100 N
@@ -30,6 +31,57 @@ P 6 0 1 10 -250 -100 -200 -100 -150 -50 -100 -100 0 -100 100 -100 N
 X ~ 1 200 100 100 L 50 50 1 1 P
 X ~ 2 200 -100 100 L 50 50 1 1 P
 X ~ 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BarrelJack_Tayda_A4118_Horizontal
+#
+DEF ~BarrelJack_Tayda_A4118_Horizontal J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "BarrelJack_Tayda_A4118_Horizontal" 200 -300 50 H I C CNN
+F2 "EE_Connector_BarrelJack:BarrelJack_Tayda_A4118_Horizontal" 250 -400 50 H I C CNN
+F3 "https://www.taydaelectronics.com/datasheets/A-4118.jpg" 200 -500 50 H I C CNN
+F4 "BarrelJack_Power" 0 -200 50 H V C CNN "PartValue"
+F5 "Y" 0 -1200 50 H I C CNN "PbFree"
+F6 "Y" 0 -1300 50 H I C CNN "RoHS"
+F7 "Wealth Metal" 0 -1400 50 H I C CNN "Manufacturer"
+F8 "DC Power Jack 2.1mm" 0 -1500 50 H I C CNN "MPN"
+F9 "A-4118" 1600 1800 50 H I C CNN "TaydaPN"
+F10 "0.16" 2100 2300 50 H I C CNN "TaydaPrice"
+DRAW
+A -230 100 25 901 -901 0 1 10 F -230 125 -230 75
+S 45 125 -230 75 0 1 10 F
+P 2 0 1 10 -50 -90 -25 -65 N
+P 2 0 1 10 100 100 50 100 N
+P 4 0 1 10 100 0 -50 0 -50 -90 -75 -65 N
+P 6 0 1 10 -250 -100 -200 -100 -150 -50 -100 -100 0 -100 100 -100 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 200 -100 100 L 50 50 1 1 P
+X ~ 3 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# BarrelJack_Tayda_A4118_Horizontal_NoSW
+#
+DEF ~BarrelJack_Tayda_A4118_Horizontal_NoSW J 0 40 Y Y 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "BarrelJack_Tayda_A4118_Horizontal_NoSW" 200 -300 50 H I C CNN
+F2 "EE_Connector_BarrelJack:BarrelJack_Tayda_A4118_Horizontal_NoSW" 250 -400 50 H I C CNN
+F3 "https://www.taydaelectronics.com/datasheets/A-4118.jpg" 200 -500 50 H I C CNN
+F4 "BarrelJack_Power" 0 -200 50 H V C CNN "PartValue"
+F5 "Y" 0 -1200 50 H I C CNN "PbFree"
+F6 "Y" 0 -1300 50 H I C CNN "RoHS"
+F7 "Wealth Metal" 0 -1400 50 H I C CNN "Manufacturer"
+F8 "DC Power Jack 2.1mm" 0 -1500 50 H I C CNN "MPN"
+F9 "A-4118" 1600 1800 50 H I C CNN "TaydaPN"
+F10 "0.16" 2100 2300 50 H I C CNN "TaydaPrice"
+DRAW
+A -230 100 25 901 -901 0 1 10 F -230 125 -230 75
+S 45 125 -230 75 0 1 10 F
+P 2 0 1 10 100 100 50 100 N
+P 6 0 1 10 -250 -100 -200 -100 -150 -50 -100 -100 0 -100 100 -100 N
+X ~ 1 200 100 100 L 50 50 1 1 P
+X ~ 2 200 -100 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
