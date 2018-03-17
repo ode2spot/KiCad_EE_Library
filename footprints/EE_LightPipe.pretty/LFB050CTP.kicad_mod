@@ -1,4 +1,4 @@
-(module LFB050CTP (layer F.Cu) (tedit 5AAB1989)
+(module LFB050CTP (layer F.Cu) (tedit 5AACD547)
   (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
   (tags "LED diameter 5.0mm 2 pins")
   (attr virtual)
@@ -16,7 +16,7 @@
   (fp_line (start 0 -1) (end 0 1) (layer F.Fab) (width 0.15))
   (fp_circle (center 0 0) (end 1.5 0) (layer F.SilkS) (width 0.15))
   (model ${KIUSR3DMOD}/EE_LightPipe.3dshapes/LFB050CTP.step
-    (offset (xyz 1.3 0 13))
+    (offset (xyz 0 0 13.4))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 0))
   )
