@@ -15,6 +15,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +9V_Pol
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +VBIAS
 D power-flag symbol
 K Power Flag Symbol
@@ -31,6 +36,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP GND_D
+D (reference supply) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_LED
 D (reference supply) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
