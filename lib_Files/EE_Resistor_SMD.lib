@@ -299,6 +299,36 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_169k_ThinFilm_1%_62.5mW_50ppm_0603
+#
+DEF ~Resistor_SMD_169k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_169k_ThinFilm_1%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/447/PYu-RT_1-to-0.01_RoHS_L_9-1222720.pdf" 300 0 60 V I C CNN
+F4 "169k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RT0603DRD07169KL" 1300 50 60 V I C CNN "MPN"
+F13 "603-RT0603DRD07169KL" 1400 0 60 V I C CNN "MouserPN"
+F14 "311-2345-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.14" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.13" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "CPF0603F169KC1" 2550 0 60 V I C CNN "ALTMPN"
+F18 "279-CPF0603F169KC1" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "0.11" 2850 0 60 V I C CNN "ALTMouserPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_1M_ThinFilm_1%_62.5mW_50ppm_0805
 #
 DEF ~Resistor_SMD_1M_ThinFilm_1%_62.5mW_50ppm_0805 R 0 40 N N 1 F N

@@ -192,6 +192,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_10u_TANT_20%_25V_C-Case
+#
+DEF ~Capacitor_SMD_10u_TANT_20%_25V_C-Case C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_10u_TANT_20%_25V_C-Case" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:CP_Tant_Case-C_EIA-6032-28_Reflow" 250 0 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/40/tps-776850.pdf" 350 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "TANT" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "25V" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "AVX" 950 0 50 V I C CNN "Manufacturer"
+F11 "TPSC106M025R0300" 1050 -50 50 V I C CNN "MPN"
+F12 "581-TPSC106M025R0300" 1150 -50 50 V I C CNN "MouserPN"
+F13 "478-5816-1-ND" 1250 0 50 V I C CNN "DigiKeyPN"
+F14 "1.70" 1350 0 50 V I C CNN "MouserPrice"
+F15 "1.07" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_10u_X7R_10%_25V_1210
 #
 DEF ~Capacitor_SMD_10u_X7R_10%_25V_1210 C 0 40 N N 1 F N
