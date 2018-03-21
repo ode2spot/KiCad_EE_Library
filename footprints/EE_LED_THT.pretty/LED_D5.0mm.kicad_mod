@@ -1,4 +1,4 @@
-(module LED_D5.0mm (layer F.Cu) (tedit 5A9DFD58)
+(module LED_D5.0mm (layer F.Cu) (tedit 5AB25F61)
   (descr "LED, diameter 5.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LL-504BC2E-009.pdf")
   (tags "LED diameter 5.0mm 2 pins")
   (fp_text reference REF** (at 1.27 -3.96) (layer F.SilkS)
@@ -18,9 +18,11 @@
   (fp_line (start -1.95 3.25) (end 4.5 3.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 4.5 3.25) (end 4.5 -3.25) (layer F.CrtYd) (width 0.05))
   (fp_line (start 4.5 -3.25) (end -1.95 -3.25) (layer F.CrtYd) (width 0.05))
-  (fp_text user %R (at 1.25 0) (layer F.Fab)
+  (fp_text user %R (at 1.25 2.75) (layer F.Fab)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
+  (fp_line (start 1.27 -1.905) (end 1.27 1.905) (layer F.Fab) (width 0.15))
+  (fp_line (start -0.635 0) (end 3.175 0) (layer F.Fab) (width 0.15))
   (pad 1 thru_hole roundrect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask)(roundrect_rratio 0.25))
   (pad 2 thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers *.Cu *.Mask))
   (model ${KIUSR3DMOD}/EE_LED_THT.3dshapes/LED_D5.0mm_Clear.step
