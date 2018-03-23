@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EE_Logic_CD_4013_D-FF_Pre_Clr_SOIC14
+D Dual D  FlipFlop, Set & reset
+K CMOS DFF
+F http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF
+$ENDCMP
+#
+$CMP EE_Logic_CD_4070_Quad_XOR_SOIC14
+D Quad Xor 2 inputs
+K CMOS XOR2
+F http://www.intersil.com/content/dam/Intersil/documents/cd40/cd4070bms-77bms.pdf
+$ENDCMP
+#
+#End Doc Library
