@@ -267,6 +267,38 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_12k_ThinFilm_0.5%_100mW_50ppm_0603
+#
+DEF ~Resistor_SMD_12k_ThinFilm_0.5%_100mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_12k_ThinFilm_0.5%_100mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "12k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-123-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-123D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P12.0KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RT0603FRE0712KL" 2550 0 60 V I C CNN "ALTMPN"
+F18 "603-RT0603FRE0712KL" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "YAG3353CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.10" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_15k_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_15k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -322,6 +354,38 @@ F16 "0.13" 2100 0 60 V I C CNN "DigiKeyPrice"
 F17 "CPF0603F169KC1" 2550 0 60 V I C CNN "ALTMPN"
 F18 "279-CPF0603F169KC1" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "0.11" 2850 0 60 V I C CNN "ALTMouserPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_180k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_180k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_180k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "180k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-184-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-184D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P180KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RT0603DRD07180KL" 2550 0 60 V I C CNN "ALTMPN"
+F18 "603-RT0603DRD07180KL" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "311-180KDCT-ND" 2500 2400 50 V I C CNN "ALTDigiKeyPN"
+F20 "0.14" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.13" 2700 2600 50 V I C CNN "ALTDigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -457,6 +521,38 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_200k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_200k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_200k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "200k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-204-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-204D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P200KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RT0603DRE07200KL" 2550 0 60 V I C CNN "ALTMPN"
+F18 "603-RT0603DRE07200KL" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "311-2476-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.12" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_22_ThinFilm_1%_1W_50ppm_0612
 #
 DEF ~Resistor_SMD_22_ThinFilm_1%_1W_50ppm_0612 R 0 40 N N 1 F N
@@ -543,6 +639,65 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_3.3M_ThickFilm_1%_100mW_100ppm_0603
+#
+DEF ~Resistor_SMD_3.3M_ThickFilm_1%_100mW_100ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_3.3M_ThickFilm_1%_100mW_100ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" 300 0 60 V I C CNN
+F4 "3.3M" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Vishay" 1200 0 60 V I C CNN "Manufacturer"
+F12 "CRCW06033M30FKEA" 1300 50 60 V I C CNN "MPN"
+F13 "71-CRCW06033M30FKEA" 1400 0 60 V I C CNN "MouserPN"
+F14 "541-3.30MHCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RC0603JR-073M3L" 2300 2200 50 V I C CNN "ALTMPN"
+F18 "603-RC0603JR-073M3L" 2400 2300 50 V I C CNN "ALTMouserPN"
+F19 "311-3.3MGRCT-ND" 2500 2400 50 V I C CNN "ALTDigiKeyPN"
+F20 "0.10" 2600 2500 50 V I C CNN "ALTMouserPrice"
+F21 "0.10" 2700 2600 50 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_3.3M_ThinFilm_0.1%_250mW_25ppm_1206
+#
+DEF ~Resistor_SMD_3.3M_ThinFilm_0.1%_250mW_25ppm_1206 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_3.3M_ThinFilm_0.1%_250mW_25ppm_1206" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_1206_3216Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/n_catalog_partition01_en-1140338.pdf" 300 0 60 V I C CNN
+F4 "3.3M" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.1%" 500 0 60 V I C CNN "Precision"
+F7 "250mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RG3216P-3304-B-T1" 1300 50 60 V I C CNN "MPN"
+F13 "754-RG3216P-3304B-T1" 1400 0 60 V I C CNN "MouserPN"
+F14 "408-2035-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.90" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.76" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_3.3k_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_3.3k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -598,6 +753,38 @@ F16 "603-RT0603DRD073K48L" 2650 -50 60 V I C CNN "ALTMouserPN"
 F17 "YAG4801CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F18 "0.14" 2850 0 60 V I C CNN "ALTMouserPrice"
 F19 "0.13" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_300k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_300k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_300k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "300k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-304-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-304D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P300KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RT0603DRD07300KL" 2550 0 60 V I C CNN "ALTMPN"
+F18 "603-RT0603DRD07300KL" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "311-300KDCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.21" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.13" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -694,6 +881,38 @@ F18 "603-RT0603DRD0739KL" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "311-39KDCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.14" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.13" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_3k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_3k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_3k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "3k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-302-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-302D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P3.0KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "CPF0603B3K0E" 2550 0 60 V I C CNN "ALTMPN"
+F18 "279-CPF0603B3K0E" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "A103096CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.68" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -923,6 +1142,38 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_54.9k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_54.9k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_54.9k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "54.9k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR1220P-5492-D-M" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR1220P-5492D-M" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR12P54.9KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.11" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RT0603DRD0754K9L" 2550 0 60 V I C CNN "ALTMPN"
+F18 "603-RT0603DRD0754K9L" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "311-2380-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.14" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.13" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_560_ThinFilm_0.5%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_560_ThinFilm_0.5%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -948,6 +1199,102 @@ F18 "603-RT0603DRE07560RL" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "311-2620-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.12" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_560k_ThinFilm_0.5%_62.5mW_25ppm_0805
+#
+DEF ~Resistor_SMD_560k_ThinFilm_0.5%_62.5mW_25ppm_0805 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_560k_ThinFilm_0.5%_62.5mW_25ppm_0805" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "560k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR1220P-564-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR1220P-564D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR12P560KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "CPF0805B560KE1" 2550 0 60 V I C CNN "ALTMPN"
+F18 "279-CPF0805B560KE1" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "A103220CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.20" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.68" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_6.8k_ThinFilm_0.5%_62.5mW_50ppm_0603
+#
+DEF ~Resistor_SMD_6.8k_ThinFilm_0.5%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_6.8k_ThinFilm_0.5%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "6.8k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-682-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-682D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P6.8KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RT0603DRE076K8L" 2550 0 60 V I C CNN "ALTMPN"
+F18 "603-RT0603DRE076K8L" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "311-2661-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.12" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_60.4k_ThinFilm_1%_62.5mW_50ppm_0603
+#
+DEF ~Resistor_SMD_60.4k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_60.4k_ThinFilm_1%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "60.4k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-6042-D-76C" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-6042D76C" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P60.4KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "CPF0603F60K4C1" 2550 0 60 V I C CNN "ALTMPN"
+F18 "279-CPF0603F60K4C1" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "A102302CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.11" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.16" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -987,11 +1334,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603_0
+# Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603
 #
-DEF ~Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603_0 R 0 40 N N 1 F N
+DEF ~Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
 F0 "R" 100 0 60 V V C CNN
-F1 "Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603_0" -200 0 60 V I C CNN
+F1 "Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
 F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
 F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
 F4 "7.5k" -100 0 60 V V C CNN "PartValue"
@@ -1012,6 +1359,38 @@ F18 "749-1680-1-ND" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "311-2461-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.18" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_75k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_75k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_75k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "75k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-753-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-753D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P75.0KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "MCT0603MD7502DP500" 2550 0 60 V I C CNN "ALTMPN"
+F18 "594-MCT0603MD7502DP5" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "MCT0603-75K-MDCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.17" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.43" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
