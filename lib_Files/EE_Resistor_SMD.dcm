@@ -18,4 +18,10 @@ K 1k ThinFilm 1% 0603
 F https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf
 $ENDCMP
 #
+$CMP Resistor_SMD_20k_ThinFilm_0.5%_100mW_50ppm_0603
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 #End Doc Library
