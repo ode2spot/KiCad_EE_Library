@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP uController_STM32F031_M0_48MHz_32kBF_4kBSRAM_LQFP48
+D Core: ARM Cortex-M0, Package: LQFP48, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 39
+K ARM Cortex-M0 STM32F0 STM32F0x1
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
+$ENDCMP
+#
 #End Doc Library

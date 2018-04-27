@@ -34,11 +34,28 @@ X FX_IN 9 -150 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PinHeader_1x02_2.5mm_Vert
+#
+DEF ~PinHeader_1x02_2.5mm_Vert J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "PinHeader_1x02_2.5mm_Vert" 0 -350 50 H I C CNN
+F2 "EE_PinHeader:PinHeader_1x02_P2.54mm_Vertical" 250 300 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "1x02_2.5mm_Vert" 0 -200 50 H V C CNN "PartValue"
+DRAW
+S 0 100 100 -100 0 0 10 f
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+X Pin_1 1 -150 50 150 R 50 50 1 1 P
+X Pin_2 2 -150 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PinHeader_1x03_2.5mm_Vert
 #
-DEF PinHeader_1x03_2.5mm_Vert J 0 40 Y N 1 F N
+DEF ~PinHeader_1x03_2.5mm_Vert J 0 40 Y N 1 F N
 F0 "J" 0 200 50 H V C CNN
-F1 "PinHeader_1x03_2.5mm_Vert" 0 -350 50 H V C CNN
+F1 "PinHeader_1x03_2.5mm_Vert" 0 -350 50 H I C CNN
 F2 "EE_PinHeader:PinHeader_1x03_P2.54mm_Vertical" 250 300 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 F4 "1x03_2.5mm_Vert" 0 -200 50 H V C CNN "PartValue"
