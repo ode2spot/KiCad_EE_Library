@@ -90,6 +90,11 @@ D (reference supply) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GND_ADC
+D (reference supply) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP GND_D
 D (reference supply) ground power-flag symbol
 K Power Flag Symbol
