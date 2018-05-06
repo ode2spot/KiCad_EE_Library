@@ -1,10 +1,10 @@
-(module IDC-Header_2x20_Pitch2.54mm_Straight (layer F.Cu) (tedit 5AED60A2)
+(module IDC-Header_2x20_Pitch2.54mm_Straight (layer F.Cu) (tedit 5AEE3467)
   (descr "40 pins through hole IDC header")
   (tags "IDC header socket VASCH")
-  (fp_text reference REF** (at 1.27 -6.604) (layer F.SilkS)
+  (fp_text reference J801 (at 6.731 -3.556 90) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value IDC-Header_2x20_Pitch2.54mm_Straight (at 1.27 54.864) (layer F.Fab)
+  (fp_text value IDC_40p_2x20_Female_Box (at 1.27 54.864) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text user %R (at 1.27 24.13) (layer F.Fab)
@@ -75,11 +75,6 @@
   (pad 38 thru_hole oval (at 2.54 45.72) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 39 thru_hole oval (at 0 48.26) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask))
   (pad 40 thru_hole oval (at 2.54 48.26) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connectors_IDC.3dshapes/IDC-Header_2x20_Pitch2.54mm_Straight.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
   (model ${KIUSR3DMOD}/EE_Connector_IDC.3dshapes/IDC-Header_2x20_P2.54mm_Vertical.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
