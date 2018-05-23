@@ -1,14 +1,72 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# IDC_40p_2x20_Female_Box_Horizontal
+# IDC_16p_2x08_Male_Box_Verticle
 #
-DEF ~IDC_40p_2x20_Female_Box_Horizontal J 0 40 Y N 1 F N
+DEF ~IDC_16p_2x08_Male_Box_Verticle J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "IDC_16p_2x08_Male_Box_Verticle" 0 -650 50 H I C CNN
+F2 "EE_Connector_IDC:IDC-Header_2x08_P2.54mm_Vertical" 50 -750 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/445/6120xx21621-265830.pdf" 0 -850 50 H I C CNN
+F4 "IDC_16p_2x08_Male_Box_Verticle" 0 -500 50 H V C CNN "PartValue"
+F5 "PBT" 0 -950 50 H I C CNN "Composition"
+F6 "250V" 0 -1050 50 H I C CNN "VoltageRating"
+F7 "3A" 0 -1150 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1250 50 H I C CNN "PbFree"
+F9 "Y" 0 -1350 50 H I C CNN "RoHS"
+F10 "Wurth Electronics" 0 -1450 50 H I C CNN "Manufacturer"
+F11 "61201621621" 0 -1550 50 H I C CNN "MPN"
+F12 "710-61201621621" 0 -1650 50 H I C CNN "MouserPN"
+F13 "732-2095-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F14 "A-2956" 0 -1850 50 H I C CNN "TaydaPN"
+F15 "0.59" 0 -1950 50 H I C CNN "MouserPrice"
+F16 "0.59" 0 -2050 50 H I C CNN "DigiKeyPrice"
+F17 "0.18" 0 -2150 50 H I C CNN "TaydaPrice"
+DRAW
+S -100 -345 -50 -355 1 1 6 N
+S -100 -245 -50 -255 1 1 6 N
+S -100 -145 -50 -155 1 1 6 N
+S -100 -45 -50 -55 1 1 6 N
+S -100 55 -50 45 1 1 6 N
+S -100 155 -50 145 1 1 6 N
+S -100 255 -50 245 1 1 6 N
+S -100 355 -50 345 1 1 6 N
+S -100 400 100 -400 1 1 10 f
+S 100 -345 50 -355 1 1 6 N
+S 100 -245 50 -255 1 1 6 N
+S 100 -145 50 -155 1 1 6 N
+S 100 -45 50 -55 1 1 6 N
+S 100 55 50 45 1 1 6 N
+S 100 155 50 145 1 1 6 N
+S 100 255 50 245 1 1 6 N
+S 100 355 50 345 1 1 6 N
+X Pin_1 1 -250 350 150 R 50 50 1 1 P
+X Pin_10 10 250 -50 150 L 50 50 1 1 P
+X Pin_11 11 -250 -150 150 R 50 50 1 1 P
+X Pin_12 12 250 -150 150 L 50 50 1 1 P
+X Pin_13 13 -250 -250 150 R 50 50 1 1 P
+X Pin_14 14 250 -250 150 L 50 50 1 1 P
+X Pin_15 15 -250 -350 150 R 50 50 1 1 P
+X Pin_16 16 250 -350 150 L 50 50 1 1 P
+X Pin_2 2 250 350 150 L 50 50 1 1 P
+X Pin_3 3 -250 250 150 R 50 50 1 1 P
+X Pin_4 4 250 250 150 L 50 50 1 1 P
+X Pin_5 5 -250 150 150 R 50 50 1 1 P
+X Pin_6 6 250 150 150 L 50 50 1 1 P
+X Pin_7 7 -250 50 150 R 50 50 1 1 P
+X Pin_8 8 250 50 150 L 50 50 1 1 P
+X Pin_9 9 -250 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IDC_40p_2x20_Male_Box_Horizontal
+#
+DEF ~IDC_40p_2x20_Male_Box_Horizontal J 0 40 Y N 1 F N
 F0 "J" 0 1050 50 H V C CNN
-F1 "IDC_40p_2x20_Female_Box_Horizontal" 0 -1200 50 H I C CNN
+F1 "IDC_40p_2x20_Male_Box_Horizontal" 0 -1200 50 H I C CNN
 F2 "EE_Connector_IDC:IDC-Header_2x20_P2.54mm_Horizontal" 50 -1300 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/445/6120xx21721-265810.pdf" 0 -1400 50 H I C CNN
-F4 "IDC_40p_2x20_Female_Box_Horizontal" 0 -1050 50 H V C CNN "PartValue"
+F4 "IDC_40p_2x20_Male_Box_Horizontal" 0 -1050 50 H V C CNN "PartValue"
 F5 "PBT" 0 -1500 50 H I C CNN "Composition"
 F6 "250V" 0 -1600 50 H I C CNN "VoltageRating"
 F7 "3A" 0 -1700 50 H I C CNN "CurrentRating"
@@ -107,14 +165,14 @@ X Pin_9 9 -250 550 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# IDC_40p_2x20_Female_Box_Verticle
+# IDC_40p_2x20_Male_Box_Verticle
 #
-DEF ~IDC_40p_2x20_Female_Box_Verticle J 0 40 Y N 1 F N
+DEF ~IDC_40p_2x20_Male_Box_Verticle J 0 40 Y N 1 F N
 F0 "J" 0 1050 50 H V C CNN
-F1 "IDC_40p_2x20_Female_Box_Verticle" 0 -1200 50 H I C CNN
+F1 "IDC_40p_2x20_Male_Box_Verticle" 0 -1200 50 H I C CNN
 F2 "EE_Connector_IDC:IDC-Header_2x20_Pitch2.54mm_Straight" 50 -1300 50 H I C CNN
 F3 "https://www.mouser.com/datasheet/2/1/TS0818-221281.pdf" 0 -1400 50 H I C CNN
-F4 "IDC_40p_2x20_Female_Box_Verticle" 0 -1050 50 H V C CNN "PartValue"
+F4 "IDC_40p_2x20_Male_Box_Verticle" 0 -1050 50 H V C CNN "PartValue"
 F5 "PBT" 0 -1500 50 H I C CNN "Composition"
 F6 "250V" 0 -1600 50 H I C CNN "VoltageRating"
 F7 "3A" 0 -1700 50 H I C CNN "CurrentRating"

@@ -6,4 +6,16 @@ K ARM Cortex-M0 STM32F0 STM32F0x1
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00104043.pdf
 $ENDCMP
 #
+$CMP uController_STM32F373C8T6_M4_72MHz_64kBF_16kBSRAM_LQFP48
+D Core: ARM Cortex-M4, Package: LQFP48, Flash: 64 kB, RAM: 16 kB, Frequency: 72 MHz, Voltage: 2..3.6V, I/O pins: 37
+K ARM Cortex-M4 STM32F3 STM32F373
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00046749.pdf
+$ENDCMP
+#
+$CMP uController_STM32F373CCT6_M4_72MHz_256kBF_32kBSRAM_LQFP48
+D Core: ARM Cortex-M4, Package: LQFP48, Flash: 64 kB, RAM: 16 kB, Frequency: 72 MHz, Voltage: 2..3.6V, I/O pins: 37
+K ARM Cortex-M4 STM32F3 STM32F373
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00046749.pdf
+$ENDCMP
+#
 #End Doc Library
