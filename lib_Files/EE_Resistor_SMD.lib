@@ -16,6 +16,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_1.2M_ThickFilm_1%_250mW_100ppm_1206
+#
+DEF ~Resistor_SMD_1.2M_ThickFilm_1%_250mW_100ppm_1206 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_1.2M_ThickFilm_1%_250mW_100ppm_1206" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_1206_3216Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/datasheet/2/315/AOA0000C304-1149620.pdf" 300 0 60 V I C CNN
+F4 "1.2M" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "250mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-8ENF1204V" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-8ENF1204V" 1400 0 60 V I C CNN "MouserPN"
+F14 "P1.20MFCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_1.2k_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_1.2k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -1455,6 +1482,38 @@ F18 "279-CPF0805B560KE1" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "A103220CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.20" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.68" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_56k_ThinFilm_1%_100mW_100ppm_0603
+#
+DEF ~Resistor_SMD_56k_ThinFilm_1%_100mW_100ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_56k_ThinFilm_1%_100mW_100ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/datasheet/2/54/hpreztr-777398.pdf" 300 0 60 V I C CNN
+F4 "56k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Bourns" 1200 0 60 V I C CNN "Manufacturer"
+F12 "CR0603-FX-5602ELF" 1300 50 60 V I C CNN "MPN"
+F13 "652-CR0603FX-5602ELF" 1400 0 60 V I C CNN "MouserPN"
+F14 "CR0603-FX-5602ELFCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "CRCW060356K0JNEA" 2550 0 60 V I C CNN "ALTMPN"
+F18 "71-CRCW060356K0JNEA" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "541-56KGCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.10" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P

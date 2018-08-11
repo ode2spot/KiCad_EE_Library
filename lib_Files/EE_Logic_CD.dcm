@@ -6,6 +6,12 @@ K CMOS DFF
 F http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF
 $ENDCMP
 #
+$CMP EE_Logic_CD_4050_NonInvBuffer_SOIC16
+D Hex Buffer
+K CMOS BUFFER
+F http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf
+$ENDCMP
+#
 $CMP EE_Logic_CD_4070_Quad_XOR_SOIC14
 D Quad Xor 2 inputs
 K CMOS XOR2
