@@ -1,3 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PinHeader_1x15_2.5mm_Vert
+D Generic connector, single row, 01x15
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library
