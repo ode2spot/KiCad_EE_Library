@@ -651,6 +651,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_24p_C0G_5%_250V_0603
+#
+DEF ~Capacitor_SMD_24p_C0G_5%_250V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_24p_C0G_5%_250V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "https://www.mouser.com/datasheet/2/611/JTI-CAT-MLCC-HighQ-1101025.pdf" 350 0 60 V I C CNN
+F4 "24p" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "250V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Johanson Devices" 850 0 50 V I C CNN "Manufacturer"
+F11 "251R14S240JV4T" 950 -50 50 V I C CNN "MPN"
+F12 "609-251R14S240JV4T" 1050 -50 50 V I C CNN "MouserPN"
+F13 "712-1169-1-ND" 1450 1300 50 V I C CNN "DigiKeyPN"
+F14 "0.35" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.38" 1950 1800 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_270p_PPS_5%_50V_0805
 #
 DEF ~Capacitor_SMD_270p_PPS_5%_50V_0805 C 0 40 N N 1 F N

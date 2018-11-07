@@ -548,6 +548,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_2.2M_ThickFilm_5%_125mW_200ppm_0805
+#
+DEF ~Resistor_SMD_2.2M_ThickFilm_5%_125mW_200ppm_0805 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_2.2M_ThickFilm_5%_125mW_200ppm_0805" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0805_2012Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/datasheet/2/427/dcrcwe3-109170.pdf" 300 0 60 V I C CNN
+F4 "2.2M" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "5%" 500 0 60 V I C CNN "Precision"
+F7 "125mW" 600 0 60 V I C CNN "PowerRating"
+F8 "200ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Vishay" 1200 0 60 V I C CNN "Manufacturer"
+F12 "CRCW08052M20JNEA" 1300 50 60 V I C CNN "MPN"
+F13 "71-CRCW0805J-2.2M-E3" 1400 0 60 V I C CNN "MouserPN"
+F14 "541-2.2MACT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.13" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_2.2k_ThinFilm_0.5%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_2.2k_ThinFilm_0.5%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
