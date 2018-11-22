@@ -1,0 +1,141 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Regulator_Switching_AP3211_Buck_Adj_1.5A
+#
+DEF ~Regulator_Switching_AP3211_Buck_Adj_1.5A U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Regulator_Switching_AP3211_Buck_Adj_1.5A" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-6" 0 650 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP3211.pdf" 0 550 50 H I C CNN
+F4 "AP3211" 0 200 40 H V C CNN "PartValue"
+F5 "Buck" 200 550 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F7 "15V" 500 850 50 H I C CNN "VoltageRating"
+F8 "1.5A" 600 950 50 H I C CNN "CurrentRating"
+F9 "Y" 800 1150 50 H I C CNN "PbFree"
+F10 "Y" 900 1250 50 H I C CNN "RoHS"
+F11 "Diodes Inc." 1000 1350 50 H I C CNN "Manufacturer"
+F12 "AP3211KTR-G1" 1100 1450 50 H I C CNN "MPN"
+F13 "621-AP3211KTR-G1" 1200 1550 50 H I C CNN "MouserPN"
+F14 "AP3211KTR-G1DICT-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F15 "0.53" 1700 2050 50 H I C CNN "MouserPrice"
+F16 "0.56" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -600 0 1 0 f
+X BS 1 350 100 100 L 50 50 1 1 B
+X GND 2 -350 -500 100 R 50 50 1 1 W
+X FB 3 350 -500 100 L 50 50 1 1 I
+X EN 4 -350 -200 100 R 50 50 1 1 I
+X VIN 5 -350 100 100 R 50 50 1 1 W
+X SW 6 350 -200 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Regulator_Switching_BD93291EFJ_DualBuck_Adj_1.7A_0.5A
+#
+DEF ~Regulator_Switching_BD93291EFJ_DualBuck_Adj_1.7A_0.5A U 0 10 Y Y 1 F N
+F0 "U" -400 50 50 H V C CNN
+F1 "Regulator_Switching_BD93291EFJ_DualBuck_Adj_1.7A_0.5A" -50 800 50 H I C CNN
+F2 "EE_Package_SO:HTSOP-8-1EP_3.9x4.9mm_P1.27mm_LargeCopper" 0 1000 50 H I C CNN
+F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/ic/power/switching_regulator/bd93291efj-e.pdf" 0 900 50 H I C CNN
+F4 "BD93291EFJ" 0 -900 40 H V C CNN "PartValue"
+F5 "DualBuck" 200 900 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 1100 50 H I C CNN "PowerRating"
+F7 "5V" 500 1200 50 H I C CNN "VoltageRating"
+F8 "1.7A_0.5A" 600 1300 50 H I C CNN "CurrentRating"
+F9 "Y" 800 1500 50 H I C CNN "PbFree"
+F10 "Y" 900 1600 50 H I C CNN "RoHS"
+F11 "ROHM" 1000 1700 50 H I C CNN "Manufacturer"
+F12 "BD93291EFJ-E2" 1100 1800 50 H I C CNN "MPN"
+F13 "755-BD93291EFJ-E2" 1200 1900 50 H I C CNN "MouserPN"
+F14 "BD93291EFJ-E2CT-ND" 1300 2000 50 H I C CNN "DigiKeyPN"
+F15 "1.03" 1700 2400 50 H I C CNN "MouserPrice"
+F16 "1.12" 1800 2500 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -550 0 550 -1850 0 1 0 N
+X SW 1 650 -500 100 L 50 50 1 1 B
+X BST 2 650 -150 100 L 50 50 1 1 B
+X EN 3 -650 -550 100 R 50 50 1 1 I
+X VIN 4 -650 -300 100 R 50 50 1 1 W
+X GND 5 0 -1950 100 U 50 50 1 1 W
+X FBL 6 650 -1650 100 L 50 50 1 1 B
+X SWL 7 650 -1300 100 L 50 50 1 1 B
+X VOUT 8 650 -850 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Regulator_Switching_LM2776_SwCap_Inv_200mA
+#
+DEF ~Regulator_Switching_LM2776_SwCap_Inv_200mA U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Regulator_Switching_LM2776_SwCap_Inv_200mA" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-6" 0 650 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/lm2776.pdf" 0 550 50 H I C CNN
+F4 "LM2776" 0 200 40 H V C CNN "PartValue"
+F5 "SwCap Inv" 200 550 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F7 "5.5V" 500 850 50 H I C CNN "VoltageRating"
+F8 "200mA" 600 950 50 H I C CNN "CurrentRating"
+F9 "Y" 800 1150 50 H I C CNN "PbFree"
+F10 "Y" 900 1250 50 H I C CNN "RoHS"
+F11 "Texas Instruments" 1000 1350 50 H I C CNN "Manufacturer"
+F12 "LM2776DBVR" 1100 1450 50 H I C CNN "MPN"
+F13 "595-LM2776DBVR" 1200 1550 50 H I C CNN "MouserPN"
+F14 "296-43957-1-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F15 "1.01" 1700 2050 50 H I C CNN "MouserPrice"
+F16 "1.05" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -600 0 1 0 f
+X VOUT 1 350 100 100 L 50 50 1 1 w
+X GND 2 -350 -500 100 R 50 50 1 1 W
+X VIN 3 -350 100 100 R 50 50 1 1 W
+X EN 4 -350 -200 100 R 50 50 1 1 I
+X C+ 5 350 -200 100 L 50 50 1 1 B
+X C- 6 350 -500 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# Regulator_Switching_SC2440A_DualBuck_Adj_2A
+#
+DEF ~Regulator_Switching_SC2440A_DualBuck_Adj_2A U 0 10 Y Y 1 F N
+F0 "U" -600 100 50 H V C CNN
+F1 "Regulator_Switching_SC2440A_DualBuck_Adj_2A" -50 800 50 H I C CNN
+F2 "EE_Package_SO:TSSOP-16-1EP_4.4x5mm_P0.65mm" 0 1000 50 H I C CNN
+F3 "https://www.semtech.com/uploads/documents/sc2440a.pdf" 0 900 50 H I C CNN
+F4 "SC2440A" 0 -750 40 H V C CNN "PartValue"
+F5 "DualBuck" 200 900 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 1100 50 H I C CNN "PowerRating"
+F7 "27V" 500 1200 50 H I C CNN "VoltageRating"
+F8 "2A" 600 1300 50 H I C CNN "CurrentRating"
+F9 "Y" 800 1500 50 H I C CNN "PbFree"
+F10 "Y" 900 1600 50 H I C CNN "RoHS"
+F11 "Diodes Inc." 1000 1700 50 H I C CNN "Manufacturer"
+F12 "SC2440ATETRT" 1100 1800 50 H I C CNN "MPN"
+F13 "947-SC2440ATETRT" 1200 1900 50 H I C CNN "MouserPN"
+F14 "SC2440ATETRTCT-ND" 1300 2000 50 H I C CNN "DigiKeyPN"
+F15 "3.07" 1700 2400 50 H I C CNN "MouserPrice"
+F16 "3.12" 1800 2500 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -550 0 550 -2100 0 1 0 N
+X BST1 1 650 -350 100 L 50 50 1 1 B
+X COMP2 10 -650 -1700 100 R 50 50 1 1 B
+X PGOOD2 11 150 100 100 D 50 50 1 1 B
+X SS2 12 -650 -1450 100 R 50 50 1 1 B
+X SS1 13 -650 -700 100 R 50 50 1 1 B
+X PGOOD1 14 -150 100 100 D 50 50 1 1 I
+X COMP1 15 -650 -450 100 R 50 50 1 1 B
+X FB1 16 650 -100 100 L 50 50 1 1 I
+X GND 17 0 -2200 100 U 50 50 1 1 W
+X SW1 2 650 -700 100 L 50 50 1 1 B
+X VIN 3 650 -1000 100 L 50 50 1 1 W
+X SYNC 4 -650 -950 100 R 50 50 1 1 I
+X ROSC 5 -650 -1200 100 R 50 50 1 1 O
+X VIN 6 650 -1100 100 L 50 50 1 1 W
+X SW2 7 650 -1400 100 L 50 50 1 1 B
+X BST2 8 650 -1750 100 L 50 50 1 1 B
+X FB2 9 650 -2000 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

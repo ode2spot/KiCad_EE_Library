@@ -219,6 +219,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_10u_X5R_10%_25V_0805
+#
+DEF ~Capacitor_SMD_10u_X5R_10%_25V_0805 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_10u_X5R_10%_25V_0805" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0805_2012Metric" 250 0 60 V I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/mlcc_all_e.pdf" 350 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "X5R" 350 200 50 V I C CNN "Composition"
+F6 "10%" 450 0 50 V I C CNN "Precision"
+F7 "25V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 850 0 50 V I C CNN "Manufacturer"
+F11 "TMK212BBJ106KG-T" 950 -50 50 V I C CNN "MPN"
+F12 "963-TMK212BBJ106KG-T" 1050 -50 50 V I C CNN "MouserPN"
+F13 "587-2985-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.18" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.23" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_10u_X7R_10%_25V_1210
 #
 DEF ~Capacitor_SMD_10u_X7R_10%_25V_1210 C 0 40 N N 1 F N
@@ -651,6 +678,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_22u_X5R_20%_6.3V_0805
+#
+DEF ~Capacitor_SMD_22u_X5R_20%_6.3V_0805 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_22u_X5R_20%_6.3V_0805" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0805_2012Metric" 250 0 60 V I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1006_X5R_SMD.pdf" 350 0 60 V I C CNN
+F4 "22u" -150 0 60 V V C CNN "PartValue"
+F5 "X5R" 350 200 50 V I C CNN "Composition"
+F6 "20%" 450 0 50 V I C CNN "Precision"
+F7 "6.3V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "KEMET" 850 0 50 V I C CNN "Manufacturer"
+F11 "C0805C226M9PACTU" 950 -50 50 V I C CNN "MPN"
+F12 "80-C0805C226M9P" 1050 -50 50 V I C CNN "MouserPN"
+F13 "399-4696-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "1.25" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.28" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_24p_C0G_5%_250V_0603
 #
 DEF ~Capacitor_SMD_24p_C0G_5%_250V_0603 C 0 40 N N 1 F N
@@ -985,6 +1039,33 @@ F17 "810-CGA3E1C0G2A682J8" 1550 0 50 V I C CNN "ALTMouserPN"
 F18 "445-172686-1-ND" 1650 0 50 V I C CNN "ALTDigiKeyPN"
 F19 "0.24" 1750 0 50 V I C CNN "ALTMouserPrice"
 F20 "0.29" 1850 0 50 V I C CNN "ALTDigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_680p_NP0_5%_16V_0603
+#
+DEF ~Capacitor_SMD_680p_NP0_5%_16V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_680p_NP0_5%_16V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "https://katalog.we-online.de/pbs/datasheet/885012006028.pdf" 350 0 60 V I C CNN
+F4 "680p" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "16V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Wurth Electronics Inc" 850 0 50 V I C CNN "Manufacturer"
+F11 "885012006028" 950 -50 50 V I C CNN "MPN"
+F12 "710-885012006028" 1050 -50 50 V I C CNN "MouserPN"
+F13 "732-12251-1-ND" 1450 1300 50 V I C CNN "DigiKeyPN"
+F14 "0.10" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.10" 1950 1800 50 V I C CNN "DigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
