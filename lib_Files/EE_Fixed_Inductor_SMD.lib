@@ -1,0 +1,129 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Fixed_Inductor_SMD_2.2u_WirewoundFerrite_20%_2.2A_42mOhms_4mmX4mm
+#
+DEF ~Fixed_Inductor_SMD_2.2u_WirewoundFerrite_20%_2.2A_42mOhms_4mmX4mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_2.2u_WirewoundFerrite_20%_2.2A_42mOhms_4mmX4mm" -300 350 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering" 400 -100 60 V I C CNN
+F3 "https://www.mouser.com/datasheet/2/396/wound04_e-1290968.pdf" 500 0 60 V I C CNN
+F4 "2.2u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "250mW" 800 0 60 V I C CNN "PowerRating"
+F8 "2.2A" 900 0 50 V I C CNN "CurrentRating"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F12 "NRS4018T2R2MDGJ" 1300 50 60 V I C CNN "MPN"
+F13 "963-NRS4018T2R2MDGJ" 1400 0 60 V I C CNN "MouserPN"
+F14 "587-2890-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.29" 1600 0 60 V I C CNN "MouserPrice"
+F16 "0.29" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_22u_WirewoundFerrite_20%_4.3A_38.6mOhm_12.5mmX12.5mm
+#
+DEF ~Fixed_Inductor_SMD_22u_WirewoundFerrite_20%_4.3A_38.6mOhm_12.5mmX12.5mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_22u_WirewoundFerrite_20%_4.3A_38.6mOhm_12.5mmX12.5mm" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Bourn_5050_Handsoldering" 400 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/SRR1280A.pdf" 500 0 60 V I C CNN
+F4 "22u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "4.3A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "TDK" 1200 0 60 V I C CNN "Manufacturer"
+F11 "SRR1280A-220M" 1300 50 60 V I C CNN "MPN"
+F12 "652-SRR1280A-220M" 1400 0 60 V I C CNN "MouserPN"
+F13 "SRR1280A-220MCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "1.13" 1600 0 60 V I C CNN "MouserPrice"
+F15 "1.45" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_4.7u_WirewoundFerrite_20%_1.7A_84mOhms_4mmX4mm
+#
+DEF ~Fixed_Inductor_SMD_4.7u_WirewoundFerrite_20%_1.7A_84mOhms_4mmX4mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_4.7u_WirewoundFerrite_20%_1.7A_84mOhms_4mmX4mm" -300 350 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Taiyo-Yuden_NR-40xx_HandSoldering" 400 -100 60 V I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf" 500 0 60 V I C CNN
+F4 "4.7u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "250mW" 800 0 60 V I C CNN "PowerRating"
+F8 "2A" 900 0 50 V I C CNN "CurrentRating"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F12 "NRS4018T4R7MDGJ" 1300 50 60 V I C CNN "MPN"
+F13 "963-NRS4018T4R7MDGJ" 1400 0 60 V I C CNN "MouserPN"
+F14 "587-2893-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.29" 1600 0 60 V I C CNN "MouserPrice"
+F16 "0.29" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

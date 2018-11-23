@@ -218,6 +218,55 @@ X Pin_9 9 -150 -350 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PinHeader_1x14_2.5mm_Vert
+#
+DEF ~PinHeader_1x14_2.5mm_Vert J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "PinHeader_1x14_2.5mm_Vert" 0 -800 50 H I C CNN
+F2 "EE_PinHeader:PinHeader_1x14_P2.54mm_Vertical" 0 -900 50 H I C CNN
+F3 "" 0 800 50 H I C CNN
+F4 "PinHeader_1x14_2.5mm_Vert" 100 0 50 V V C CNN "PartValue"
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -50 -645 0 -655 1 1 6 N
+S -50 -545 0 -555 1 1 6 N
+S -50 -445 0 -455 1 1 6 N
+S -50 -345 0 -355 1 1 6 N
+S -50 -245 0 -255 1 1 6 N
+S -50 -145 0 -155 1 1 6 N
+S -50 -45 0 -55 1 1 6 N
+S -50 55 0 45 1 1 6 N
+S -50 155 0 145 1 1 6 N
+S -50 255 0 245 1 1 6 N
+S -50 355 0 345 1 1 6 N
+S -50 455 0 445 1 1 6 N
+S -50 555 0 545 1 1 6 N
+S -50 655 0 645 1 1 6 N
+S -50 700 50 -700 1 1 10 f
+X Pin_1 1 -200 650 150 R 50 50 1 1 P
+X Pin_10 10 -200 -250 150 R 50 50 1 1 P
+X Pin_11 11 -200 -350 150 R 50 50 1 1 P
+X Pin_12 12 -200 -450 150 R 50 50 1 1 P
+X Pin_13 13 -200 -550 150 R 50 50 1 1 P
+X Pin_14 14 -200 -650 150 R 50 50 1 1 P
+X Pin_2 2 -200 550 150 R 50 50 1 1 P
+X Pin_3 3 -200 450 150 R 50 50 1 1 P
+X Pin_4 4 -200 350 150 R 50 50 1 1 P
+X Pin_5 5 -200 250 150 R 50 50 1 1 P
+X Pin_6 6 -200 150 150 R 50 50 1 1 P
+X Pin_7 7 -200 50 150 R 50 50 1 1 P
+X Pin_8 8 -200 -50 150 R 50 50 1 1 P
+X Pin_9 9 -200 -150 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PinHeader_1x15_2.5mm_Vert
 #
 DEF ~PinHeader_1x15_2.5mm_Vert J 0 40 Y N 1 F N
