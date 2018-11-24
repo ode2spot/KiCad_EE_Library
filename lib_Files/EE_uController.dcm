@@ -18,4 +18,10 @@ K ARM Cortex-M4 STM32F3 STM32F373
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00046749.pdf
 $ENDCMP
 #
+$CMP uController_STM32F373RBT6_M4_72MHz_128kBF_24kB_SRAM_LQFP64
+D Core: ARM Cortex-M4, Package: LQFP64, Flash: 64 kB, RAM: 16 kB, Frequency: 72 MHz, Voltage: 2..3.6V, I/O pins: 52
+K ARM Cortex-M4 STM32F3 STM32F373
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00046749.pdf
+$ENDCMP
+#
 #End Doc Library
