@@ -29,6 +29,41 @@ P 2 0 1 0 0 -250 0 150 N
 ENDDRAW
 ENDDEF
 #
+# Module_EuroPower_V1_1
+#
+DEF ~Module_EuroPower_V1_1 MOD 0 40 Y Y 1 F N
+F0 "MOD" 0 750 50 H V C CNN
+F1 "Module_EuroPower_V1_1" 0 -800 50 H I C CNN
+F2 "EE_Module:EuroPower_V1_1" 0 -900 50 H I C CNN
+F3 "" -300 800 50 H I C CNN
+F4 "Module_EuroPower_V1_1" 300 0 50 V V C CNN "PartValue"
+$FPLIST
+ Connector*:*_??x*mm*
+ Connector*:*1x??x*mm*
+ Pin?Header?Straight?1X*
+ Pin?Header?Angled?1X*
+ Socket?Strip?Straight?1X*
+ Socket?Strip?Angled?1X*
+$ENDFPLIST
+DRAW
+S -300 700 350 -700 0 1 0 f
+X +12V 1 -450 650 150 R 50 50 1 1 w
+X GND 10 -450 -250 150 R 50 50 1 1 w
+X NC 11 -450 -350 150 R 50 50 1 1 N
+X -5V 12 -450 -450 150 R 50 50 1 1 w
+X GND 13 -450 -550 150 R 50 50 1 1 w
+X -12V 14 -450 -650 150 R 50 50 1 1 w
+X GND 2 -450 550 150 R 50 50 1 1 w
+X +5V 3 -450 450 150 R 50 50 1 1 w
+X GND 4 -450 350 150 R 50 50 1 1 w
+X +3V3 5 -450 250 150 R 50 50 1 1 w
+X GND 6 -450 150 150 R 50 50 1 1 w
+X +2V5_REF 7 -450 50 150 R 50 50 1 1 w
+X GND 8 -450 -50 150 R 50 50 1 1 w
+X 3V3_PG 9 -450 -150 150 R 50 50 1 1 C
+ENDDRAW
+ENDDEF
+#
 # Module_PT2399_DigitalDelayLineModule
 #
 DEF ~Module_PT2399_DigitalDelayLineModule U 0 40 Y Y 1 F N

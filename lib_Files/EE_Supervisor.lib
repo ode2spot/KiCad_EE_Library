@@ -8,7 +8,7 @@ F0 "U" -200 300 50 H V C CNN
 F1 "Supervisor_MIC803-SimplePOR_ActiveLow_OpenDrain_3.0V_140msec" -50 450 50 H I C CNN
 F2 "EE_Package_TO_SOT_SMD:SOT-23" 0 650 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic803.pdf" 0 550 50 H I C CNN
-F4 "MIC803-3.V-140msec" -300 -150 40 V V C CNN "PartValue"
+F4 "MIC803-3.0V-140msec" -300 -150 40 V V C CNN "PartValue"
 F5 "POR" 200 550 50 H I C CNN "Composition"
 F6 "5.5V" 500 850 50 H I C CNN "VoltageRating"
 F7 "15u" 600 950 50 H I C CNN "CurrentRating"

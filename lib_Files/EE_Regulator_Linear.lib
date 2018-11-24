@@ -1,6 +1,37 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Regulator_Linear_AP2114H-3.3_+3.3V_1A
+#
+DEF ~Regulator_Linear_AP2114H-3.3_+3.3V_1A U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "Regulator_Linear_AP2114H-3.3_+3.3V_1A" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-223" 0 650 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/AP2114.pdf" 0 550 50 H I C CNN
+F4 "AP2114H-3.3" 0 200 40 H V C CNN "PartValue"
+F5 "ULDO" 200 550 50 H I C CNN "Composition"
+F6 "1.5%" 300 650 50 H I C CNN "Precision"
+F7 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F8 "3.3V" 500 850 50 H I C CNN "VoltageRating"
+F9 "1A" 600 950 50 H I C CNN "CurrentRating"
+F10 "30ppm/C" 700 1050 50 H I C CNN "Tempco"
+F11 "Y" 800 1150 50 H I C CNN "PbFree"
+F12 "Y" 900 1250 50 H I C CNN "RoHS"
+F13 "Diodes Inc." 1000 1350 50 H I C CNN "Manufacturer"
+F14 "AP2114H-3.3TRG1" 1100 1450 50 H I C CNN "MPN"
+F15 "621-AP2114H-3.3TRG1" 1200 1550 50 H I C CNN "MouserPN"
+F16 "AP2114H-3.3TRG1DICT-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F17 "0.36" 1700 2050 50 H I C CNN "MouserPrice"
+F18 "0.37" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -200 0 1 0 f
+X GND 1 0 -300 100 U 50 50 1 1 W
+X VOUT 2 350 100 100 L 50 50 1 1 w
+X VIN 3 -350 100 100 R 50 50 1 1 W
+X VOUT 4 350 0 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # Regulator_Linear_AP2115M-3.3_+3.3V_1A_LowNoise
 #
 DEF ~Regulator_Linear_AP2115M-3.3_+3.3V_1A_LowNoise U 0 10 Y Y 1 F N
@@ -96,6 +127,35 @@ X GND 2 0 -300 100 U 50 50 1 1 W
 X EN 3 -350 0 100 R 50 50 1 1 I
 X BYP 4 350 0 100 L 50 50 1 1 I
 X VOUT 5 350 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# Regulator_Linear_L79L05_-5V_100mA
+#
+DEF ~Regulator_Linear_L79L05_-5V_100mA U 0 10 Y Y 1 F N
+F0 "U" 0 -250 50 H V C CNN
+F1 "Regulator_Linear_L79L05_-5V_100mA" -150 700 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-89-3" -100 900 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/ST%20Microelectronics%20PDFS/L79L.pdf" -100 800 50 H I C CNN
+F4 "L79L05" 0 -150 40 H V C CNN "PartValue"
+F5 "ULDO" 100 800 50 H I C CNN "Composition"
+F6 "5%" 200 900 50 H I C CNN "Precision"
+F7 "Thermally Limited" 300 1000 50 H I C CNN "PowerRating"
+F8 "-30V" 400 1100 50 H I C CNN "VoltageRating"
+F9 "100mA" 500 1200 50 H I C CNN "CurrentRating"
+F10 "Y" 700 1400 50 H I C CNN "PbFree"
+F11 "Y" 800 1500 50 H I C CNN "RoHS"
+F12 "STMicroelectronics" 900 1600 50 H I C CNN "Manufacturer"
+F13 "L79L05ABUTR" 1000 1700 50 H I C CNN "MPN"
+F14 "511-L79L05ABU-TR" 1100 1800 50 H I C CNN "MouserPN"
+F15 "497-1217-1-ND" 1200 1900 50 H I C CNN "DigiKeyPN"
+F16 "0.44" 1600 2300 50 H I C CNN "MouserPrice"
+F17 "0.45" 1700 2400 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 200 250 -200 0 1 0 f
+X GND 1 0 300 100 D 50 50 1 1 W
+X VIN 2 -350 0 100 R 50 50 1 1 W
+X VOUT 3 350 0 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
