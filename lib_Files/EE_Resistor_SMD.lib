@@ -767,6 +767,38 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_22_ThinFilm_1%_100mW_50ppm_0603
+#
+DEF ~Resistor_SMD_22_ThinFilm_1%_100mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_22_ThinFilm_1%_100mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "http://www.yageo.com/documents/recent/PYu-RT_1-to-0.01_RoHS_L_9.pdf" 300 0 60 V I C CNN
+F4 "22" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RT0603FRE0722RL" 1300 50 60 V I C CNN "MPN"
+F13 "603-RT0603FRE0722RL" 1400 0 60 V I C CNN "MouserPN"
+F14 "YAG5950CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.19" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "RR0816Q-220-D" 2550 0 60 V I C CNN "ALTMPN"
+F18 "754-RR0816Q-220D" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "RR08Q22DCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.11" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_22_ThinFilm_1%_1W_50ppm_0612
 #
 DEF ~Resistor_SMD_22_ThinFilm_1%_1W_50ppm_0612 R 0 40 N N 1 F N
