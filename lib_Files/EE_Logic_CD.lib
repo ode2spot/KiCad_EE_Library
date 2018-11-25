@@ -156,27 +156,27 @@ ENDDEF
 #
 DEF ~EE_Logic_CD_4070_Quad_XOR_SOIC14 U 0 40 Y Y 5 L N
 F0 "U" 0 200 50 H V C CNN
-F1 "EE_Logic_CD_4070_Quad_XOR_SOIC14" 0 -300 50 H I C CNN
-F2 "EE_Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" 0 -400 50 H I C CNN
-F3 "http://www.ti.com/lit/ds/symlink/cd4070b.pdf" 0 -500 50 H I C CNN
+F1 "EE_Logic_CD_4070_Quad_XOR_SOIC14" 50 -900 50 H I C CNN
+F2 "EE_Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" 50 -1000 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/cd4070b.pdf" 50 -1100 50 H I C CNN
 F4 "CD4013" 0 -200 50 H V C CNN "PartValue"
-F5 "CMOS" 0 -600 50 H I C CNN "Composition"
-F6 "200mW" 0 -700 50 H I C CNN "PowerRating"
-F7 "20V" 0 -800 50 H I C CNN "VoltageRating"
-F8 "10mA" 0 -900 50 H I C CNN "CurrentRating"
-F9 "Y" 0 -1000 50 H I C CNN "PbFree"
-F10 "Y" 0 -1100 50 H I C CNN "RoHS"
-F11 "Texas Instruments" 0 -1200 50 H I C CNN "Manufacturer"
-F12 "CD4070BM96" 0 -1350 50 H I C CNN "MPN"
-F13 "595-CD4070BM96" 0 -1500 50 H I C CNN "MouserPN"
-F14 "296-31517-1-ND" 0 -1650 50 H I C CNN "DigiKeyPN"
-F15 "0.41" 0 -1750 50 H I C CNN "MouserPrice"
-F16 "0.42" 0 -1850 50 H I C CNN "DigiKeyPrice"
-F17 "CD4070BM" 0 -1950 50 H I C CNN "ALTMPN"
-F18 "595-CD4070BM" 0 -2050 50 H I C CNN "ALTMouserPN"
-F19 "296-14276-5-ND" 0 -2150 50 H I C CNN "ALTDigiKeyPN"
-F20 "0.49" 0 -2250 50 H I C CNN "ALTMouserPrice"
-F21 "0.49" 0 -2350 50 H I C CNN "ALTDigiKeyPrice"
+F5 "CMOS" 50 -1200 50 H I C CNN "Composition"
+F6 "200mW" 50 -1300 50 H I C CNN "PowerRating"
+F7 "20V" 50 -1400 50 H I C CNN "VoltageRating"
+F8 "10mA" 50 -1500 50 H I C CNN "CurrentRating"
+F9 "Y" 50 -1600 50 H I C CNN "PbFree"
+F10 "Y" 50 -1700 50 H I C CNN "RoHS"
+F11 "Texas Instruments" 50 -1800 50 H I C CNN "Manufacturer"
+F12 "CD4070BM96" 50 -1950 50 H I C CNN "MPN"
+F13 "595-CD4070BM96" 50 -2100 50 H I C CNN "MouserPN"
+F14 "296-31517-1-ND" 50 -2250 50 H I C CNN "DigiKeyPN"
+F15 "0.41" 50 -2350 50 H I C CNN "MouserPrice"
+F16 "0.42" 50 -2450 50 H I C CNN "DigiKeyPrice"
+F17 "CD4070BM" 50 -2550 50 H I C CNN "ALTMPN"
+F18 "595-CD4070BM" 50 -2650 50 H I C CNN "ALTMouserPN"
+F19 "296-14276-5-ND" 50 -2750 50 H I C CNN "ALTDigiKeyPN"
+F20 "0.49" 50 -2850 50 H I C CNN "ALTMouserPrice"
+F21 "0.49" 50 -2950 50 H I C CNN "ALTDigiKeyPrice"
 $FPLIST
  DIP?14*
 $ENDFPLIST
