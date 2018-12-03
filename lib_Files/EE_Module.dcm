@@ -6,4 +6,10 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Module_EuroPower_V1_2
+D Generic connector, single row, 01x15
+K connector
+F ~
+$ENDCMP
+#
 #End Doc Library

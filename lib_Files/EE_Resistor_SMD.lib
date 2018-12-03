@@ -548,6 +548,36 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_1_ThinFilm_1%_0.5W_100ppm_1206
+#
+DEF ~Resistor_SMD_1_ThinFilm_1%_0.5W_100ppm_1206 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_1_ThinFilm_1%_0.5W_100ppm_1206" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_1206_3216Metric" 200 -100 60 V I C CNN
+F3 "https://www.seielect.com/Catalog/SEI-rncp.pdf" 300 0 60 V I C CNN
+F4 "1 0.5W" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "0.5W" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Stackpole Electronics" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RNCP1206FTD1R00" 1300 50 60 V I C CNN "MPN"
+F13 "RNCP1206FTD1R00CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+F15 "CRM1206AFX-1R00ELF" 2300 2200 50 V I C CNN "ALTMPN"
+F16 "652-CRM1206AFX1R00LF" 2400 2300 50 V I C CNN "ALTMouserPN"
+F17 "CRM1206AFX-1R00ELFCT-ND" 2500 2400 50 V I C CNN "ALTDigiKeyPN"
+F18 "0.13" 2600 2500 50 V I C CNN "ALTMouserPrice"
+F19 "0.16" 2700 2600 50 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_1k_ThinFilm_1%_100mW_50ppm_0603
 #
 DEF ~Resistor_SMD_1k_ThinFilm_1%_100mW_50ppm_0603 R 0 40 N N 1 F N

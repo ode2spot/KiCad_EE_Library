@@ -1,4 +1,4 @@
-(module EuroPower_V1_1 (layer F.Cu) (tedit 5BF8F05A)
+(module EuroPower_V1_1 (layer F.Cu) (tedit 5BFE4D2D)
   (descr "Through hole straight pin header, 1x14, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x14 2.54mm single row")
   (fp_text reference REF** (at -11.43 -26.162) (layer F.SilkS)
@@ -84,7 +84,7 @@
   (pad 2 thru_hole oval (at 13.97 1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole roundrect (at 13.97 -1.27) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)(roundrect_rratio 0.25))
   (model ${KIUSR3DMOD}/EE_Module.3dshapes/EuroPower_V1_1.step
-    (at (xyz 0 0 0))
+    (offset (xyz 0 0 2.62))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )

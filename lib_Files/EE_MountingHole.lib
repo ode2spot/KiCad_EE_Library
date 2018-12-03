@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MountingHole_M3_Pad_Via_NetTieNO
+#
+DEF ~MountingHole_M3_Pad_Via_NetTieNO MTH 0 40 Y Y 1 F N
+F0 "MTH" 0 200 50 H V C CNN
+F1 "MountingHole_M3_Pad_Via_NetTieNO" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_3.2mm_M3_Pad_Via_NetTieNO" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "M3" 0 300 50 H V C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+P 4 0 1 0 -25 -150 25 -150 0 -175 -25 -150 F
+P 6 0 1 0 -25 -175 0 -200 25 -175 25 -225 -25 -225 -25 -175 F
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_M4_Pad_Via_NetTieNO
+#
+DEF ~MountingHole_M4_Pad_Via_NetTieNO MTH 0 40 Y Y 1 F N
+F0 "MTH" 0 200 50 H V C CNN
+F1 "MountingHole_M4_Pad_Via_NetTieNO" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_4.3mm_M4_Pad_Via_NetTieNO" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "M4" 0 300 50 H V C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+P 4 0 1 0 -25 -150 25 -150 0 -175 -25 -150 F
+P 6 0 1 0 -25 -175 0 -200 25 -175 25 -225 -25 -225 -25 -175 F
+X ~ 1 -250 0 100 R 50 50 1 1 P
+X ~ 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
