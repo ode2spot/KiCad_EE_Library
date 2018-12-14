@@ -1,4 +1,4 @@
-(module MountingHole_3.2mm_M3_Pad_Via_NetTieNO (layer F.Cu) (tedit 5C048B67)
+(module MountingHole_3.2mm_M3_Pad_Via_NetTieNO (layer F.Cu) (tedit 5C08D61C)
   (descr "Mounting Hole 3.2mm, M3")
   (tags "mounting hole 3.2mm m3")
   (attr virtual)
