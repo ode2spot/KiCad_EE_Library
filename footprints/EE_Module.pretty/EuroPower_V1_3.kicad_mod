@@ -1,4 +1,4 @@
-(module EuroPower_V1_3 (layer F.Cu) (tedit 5C0F5930)
+(module EuroPower_V1_3 (layer F.Cu) (tedit 5C13516B)
   (descr "Through hole straight pin header, 1x14, 2.54mm pitch, single row")
   (tags "Through hole pin header THT 1x14 2.54mm single row")
   (fp_text reference MOD201 (at -11.43 -26.162) (layer F.SilkS)
