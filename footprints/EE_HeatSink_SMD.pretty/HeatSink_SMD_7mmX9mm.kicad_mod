@@ -1,0 +1,23 @@
+(module HeatSink_SMD_7mmX9mm (layer F.Cu) (tedit 5C158F31)
+  (fp_text reference HEAT2 (at 0 -6) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value HeatSink_SMD_7mmX9mm_SOT89 (at -0.635 7) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at -0.713889 0.508333) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -2.786111 -5.008333) (xy -2.786111 -1.008333) (xy -5.286111 -1.008333) (xy -5.286111 -0.008333) (xy -2.786111 -0.008333)
+         (xy -2.786111 3.991667) (xy 4.213889 3.991667) (xy 4.213889 -5.008333)) (width 0.15))
+    ))
+  (pad 1 smd custom (at 0.397222 -0.41591) (size 0.2 0.2) (layers B.Cu B.Paste B.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -3.897222 -4.08409) (xy -3.897222 4.91591) (xy 3.102778 4.91591) (xy 3.102778 -4.08409)) (width 0.15))
+    ))
+)
