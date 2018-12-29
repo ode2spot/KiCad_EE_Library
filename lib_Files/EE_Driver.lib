@@ -1,0 +1,35 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Driver_DRDC3105E6-7_DualRelayDriver_SOT26
+#
+DEF ~Driver_DRDC3105E6-7_DualRelayDriver_SOT26 Q 0 40 Y Y 1 F N
+F0 "Q" 0 300 50 H V C CNN
+F1 "Driver_DRDC3105E6-7_DualRelayDriver_SOT26" 0 -450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-6" 0 -550 50 H I C CNN
+F3 "https://www.diodes.com/assets/Datasheets/DRDC3105.pdf" 0 -650 50 H I C CNN
+F4 "DRDC3105E6-7" 0 -300 50 H V C CNN "PartValue"
+F5 "Relay Driver" 0 -750 50 H I C CNN "Composition"
+F6 "310mW" 0 -850 50 H I C CNN "PowerRating"
+F7 "6V" 0 -950 50 H I C CNN "VoltageRating"
+F8 "500mA" 0 -1050 50 H I C CNN "CurrentRating"
+F9 "Y" 0 -1150 50 H I C CNN "PbFree"
+F10 "Y" 0 -1250 50 H I C CNN "RoHS"
+F11 "Diodes Incorporated" 0 -1350 50 H I C CNN "Manufacturer"
+F12 "DRDC3105E6-7" 0 -1450 50 H I C CNN "MPN"
+F13 "621-DRDC3105E6-7" 0 -1550 50 H I C CNN "MouserPN"
+F14 "DRDC3105E6-7DICT-ND" 0 -1650 50 H I C CNN "DigiKeyPN"
+F15 "0.46" 0 -1750 50 H I C CNN "MouserPrice"
+F16 "0.48" 0 -1850 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -300 250 300 -250 0 1 0 f
+X GND2 1 400 -150 100 L 50 50 1 1 I
+X IN1 2 -400 0 100 R 50 50 1 1 I
+X OUT1 3 -400 150 100 R 50 50 1 1 I
+X GND1 4 -400 -150 100 R 50 50 1 1 I
+X IN2 5 400 0 100 L 50 50 1 1 I
+X OUT2 6 400 150 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library
