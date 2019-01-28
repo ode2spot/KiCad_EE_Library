@@ -1,4 +1,4 @@
-(module HTSOP-8-1EP_3.9x4.9mm_P1.27mm_LargeCopper (layer F.Cu) (tedit 5BF505EF)
+(module HTSOP-8-1EP_3.9x4.9mm_P1.27mm_LargeCopper (layer F.Cu) (tedit 5C4E510F)
   (descr "8-pin HTSOP package with 1.27mm pin pitch, compatible with SOIC-8, 3.9x4.9mm² body, exposed pad, with enlarged copper area, see http://www.ti.com/lit/ds/symlink/tps5430.pdf")
   (tags "HTSOP 1.27")
   (attr smd)
@@ -35,7 +35,7 @@
   (pad 6 smd roundrect (at 2.7 0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
   (pad 7 smd roundrect (at 2.7 -0.635) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
   (pad 8 smd roundrect (at 2.7 -1.905) (size 1.55 0.6) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
-  (pad 2 smd roundrect (at 0 0) (size 2.5 3.3) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
+  (pad 9 smd roundrect (at 0 0) (size 2.5 3.3) (layers F.Cu F.Paste F.Mask)(roundrect_rratio 0.25))
   (model ${KIUSR3DMOD}/EE_Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.35x2.35mm.step
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -60,6 +60,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +VREF
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +V_RAW
 D power-flag symbol
 K Power Flag Symbol
