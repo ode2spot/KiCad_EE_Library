@@ -1,6 +1,47 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_6.5A_18mOhm_12mmX12mm
+#
+DEF ~Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_6.5A_18mOhm_12mmX12mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_6.5A_18mOhm_12mmX12mm" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Bourns_SRR1210A" 400 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/SRR1210.pdf" 500 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "6.5A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Bourns" 1200 0 60 V I C CNN "Manufacturer"
+F11 "SRR1210-100M" 1300 50 60 V I C CNN "MPN"
+F12 "652-SRR1210-100M" 1400 0 60 V I C CNN "MouserPN"
+F13 "SRR1210-100MCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "1.20" 1600 0 60 V I C CNN "MouserPrice"
+F15 "1.33" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Fixed_Inductor_SMD_2.2u_WirewoundFerrite_20%_1.25A_159mOhms_1008
 #
 DEF ~Fixed_Inductor_SMD_2.2u_WirewoundFerrite_20%_1.25A_159mOhms_1008 L 0 40 N N 1 F N

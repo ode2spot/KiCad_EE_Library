@@ -1,0 +1,39 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TerminalBlock_Molex_1x08_1.27mm_Vert
+#
+DEF ~TerminalBlock_Molex_1x08_1.27mm_Vert J 0 40 Y N 1 F N
+F0 "J" -100 500 50 H V C CNN
+F1 "TerminalBlock_Molex_1x08_1.27mm_Vert" 0 -550 50 H I C CNN
+F2 "EE_TerminalBlock:TerminalBlock_Molex_8_P5.08mm" 0 -650 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/395311002_sd.pdf" 50 50 50 H I C CNN
+F4 "TerminalBlock_Molex_1x08_1.27mm_Vert" 150 0 50 V V C CNN "PartValue"
+F5 "Molex" 200 800 50 H I C CNN "Manufacturer"
+F6 "0395311008" 100 700 50 H I C CNN "MPN"
+F7 "538-39531-1008" 300 900 50 H I C CNN "MouserPN"
+F8 "WM7842-ND" 400 1000 50 H I C CNN "DigiKeyPN"
+F9 "1.89" 500 1100 50 H I C CNN "MouserPrice"
+F10 "2.01" 600 1200 50 H I C CNN "DigiKeyPrice"
+DRAW
+S 0 -345 50 -355 1 1 6 N
+S 0 -245 50 -255 1 1 6 N
+S 0 -145 50 -155 1 1 6 N
+S 0 -45 50 -55 1 1 6 N
+S 0 55 50 45 1 1 6 N
+S 0 155 50 145 1 1 6 N
+S 0 255 50 245 1 1 6 N
+S 0 355 50 345 1 1 6 N
+S 0 400 100 -400 1 1 10 f
+X Pin_1 1 -150 350 150 R 50 50 1 1 P
+X Pin_2 2 -150 250 150 R 50 50 1 1 P
+X Pin_3 3 -150 150 150 R 50 50 1 1 P
+X Pin_4 4 -150 50 150 R 50 50 1 1 P
+X Pin_5 5 -150 -50 150 R 50 50 1 1 P
+X Pin_6 6 -150 -150 150 R 50 50 1 1 P
+X Pin_7 7 -150 -250 150 R 50 50 1 1 P
+X Pin_8 8 -150 -350 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

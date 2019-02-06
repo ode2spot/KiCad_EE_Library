@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CurrentSense_INA181A2_BiDirectional_High-Low_SOT23-6
+D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Dual Low-Noise JFET OpAmp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+#End Doc Library

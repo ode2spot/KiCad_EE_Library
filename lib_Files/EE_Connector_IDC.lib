@@ -47,6 +47,46 @@ X Pin_9 9 -250 -200 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# IDC_10p_2x05_Male_Box_Verticle_p1.27_SMD
+#
+DEF ~IDC_10p_2x05_Male_Box_Verticle_p1.27_SMD J 0 40 Y N 1 F N
+F0 "J" 0 300 50 H V C CNN
+F1 "IDC_10p_2x05_Male_Box_Verticle_p1.27_SMD" 0 -650 50 H I C CNN
+F2 "EE_Connector_IDC:IDC-Header_2x05_P1.27mm_Vertical_SMD" 50 -750 50 H I C CNN
+F3 "http://cnctech.us/pdfs/3220-XX-0300-00.pdf" 0 -850 50 H I C CNN
+F4 "IDC_10p_2x05_Male_Box_Verticle_p1.27_SMD" 0 -400 50 H V C CNN "PartValue"
+F5 "PA6T" 0 -950 50 H I C CNN "Composition"
+F6 "Y" 0 -1250 50 H I C CNN "PbFree"
+F7 "Y" 0 -1350 50 H I C CNN "RoHS"
+F8 "CNC Tech" 0 -1450 50 H I C CNN "Manufacturer"
+F9 "3220-10-0300-00" 0 -1550 50 H I C CNN "MPN"
+F10 "1175-1629-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F11 "0.74" 0 -2050 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -100 -195 -50 -205 1 1 6 N
+S -100 -95 -50 -105 1 1 6 N
+S -100 5 -50 -5 1 1 6 N
+S -100 105 -50 95 1 1 6 N
+S -100 205 -50 195 1 1 6 N
+S -100 250 100 -250 1 1 10 f
+S 100 -195 50 -205 1 1 6 N
+S 100 -95 50 -105 1 1 6 N
+S 100 5 50 -5 1 1 6 N
+S 100 105 50 95 1 1 6 N
+S 100 205 50 195 1 1 6 N
+X Pin_1 1 -250 200 150 R 50 50 1 1 P
+X Pin_10 10 250 -200 150 L 50 50 1 1 P
+X Pin_2 2 250 200 150 L 50 50 1 1 P
+X Pin_3 3 -250 100 150 R 50 50 1 1 P
+X Pin_4 4 250 100 150 L 50 50 1 1 P
+X Pin_5 5 -250 0 150 R 50 50 1 1 P
+X Pin_6 6 250 0 150 L 50 50 1 1 P
+X Pin_7 7 -250 -100 150 R 50 50 1 1 P
+X Pin_8 8 250 -100 150 L 50 50 1 1 P
+X Pin_9 9 -250 -200 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # IDC_16p_2x08_Male_Box_Verticle
 #
 DEF ~IDC_16p_2x08_Male_Box_Verticle J 0 40 Y N 1 F N
@@ -68,6 +108,61 @@ F14 "A-2956" 0 -1850 50 H I C CNN "TaydaPN"
 F15 "0.59" 0 -1950 50 H I C CNN "MouserPrice"
 F16 "0.59" 0 -2050 50 H I C CNN "DigiKeyPrice"
 F17 "0.18" 0 -2150 50 H I C CNN "TaydaPrice"
+DRAW
+S -100 -345 -50 -355 1 1 6 N
+S -100 -245 -50 -255 1 1 6 N
+S -100 -145 -50 -155 1 1 6 N
+S -100 -45 -50 -55 1 1 6 N
+S -100 55 -50 45 1 1 6 N
+S -100 155 -50 145 1 1 6 N
+S -100 255 -50 245 1 1 6 N
+S -100 355 -50 345 1 1 6 N
+S -100 400 100 -400 1 1 10 f
+S 100 -345 50 -355 1 1 6 N
+S 100 -245 50 -255 1 1 6 N
+S 100 -145 50 -155 1 1 6 N
+S 100 -45 50 -55 1 1 6 N
+S 100 55 50 45 1 1 6 N
+S 100 155 50 145 1 1 6 N
+S 100 255 50 245 1 1 6 N
+S 100 355 50 345 1 1 6 N
+X Pin_1 1 -250 350 150 R 50 50 1 1 P
+X Pin_10 10 250 -50 150 L 50 50 1 1 P
+X Pin_11 11 -250 -150 150 R 50 50 1 1 P
+X Pin_12 12 250 -150 150 L 50 50 1 1 P
+X Pin_13 13 -250 -250 150 R 50 50 1 1 P
+X Pin_14 14 250 -250 150 L 50 50 1 1 P
+X Pin_15 15 -250 -350 150 R 50 50 1 1 P
+X Pin_16 16 250 -350 150 L 50 50 1 1 P
+X Pin_2 2 250 350 150 L 50 50 1 1 P
+X Pin_3 3 -250 250 150 R 50 50 1 1 P
+X Pin_4 4 250 250 150 L 50 50 1 1 P
+X Pin_5 5 -250 150 150 R 50 50 1 1 P
+X Pin_6 6 250 150 150 L 50 50 1 1 P
+X Pin_7 7 -250 50 150 R 50 50 1 1 P
+X Pin_8 8 250 50 150 L 50 50 1 1 P
+X Pin_9 9 -250 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# IDC_16p_2x08_Male_Box_Verticle_Samtec_Locking
+#
+DEF ~IDC_16p_2x08_Male_Box_Verticle_Samtec_Locking J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "IDC_16p_2x08_Male_Box_Verticle_Samtec_Locking" 0 -650 50 H I C CNN
+F2 "EE_Connector_IDC:IDC-Header_2x08_P1.27mm_Vertical_Samtec_Locking_SMD" 50 -750 50 H I C CNN
+F3 "http://suddendocs.samtec.com/prints/ehf-1xx-01-xx-d-xx-xx-xx-mkt.pdf" 0 -850 50 H I C CNN
+F4 "IDC_16p_2x08_Male_Box_Verticle_Samtec_Locking" 0 -500 50 H V C CNN "PartValue"
+F5 "LCP" 0 -950 50 H I C CNN "Composition"
+F6 "1.75A" 0 -1150 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -1250 50 H I C CNN "PbFree"
+F8 "Y" 0 -1350 50 H I C CNN "RoHS"
+F9 "Samtec" 0 -1450 50 H I C CNN "Manufacturer"
+F10 "EHF-108-01-F-D-SM-LC" 0 -1550 50 H I C CNN "MPN"
+F11 "200-EHF10801FDSMLC" 0 -1650 50 H I C CNN "MouserPN"
+F12 "SAM10425-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F13 "4.66" 0 -1950 50 H I C CNN "MouserPrice"
+F14 "4.48" 0 -2050 50 H I C CNN "DigiKeyPrice"
 DRAW
 S -100 -345 -50 -355 1 1 6 N
 S -100 -245 -50 -255 1 1 6 N

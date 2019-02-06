@@ -1,6 +1,37 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Driver_BTN8962_HalfBridgeMotorDriver_TO-263-7
+#
+DEF ~Driver_BTN8962_HalfBridgeMotorDriver_TO-263-7 Q 0 40 Y Y 1 F N
+F0 "Q" 150 450 50 H V C CNN
+F1 "Driver_BTN8962_HalfBridgeMotorDriver_TO-263-7" -50 -1650 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:TO-263-7_TabPin8" -50 -1750 50 H I C CNN
+F3 "https://www.infineon.com/dgdl/BTN8962TA-Data-Sheet-rev10-Infineon.pdf?folderId=db3a30431ff98815012060aedcd46179&fileId=db3a30433fa9412f013fbe2d247a7bf5&ack=t" -50 -1850 50 H I C CNN
+F4 "BTN8962" 250 -500 50 H V C CNN "PartValue"
+F5 "Motor Driver" -50 -1950 50 H I C CNN "Composition"
+F6 "Y" -50 -2350 50 H I C CNN "PbFree"
+F7 "Y" -50 -2450 50 H I C CNN "RoHS"
+F8 "Diodes Incorporated" -50 -2550 50 H I C CNN "Infineon"
+F9 "BTN8962TAAUMA1" -50 -2650 50 H I C CNN "MPN"
+F10 "DigiKey" -50 -2750 50 H I C CNN "PreferedVendor"
+F11 "726-BTN8962TAAUMA1" -50 -2850 50 H I C CNN "MouserPN"
+F12 "BTN8962TAAUMA1INCT-ND" -50 -2950 50 H I C CNN "DigiKeyPN"
+F13 "5.21" -50 -3050 50 H I C CNN "MouserPrice"
+F14 "5.63" -50 -3150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -300 400 300 -450 0 1 0 N
+X GND 1 0 -550 100 U 50 50 1 1 W
+X IN 2 -400 150 100 R 50 50 1 1 I
+X INH 3 -400 50 100 R 50 50 1 1 I
+X OUT 4 400 50 100 L 50 50 1 1 O
+X SR 5 -400 -150 100 R 50 50 1 1 I
+X IS 6 -400 -50 100 R 50 50 1 1 O
+X VS 7 0 500 100 D 50 50 1 1 W
+X OUT 8 400 -50 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
 # Driver_DRDC3105E6-7_DualRelayDriver_SOT26
 #
 DEF ~Driver_DRDC3105E6-7_DualRelayDriver_SOT26 Q 0 40 Y Y 1 F N
@@ -17,10 +48,11 @@ F9 "Y" 0 -1150 50 H I C CNN "PbFree"
 F10 "Y" 0 -1250 50 H I C CNN "RoHS"
 F11 "Diodes Incorporated" 0 -1350 50 H I C CNN "Manufacturer"
 F12 "DRDC3105E6-7" 0 -1450 50 H I C CNN "MPN"
-F13 "621-DRDC3105E6-7" 0 -1550 50 H I C CNN "MouserPN"
-F14 "DRDC3105E6-7DICT-ND" 0 -1650 50 H I C CNN "DigiKeyPN"
-F15 "0.46" 0 -1750 50 H I C CNN "MouserPrice"
-F16 "0.48" 0 -1850 50 H I C CNN "DigiKeyPrice"
+F13 "DigiKey" 0 -1550 50 H I C CNN "PreferedVendor"
+F14 "621-DRDC3105E6-7" 0 -1650 50 H I C CNN "MouserPN"
+F15 "DRDC3105E6-7DICT-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F16 "0.46" 0 -1850 50 H I C CNN "MouserPrice"
+F17 "0.48" 0 -1950 50 H I C CNN "DigiKeyPrice"
 DRAW
 S -300 250 300 -250 0 1 0 f
 X GND2 1 400 -150 100 L 50 50 1 1 I
