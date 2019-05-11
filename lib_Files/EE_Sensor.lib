@@ -3,8 +3,8 @@ EESchema-LIBRARY Version 2.4
 #
 # Sensor_MCP9808_DigitalTemp_DFN-8
 #
-DEF ~Sensor_MCP9808_DigitalTemp_DFN-8 REF 0 10 Y Y 1 F N
-F0 "REF" 0 400 50 H V C CNN
+DEF ~Sensor_MCP9808_DigitalTemp_DFN-8 U 0 10 Y Y 1 F N
+F0 "U" 0 400 50 H V C CNN
 F1 "Sensor_MCP9808_DigitalTemp_DFN-8" 0 -1150 50 H I C CNN
 F2 "EE_Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.3x1.5mm" 0 -1250 50 H I C CNN
 F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP9808-0.5C-Maximum-Accuracy-Digital-Temperature-Sensor-Data-Sheet-DS20005095B.pdf" 0 -1350 50 H I C CNN

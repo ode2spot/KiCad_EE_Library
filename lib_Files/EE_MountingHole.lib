@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# MountingHole_220mil_125mil
+#
+DEF ~MountingHole_220mil_125mil MTH 0 40 Y Y 1 F N
+F0 "MTH" 0 200 50 H V C CNN
+F1 "MountingHole_220mil_125mil" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_D220mil_Dr125mil" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "220mil_125mil" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MountingHole_M3_Pad_Via_NetTieNO
 #
 DEF ~MountingHole_M3_Pad_Via_NetTieNO MTH 0 40 Y Y 1 F N

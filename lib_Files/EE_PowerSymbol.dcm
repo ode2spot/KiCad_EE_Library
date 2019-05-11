@@ -10,6 +10,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +24V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +2V5_REF
 D power-flag symbol
 K Power Flag Symbol

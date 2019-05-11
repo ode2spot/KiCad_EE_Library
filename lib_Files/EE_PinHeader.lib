@@ -51,6 +51,21 @@ X Pin_2 2 -150 -50 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# PinHeader_1x02_P300mil_D200mil
+#
+DEF ~PinHeader_1x02_P300mil_D200mil J 0 40 Y Y 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "PinHeader_1x02_P300mil_D200mil" 0 -350 50 H I C CNN
+F2 "EE_PinHeader:PinHeader_1x02_P300mil_D200mil" 250 300 50 H I C CNN
+F3 "" 0 -50 50 H I C CNN
+F4 "1x02_P300mil_D200mil" 0 -200 50 H V C CNN "PartValue"
+DRAW
+S 0 100 150 -100 0 1 0 f
+X - 1 -150 50 150 R 50 50 1 1 P
+X + 2 -150 -50 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # PinHeader_1x03_2.5mm_Horz
 #
 DEF ~PinHeader_1x03_2.5mm_Horz J 0 40 Y N 1 F N

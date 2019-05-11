@@ -34,11 +34,11 @@ ENDDEF
 # Reference_LM4132BMF-3.0_3.0V_0.1%_20ppm_SOT23-5
 #
 DEF ~Reference_LM4132BMF-3.0_3.0V_0.1%_20ppm_SOT23-5 REF 0 10 Y Y 1 F N
-F0 "REF" 200 300 50 H V C CNN
+F0 "REF" 0 350 50 H V C CNN
 F1 "Reference_LM4132BMF-3.0_3.0V_0.1%_20ppm_SOT23-5" 0 -1150 50 H I C CNN
 F2 "EE_Package_TO_SOT_SMD:SOT-23-5" 0 -1250 50 H I C CNN
 F3 "http://www.ti.com/lit/ds/symlink/lm4132.pdf" 0 -1350 50 H I C CNN
-F4 "3.0V" -150 300 50 H V C CNN "PartValue"
+F4 "LM4132BMF-3.0" 0 250 50 H V C CNN "PartValue"
 F5 "0.1%" 0 -1550 50 H I C CNN "Precision"
 F6 "20ppm" 0 -1850 50 H I C CNN "Tempco"
 F7 "Y" 0 -2000 50 H I C CNN "PbFree"

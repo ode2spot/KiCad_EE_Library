@@ -1,9 +1,9 @@
-(module EEV-FK1V471Q (layer F.Cu) (tedit 5C5E2EFB)
+(module EEE-FK1V681AQ (layer F.Cu) (tedit 5C5E2EBA)
   (attr smd)
-  (fp_text reference REF** (at -5.1 -8) (layer F.SilkS)
+  (fp_text reference REF** (at -5.08 -7.874) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (fp_text value CAP_EEFK_H13 (at 0.3 -5.2) (layer F.SilkS) hide
+  (fp_text value CAP_EEFK_H13 (at 0 -4.064) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -6.8453 -3.42265) (end -3.42265 -6.8453) (layer F.Fab) (width 0.1524))
@@ -30,7 +30,7 @@
   (fp_line (start 7.0993 7.0993) (end -7.0993 7.0993) (layer F.CrtYd) (width 0.1524))
   (fp_line (start -7.0993 7.0993) (end -7.0993 1.3589) (layer F.CrtYd) (width 0.1524))
   (fp_line (start -7.0993 1.3589) (end -8.4709 1.3589) (layer F.CrtYd) (width 0.1524))
-  (fp_text user + (at -9.144 -3.556) (layer F.SilkS)
+  (fp_text user + (at -8.636 -4.318) (layer F.SilkS)
     (effects (font (size 2.5 2.5) (thickness 0.3)))
   )
   (pad 1 smd roundrect (at -5.5118 0) (size 5.4102 2.2098) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))

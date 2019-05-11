@@ -1,0 +1,41 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Opto_H11L1_SchmittTrigPhotoCoupler_6-SMD-GullWing
+#
+DEF ~Opto_H11L1_SchmittTrigPhotoCoupler_6-SMD-GullWing U 0 10 Y Y 1 F N
+F0 "U" -150 250 50 H V C CNN
+F1 "Opto_H11L1_SchmittTrigPhotoCoupler_6-SMD-GullWing" 0 1200 50 H I C CNN
+F2 "EE_Package_DIP:SMDIP-6_W7.75mm" 0 1300 50 H I C CNN
+F3 "http://www.everlight.com/file/ProductFile/H11L1.pdf" 0 1400 50 H I C CNN
+F4 "H11L1S" 200 250 50 H V C CNN "PartValue"
+F5 "OptoIsolator" 0 1500 50 H I C CNN "Composition"
+F6 "Y" 0 1700 50 H I C CNN "PbFree"
+F7 "Y" 0 1800 50 H I C CNN "RoHS"
+F8 "Everlight" 0 1900 50 H I C CNN "Manufacturer"
+F9 "H11L1S(TA)" 0 2000 50 H I C CNN "MPN"
+F10 "638-H11L1STA" 0 2100 50 H I C CNN "MouserPN"
+F11 "1080-1201-1-ND" 0 2200 50 H I C CNN "DigiKeyPN"
+F12 "0.63" 0 2300 50 H I C CNN "MouserPrice"
+F13 "0.72" 0 2400 50 H I C CNN "DigiKeyPrice"
+DRAW
+A 50 0 100 -899 899 1 1 0 N 50 -100 50 100
+S -200 200 200 -200 1 1 10 f
+P 2 1 1 0 -175 -25 -125 -25 N
+P 2 1 1 0 0 100 0 200 N
+P 3 1 1 0 0 -100 0 -200 0 -150 N
+P 4 1 1 0 -200 -100 -150 -100 -150 100 -200 100 N
+P 4 1 1 0 -150 -25 -175 25 -125 25 -150 -25 N
+P 4 1 1 0 50 -100 -50 -100 -50 100 50 100 N
+P 5 1 1 0 -110 -20 -60 -20 -75 -25 -75 -15 -60 -20 N
+P 5 1 1 0 -110 20 -60 20 -75 15 -75 25 -60 20 N
+X ~ 1 -300 100 100 R 50 50 1 1 P
+X ~ 2 -300 -100 100 R 50 50 1 1 P
+X ~ 3 -200 0 100 R 50 50 1 1 N N
+X ~ 4 300 0 150 L 50 50 1 1 O I
+X ~ 5 0 -300 100 U 50 50 1 1 W
+X ~ 6 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+#End Library
