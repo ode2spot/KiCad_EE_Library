@@ -1,26 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Cyrstal_16MHz_10ppm_12pF_2.0x1.6mm-SMD
+# Cyrstal_16MHz_20ppm_12pF_2.0x1.6mm-SMD
 #
-DEF ~Cyrstal_16MHz_10ppm_12pF_2.0x1.6mm-SMD X 0 40 Y N 2 F N
+DEF ~Cyrstal_16MHz_20ppm_12pF_2.0x1.6mm-SMD X 0 40 Y N 2 F N
 F0 "X" 150 -100 50 H V C CNN
-F1 "Cyrstal_16MHz_10ppm_12pF_2.0x1.6mm-SMD" 0 -300 50 H I C CNN
+F1 "Cyrstal_16MHz_20ppm_12pF_2.0x1.6mm-SMD" 0 -300 50 H I C CNN
 F2 "EE_Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" 0 -400 50 H I C CNN
-F3 "https://www.mouser.com/datasheet/2/909/cx2016db_e-1315552.pdf" 50 -500 50 H I C CNN
+F3 "https://www.ecsxtal.com/store/pdf/ECX-1637B.pdf" 50 -500 50 H I C CNN
 F4 "16MHz" 0 150 50 H V C CNN "PartValue"
 F5 "Cyrstal" 0 -600 50 H I C CNN "Composition"
 F6 "10ppm" 0 -700 50 H I C CNN "Precision"
 F7 "100uW" 0 -800 50 H I C CNN "PowerRating"
-F8 "15ppm" 0 -900 50 H I C CNN "Tempco"
+F8 "20ppm" 0 -900 50 H I C CNN "Tempco"
 F9 "Y" 0 -1050 50 H I C CNN "PbFree"
 F10 "Y" 0 -1150 50 H I C CNN "RoHS"
-F11 "Kyrocera" 0 -1250 50 H I C CNN "Manufacturer"
-F12 "CX2016DB16000H0FLJC1" 0 -1350 50 H I C CNN "MPN"
-F13 "581-CX2016DB16000HLJ" 0 -1450 50 H I C CNN "MouserPN"
-F14 "1253-1700-1-ND" 0 -1550 50 H I C CNN "DigiKeyPN"
-F15 "0.68" 0 -1650 50 H I C CNN "MouserPrice"
-F16 "0.72" 0 -1750 50 H I C CNN "DigiKeyPrice"
+F11 "ECS" 0 -1250 50 H I C CNN "Manufacturer"
+F12 "ECS-160-12-37B-CTN-TR" 0 -1350 50 H I C CNN "MPN"
+F13 "520-160-12-37B-CTNT" 0 -1450 50 H I C CNN "MouserPN"
+F14 "XC3061CT-ND" 0 -1550 50 H I C CNN "DigiKeyPN"
+F15 "0.45" 0 -1650 50 H I C CNN "MouserPrice"
+F16 "0.50" 0 -1750 50 H I C CNN "DigiKeyPrice"
 DRAW
 T 0 0 50 50 0 2 0 XTAL_GND Normal 0 C C
 S -45 100 45 -100 1 1 12 N

@@ -4,6 +4,14 @@ $CMP EE_Logic_74LV_08_Quad-2-Input-AND_SOIC14
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
 #
+$CMP EE_Logic_74LV_C1G57_SOT23-6
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
+$CMP EE_Logic_74LV_C1G98_SOT23-6
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
 $CMP EE_Logic_74LV_C1GX04_CrystalOscDriver_SOT23-6
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP

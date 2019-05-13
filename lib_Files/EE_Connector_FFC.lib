@@ -113,7 +113,7 @@ ENDDEF
 DEF ~FPC_Molex_40p_0.50mm_FlipLock_Vert_SMD J 0 40 Y N 1 F N
 F0 "J" 0 2050 50 H V C CNN
 F1 "FPC_Molex_40p_0.50mm_FlipLock_Vert_SMD" 0 -2400 50 H I C CNN
-F2 "EE_Connector_FFC:FPC_Molex_16p_1.00mm_SlideLock_Vert_SMD" 50 -2500 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Molex_40p_0.50mm_FlipLock_Vert_SMD" 50 -2500 50 H I C CNN
 F3 "https://www.molex.com/pdm_docs/sd/5019512400_sd.pdf" 0 -2600 50 H I C CNN
 F4 "FPC_40p_0.50mm_FlipLock_Vert_SMD" 0 0 50 V V C CNN "PartValue"
 F5 "PA9T" 0 -2700 50 H I C CNN "Composition"
