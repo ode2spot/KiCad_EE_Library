@@ -1,0 +1,16 @@
+(module LED_D3.0mm (layer F.Cu) (tedit 5D2D7B38)
+  (descr "LED, diameter 3.0mm, 2 pins")
+  (tags "LED diameter 3.0mm 2 pins")
+  (fp_text reference LED903 (at 1.27 -2.96) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value LED_THT_R_3mm_Diffused_635nm_160mcd (at 1.27 2.96) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 1.27 0) (size 3.5 3.5) (drill 3.5) (layers *.Cu *.Mask B.Paste))
+  (model ${KIUSR3DMOD}/EE_LED_THT.3dshapes/LED_D3.0mm.step
+    (offset (xyz 0 0 -6.42))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

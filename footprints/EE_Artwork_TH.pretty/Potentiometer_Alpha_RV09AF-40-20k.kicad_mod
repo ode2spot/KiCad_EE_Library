@@ -1,0 +1,16 @@
+(module Potentiometer_Alpha_RV09AF-40-20k (layer F.Cu) (tedit 5D2D7BFC)
+  (descr "Potentiometer, horizontal, ACP CA6-H2,5, http://www.acptechnologies.com/wp-content/uploads/2017/06/01-ACP-CA6.pdf")
+  (tags "Potentiometer horizontal ACP CA6-H2,5")
+  (fp_text reference POT** (at 0.25 10.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Potentiometer_RV09AF-40-20k (at 0 12.25) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 7.8 7.8) (drill 7.8) (layers *.Cu *.Mask B.Paste))
+  (model ${KIUSR3DMOD}/EE_Potentiometer.3dshapes/ALPHA-RD901F-40.step
+    (offset (xyz 0 0 -14))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

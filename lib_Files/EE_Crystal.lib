@@ -95,6 +95,70 @@ X GND 2 0 -50 50 U 50 50 2 1 W
 ENDDRAW
 ENDDEF
 #
+# Cyrstal_24MHz_10ppm_12pF_2.0x1.6mm-SMD
+#
+DEF ~Cyrstal_24MHz_10ppm_12pF_2.0x1.6mm-SMD X 0 40 Y N 1 F N
+F0 "X" 150 -100 50 H V C CNN
+F1 "Cyrstal_24MHz_10ppm_12pF_2.0x1.6mm-SMD" 0 -500 50 H I C CNN
+F2 "EE_Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" 0 -600 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX2016DB_USY1M-H1-16426-00_Spec.pdf" 50 -700 50 H I C CNN
+F4 "24MHz" 0 200 50 H V C CNN "PartValue"
+F5 "Cyrstal" 0 -800 50 H I C CNN "Composition"
+F6 "10ppm" 0 -900 50 H I C CNN "Precision"
+F7 "100uW" 0 -1000 50 H I C CNN "PowerRating"
+F8 "15ppm" 0 -1100 50 H I C CNN "Tempco"
+F9 "Y" 0 -1250 50 H I C CNN "PbFree"
+F10 "Y" 0 -1350 50 H I C CNN "RoHS"
+F11 "Kyrocera" 0 -1450 50 H I C CNN "Manufacturer"
+F12 "CX2016DB24000H0FLJC4" 0 -1550 50 H I C CNN "MPN"
+F13 "581-CX2016DB24000HLJ" 0 -1650 50 H I C CNN "MouserPN"
+F14 "1253-1706-1-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F15 "0.68" 0 -1850 50 H I C CNN "MouserPrice"
+F16 "0.72" 0 -1950 50 H I C CNN "DigiKeyPrice"
+DRAW
+S 100 -150 -100 150 0 1 0 N
+S -45 100 45 -100 1 1 12 N
+P 2 1 1 20 -75 -50 -75 50 N
+P 2 1 1 20 75 -50 75 50 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X GND 2 -50 -200 50 U 50 50 1 1 W
+X 3 3 150 0 50 L 50 50 1 1 P
+X GND 4 50 -200 50 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# Cyrstal_25MHz_10ppm_12pF_2.0x1.6mm-SMD
+#
+DEF ~Cyrstal_25MHz_10ppm_12pF_2.0x1.6mm-SMD X 0 40 Y N 1 F N
+F0 "X" 150 -100 50 H V C CNN
+F1 "Cyrstal_25MHz_10ppm_12pF_2.0x1.6mm-SMD" 0 -500 50 H I C CNN
+F2 "EE_Crystal:Crystal_SMD_2016-4Pin_2.0x1.6mm" 0 -600 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/AVX%20PDFs/CX2016DB_USY1M-H1-16426-00_Spec.pdf" 50 -700 50 H I C CNN
+F4 "25MHz" 0 200 50 H V C CNN "PartValue"
+F5 "Cyrstal" 0 -800 50 H I C CNN "Composition"
+F6 "10ppm" 0 -900 50 H I C CNN "Precision"
+F7 "100uW" 0 -1000 50 H I C CNN "PowerRating"
+F8 "15ppm" 0 -1100 50 H I C CNN "Tempco"
+F9 "Y" 0 -1250 50 H I C CNN "PbFree"
+F10 "Y" 0 -1350 50 H I C CNN "RoHS"
+F11 "Kyrocera" 0 -1450 50 H I C CNN "Manufacturer"
+F12 "CX2016DB25000H0FLJC1" 0 -1550 50 H I C CNN "MPN"
+F13 "581-CX2016DB25000HLJ" 0 -1650 50 H I C CNN "MouserPN"
+F14 "1253-1709-1-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F15 "0.68" 0 -1850 50 H I C CNN "MouserPrice"
+F16 "0.72" 0 -1950 50 H I C CNN "DigiKeyPrice"
+DRAW
+S 100 -150 -100 150 0 1 0 N
+S -45 100 45 -100 1 1 12 N
+P 2 1 1 20 -75 -50 -75 50 N
+P 2 1 1 20 75 -50 75 50 N
+X 1 1 -150 0 50 R 50 50 1 1 P
+X GND 2 -50 -200 50 U 50 50 1 1 W
+X 3 3 150 0 50 L 50 50 1 1 P
+X GND 4 50 -200 50 U 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 # Cyrstal_8MHz_10ppm_18pF_HC49-SMD
 #
 DEF ~Cyrstal_8MHz_10ppm_18pF_HC49-SMD X 0 40 Y N 1 F N

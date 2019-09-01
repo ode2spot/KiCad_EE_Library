@@ -1,0 +1,23 @@
+(module HeatSink_SMD_25mmX25mm (layer F.Cu) (tedit 5D4B8C86)
+  (fp_text reference HEAT1 (at 0 -6) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value HeatSink_SMD_25mmX25mm (at -0.635 7) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd custom (at 0.563888 -0.563889) (size 0.2 0.2) (layers B.Cu B.Paste B.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -5.563888 -4.436111) (xy -5.563888 5.563889) (xy 4.436112 5.563889) (xy 4.436112 -4.436111)) (width 0.15))
+    ))
+  (pad 1 smd custom (at -0.902273 -0.563889) (size 0.2 0.2) (layers F.Cu F.Paste F.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor circle))
+    (primitives
+      (gr_poly (pts
+         (xy -4.097727 -4.436111) (xy -4.097727 0.063889) (xy -7.097727 0.063889) (xy -7.097727 1.063889) (xy -4.097727 1.063889)
+         (xy -4.097727 5.563889) (xy 5.902273 5.563889) (xy 5.902273 -4.436111)) (width 0.15))
+    ))
+)

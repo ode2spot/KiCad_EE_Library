@@ -10,7 +10,37 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +15V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +1V8
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +1V8_CORE
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +1V8_ETHPLL
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +1V8_USBPLL
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +24V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +24V_POE
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -26,6 +56,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP +3V3_A
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3_A_ETH
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -90,6 +125,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP -15V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP -5V
 D power-flag symbol
 K Power Flag Symbol
@@ -106,6 +146,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP -8V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -VREF
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -136,6 +181,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP GND_P
+D (reference supply) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_POE
 D (reference supply) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP

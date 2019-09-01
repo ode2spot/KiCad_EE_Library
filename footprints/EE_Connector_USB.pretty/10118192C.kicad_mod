@@ -1,0 +1,13 @@
+(module 10118192C (layer F.Cu) (tedit 5D03DE62)
+  (fp_text reference REF** (at 0 4.572) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value 10118192C (at 0 6.096) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (model ${KIUSR3DMOD}/EE_Connector_USB.3dshapes/10118192C.step
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,16 @@
+(module Jack_3.5mm_WQP-PJ301M-12_Vertical (layer F.Cu) (tedit 5D33CEAB)
+  (descr "A-853, TRS 1/8\\\\\\\\\\\\\\\\ (https://www.taydaelectronics.com/datasheets/A-853.jpg)")
+  (tags "A-853 TRS stereo jack connector")
+  (fp_text reference J310 (at 0 2.8) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Jack_3.5mm_WQP-PJ301M-12_Vertical (at 0 9.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 7.4 7.4) (drill 7.4) (layers *.Cu *.Mask))
+  (model ${KIUSR3DMOD}/EE_Connector_Audio.3dshapes/Jack_3.5mm_WQP-PJ301M-12_Vertical.step
+    (offset (xyz 0 0.75 -12))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -24,6 +24,12 @@ K Dual CA 5.1V 300mW Zener
 F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
 $ENDCMP
 #
+$CMP Diode_SMD_DFLT30A-7_TVS_48.4V_4.65A
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
 $CMP Diode_SMD_DZ23C3V3_DualCA_Zener_3.3V_300mW
 D Dual Common Anode 5.1V 300mW Zener
 K Dual CA 5.1V 300mW Zener
@@ -31,6 +37,12 @@ F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
 $ENDCMP
 #
 $CMP Diode_SMD_ESD9B33ST5G_TVS_3V3_2A
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
+$CMP Diode_SMD_MM3Z10VST1G_Zener_10V_300mW_SOD323
 D Dual Common Anode 5.1V 300mW Zener
 K Dual CA 5.1V 300mW Zener
 F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
@@ -55,6 +67,30 @@ F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
 $ENDCMP
 #
 $CMP Diode_SMD_MMBZ15VALT116_DualCA_TVS_12V_40W
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
+$CMP Diode_SMD_SMBJ10CA-TR_DualTVS_10V_DO214AA
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
+$CMP Diode_SMD_SMBJ24CA-TR_DualTVS_24V_DO214AA
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
+$CMP Diode_SMD_SMBJ5.0A-TR_DualTVS_5V_DO214AA
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
+$CMP Diode_SMD_SMDJ28CA-T7_DualTVS_28V_DO214AB-2
 D Dual Common Anode 5.1V 300mW Zener
 K Dual CA 5.1V 300mW Zener
 F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf

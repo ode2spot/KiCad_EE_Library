@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP PinHeader_1x11_JUNO_2.5mm_Horz
+D Generic connector, single row, 01x15
+K connector
+F ~
+$ENDCMP
+#
 $CMP PinHeader_1x14_2.5mm_Vert
 D Generic connector, single row, 01x15
 K connector

@@ -1,0 +1,16 @@
+(module BTN_PUSH_DRxx_Fy_LFS (layer F.Cu) (tedit 5D2D7B49)
+  (descr "tactile push button, 6x6mm e.g. PHAP33xx series, height=13mm")
+  (tags "tact sw push 6mm")
+  (fp_text reference REF** (at 0 -8.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value BTN_PUSH_DRxx_Fy_LFS (at 0.5 7) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 10 10) (drill 10) (layers *.Cu *.Mask B.Paste))
+  (model "${KIUSR3DMOD}/EE_Button.3dshapes/D6R30 F1 LFS.step"
+    (offset (xyz -0.5 0.13 -12.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Connector_Power_Molex-0039299023_2pin_Vert_TH
+#
+DEF ~Connector_Power_Molex-0039299023_2pin_Vert_TH J 0 40 Y N 1 F N
+F0 "J" 100 200 50 H V C CNN
+F1 "Connector_Power_Molex-0039299023_2pin_Vert_TH" 0 -2400 50 H I C CNN
+F2 "EE_Connector_Power:Power_Molex-0039299023_2pin_Vert" 50 -2500 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/039299023_sd.pdf" 0 -2600 50 H I C CNN
+F4 "PwrEntry" 200 -350 50 H V C CNN "PartValue"
+F5 "PA66/Nylon" 0 -2700 50 H I C CNN "Composition"
+F6 "600V" 0 -2800 50 H I C CNN "VoltageRating"
+F7 "9A" 0 -2900 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -3000 50 H I C CNN "PbFree"
+F9 "Y" 0 -3100 50 H I C CNN "RoHS"
+F10 "Molex" 0 -3200 50 H I C CNN "Manufacturer"
+F11 "0039299023" 0 -3300 50 H I C CNN "MPN"
+F12 "538-39-29-9023" 0 -3400 50 H I C CNN "MouserPN"
+F13 "WM3853-ND" 0 -3500 50 H I C CNN "DigiKeyPN"
+F14 "0.54" 0 -3700 50 H I C CNN "MouserPrice"
+F15 "0.54" 0 -3800 50 H I C CNN "DigiKeyPrice"
+DRAW
+C -200 0 71 0 1 0 F
+C 0 50 50 0 1 0 F
+C 0 50 71 0 1 0 N
+C 0 -200 50 1 1 0 F
+C 0 -200 71 1 1 0 N
+C 200 0 71 1 1 0 F
+S -150 150 150 -300 0 1 0 f
+X ~ 1 0 250 100 D 50 50 1 1 P
+X ~ 2 0 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,16 @@
+(module Switch_SPDT_Taiway_SolderLug (layer F.Cu) (tedit 5D2D7BD5)
+  (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+  (tags resistor)
+  (fp_text reference REF** (at -0.0635 -4.826) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
+  )
+  (fp_text value Switch_SPDT_Taiway_SolderLug (at -0.0635 5.3975) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 7.25 7.25) (drill 7.25) (layers *.Cu *.Mask B.Paste))
+  (model ${KIUSR3DMOD}/EE_Switch.3dshapes/100SPxT2B5M1xE.step
+    (offset (xyz 0 0 -12.96923980522156))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)

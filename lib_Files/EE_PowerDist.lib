@@ -1,0 +1,34 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PowerDist_LoadSwitch_MIC2005A_500mA_170mOhm_SOT23-5
+#
+DEF ~PowerDist_LoadSwitch_MIC2005A_500mA_170mOhm_SOT23-5 U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "PowerDist_LoadSwitch_MIC2005A_500mA_170mOhm_SOT23-5" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-5" 0 650 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/mic20xx.pdf" 0 550 50 H I C CNN
+F4 "MIC2005A-1YM5" 0 200 40 H V C CNN "PartValue"
+F5 "LoadSwitch" 200 550 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F7 "5.5V" 500 850 50 H I C CNN "VoltageRating"
+F8 "500mA" 600 950 50 H I C CNN "CurrentRating"
+F9 "Y" 800 1150 50 H I C CNN "PbFree"
+F10 "Y" 900 1250 50 H I C CNN "RoHS"
+F11 "Microchip Technology" 1000 1350 50 H I C CNN "Manufacturer"
+F12 "MIC2005A-1YM5-TR" 1100 1450 50 H I C CNN "MPN"
+F13 "998-MIC2005A-1YM5TR" 1200 1550 50 H I C CNN "MouserPN"
+F14 "576-3462-1-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F15 "0.28" 1700 2050 50 H I C CNN "MouserPrice"
+F16 "0.29" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -300 250 300 -250 0 1 0 f
+X VIN 1 -400 100 100 R 50 50 1 1 W
+X GND 2 0 -350 100 U 50 50 1 1 W
+X EN 3 -400 -100 100 R 50 50 1 1 I
+X ~FAULT 4 400 -100 100 L 50 50 1 1 I
+X VOUT 5 400 100 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+#End Library

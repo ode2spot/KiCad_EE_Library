@@ -60,6 +60,34 @@ X C 6 200 100 100 L 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
+# Switch_SPDT_Mini_Taiway_ShortLever_On-Off-On_SolderLug
+#
+DEF ~Switch_SPDT_Mini_Taiway_ShortLever_On-Off-On_SolderLug SW 0 40 Y N 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "Switch_SPDT_Mini_Taiway_ShortLever_On-Off-On_SolderLug" 50 -300 50 H I C CNN
+F2 "EE_Switch:Switch_SPDT_Taiway_SolderLug" 50 -400 50 H I C CNN
+F3 "https://lovemyswitches.com/content/Love_My_Switches_Taiway_mini_datasheet.pdf" 50 -500 50 H I C CNN
+F4 "SPDT On-Off-On (short lever)" 0 -200 50 H V C CNN "PartValue"
+F5 "20VDC" 0 -600 50 H I C CNN "VoltageRating"
+F6 "2A" 0 -700 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -800 50 H I C CNN "PbFree"
+F8 "Y" 0 -900 50 H I C CNN "RoHS"
+F9 "Taiway" 0 -1000 50 H I C CNN "Manufacturer"
+F10 "100-SP3-T200B1M1QE" 1100 1300 50 H I C CNN "MPN"
+F11 "https://lovemyswitches.com/taiway-spdt-on-off-on-switch-solder-lug-short-shaft/" 1300 1500 50 H I C CNN "Website"
+DRAW
+C -80 0 20 0 0 0 N
+C 80 -100 20 0 0 0 N
+C 80 100 20 0 1 0 N
+S -50 0 0 0 0 1 0 N
+S 50 0 100 0 0 1 0 N
+P 2 0 1 0 -60 10 65 90 N
+X A 1 200 100 100 L 50 50 1 1 P
+X B 2 -200 0 100 R 50 50 1 1 P
+X C 3 200 -100 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Switch_SPDT_MountainSwitch_On-Off-On
 #
 DEF ~Switch_SPDT_MountainSwitch_On-Off-On SW 0 40 Y N 1 F N

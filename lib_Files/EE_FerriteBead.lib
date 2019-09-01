@@ -62,4 +62,32 @@ X ~ 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FerriteBead_600_2A_25%_150mOhms_0805
+#
+DEF ~FerriteBead_600_2A_25%_150mOhms_0805 FB 0 40 Y Y 1 F N
+F0 "FB" 0 150 50 H V C CNN
+F1 "FerriteBead_600_2A_25%_150mOhms_0805" 0 -400 50 H I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_0805_2012Metric" 0 -500 50 H I C CNN
+F3 "https://katalog.we-online.de/pbs/datasheet/742792040.pdf" -300 -600 50 H I C CNN
+F4 "600 2A" 0 -150 50 H V C CNN "PartValue"
+F5 "Ferrite" 0 -700 50 H I C CNN "Composition"
+F6 "25%" 0 -800 50 H I C CNN "Precision"
+F7 "2A" 0 -900 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1000 50 H I C CNN "PbFree"
+F9 "Y" 0 -1100 50 H I C CNN "RoHS"
+F10 "Wurth Electronics" 0 -1200 50 H I C CNN "Manufacturer"
+F11 "742792040" 0 -1300 50 H I C CNN "MPN"
+F12 "710-742792040" 0 -1400 50 H I C CNN "MouserPN"
+F13 "732-1620-1-ND" 0 -1500 50 H I C CNN "DigiKeyPN"
+F14 "0.22" 0 -1600 50 H I C CNN "MouserPrice"
+F15 "0.22" 0 -1700 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 0 -50 0 -51 0 N
+P 2 0 1 0 50 0 48 0 N
+P 5 0 1 0 -16 -109 -89 -67 12 109 85 66 -16 -109 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

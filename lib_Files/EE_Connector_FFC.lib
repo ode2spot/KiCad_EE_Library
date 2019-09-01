@@ -1,6 +1,222 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# FPC_Amphenol_15p_1.00mm_SlideLock_Agnostic_SMD
+#
+DEF ~FPC_Amphenol_15p_1.00mm_SlideLock_Agnostic_SMD J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "FPC_Amphenol_15p_1.00mm_SlideLock_Agnostic_SMD" 0 -1150 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Molex_15p_1.00mm_SlideLock_Agnostic_SMD" 50 -1250 50 H I C CNN
+F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/sfw12lf.pdf" 0 -1350 50 H I C CNN
+F4 "FPC_15p_1.00mm_SlideLock_Horz_SMD" 0 0 50 V V C CNN "PartValue"
+F5 "PPS" 0 -1450 50 H I C CNN "Composition"
+F6 "100V" 0 -1550 50 H I C CNN "VoltageRating"
+F7 "1A" 0 -1650 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1750 50 H I C CNN "PbFree"
+F9 "Y" 0 -1850 50 H I C CNN "RoHS"
+F10 "Amphenol" 0 -1950 50 H I C CNN "Manufacturer"
+F11 "SFW15R-1STE1LF" 0 -2050 50 H I C CNN "MPN"
+F12 "649-SFW15R-1STE1LF" 0 -2150 50 H I C CNN "MouserPN"
+F13 "609-1905-6-ND" 0 -2250 50 H I C CNN "DigiKeyPN"
+F14 "0.83" 0 -2450 50 H I C CNN "MouserPrice"
+F15 "0.83" 0 -2550 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -100 750 100 -750 0 1 0 f
+X ~ 1 -200 700 100 R 50 50 1 1 P
+X ~ 10 -200 -200 100 R 50 50 1 1 P
+X ~ 11 -200 -300 100 R 50 50 1 1 P
+X ~ 12 -200 -400 100 R 50 50 1 1 P
+X ~ 13 -200 -500 100 R 50 50 1 1 P
+X ~ 14 -200 -600 100 R 50 50 1 1 P
+X ~ 15 -200 -700 100 R 50 50 1 1 P
+X ~ 16 0 -850 100 U 50 50 1 1 P
+X ~ 2 -200 600 100 R 50 50 1 1 P
+X ~ 3 -200 500 100 R 50 50 1 1 P
+X ~ 4 -200 400 100 R 50 50 1 1 P
+X ~ 5 -200 300 100 R 50 50 1 1 P
+X ~ 6 -200 200 100 R 50 50 1 1 P
+X ~ 7 -200 100 100 R 50 50 1 1 P
+X ~ 8 -200 0 100 R 50 50 1 1 P
+X ~ 9 -200 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FPC_Amphenol_15p_1.00mm_SlideLock_Horz_SMD
+#
+DEF ~FPC_Amphenol_15p_1.00mm_SlideLock_Horz_SMD J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "FPC_Amphenol_15p_1.00mm_SlideLock_Horz_SMD" 0 -1150 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Molex_15p_1.00mm_SlideLock_Horiz_SMD" 50 -1250 50 H I C CNN
+F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/sfw12lf.pdf" 0 -1350 50 H I C CNN
+F4 "FPC_15p_1.00mm_SlideLock_Horz_SMD" 0 0 50 V V C CNN "PartValue"
+F5 "PPS" 0 -1450 50 H I C CNN "Composition"
+F6 "100V" 0 -1550 50 H I C CNN "VoltageRating"
+F7 "1A" 0 -1650 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1750 50 H I C CNN "PbFree"
+F9 "Y" 0 -1850 50 H I C CNN "RoHS"
+F10 "Amphenol" 0 -1950 50 H I C CNN "Manufacturer"
+F11 "SFW15R-1STE1LF" 0 -2050 50 H I C CNN "MPN"
+F12 "649-SFW15R-1STE1LF" 0 -2150 50 H I C CNN "MouserPN"
+F13 "609-1905-6-ND" 0 -2250 50 H I C CNN "DigiKeyPN"
+F14 "0.83" 0 -2450 50 H I C CNN "MouserPrice"
+F15 "0.83" 0 -2550 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -100 750 100 -750 0 1 0 f
+X ~ 1 -200 700 100 R 50 50 1 1 P
+X ~ 10 -200 -200 100 R 50 50 1 1 P
+X ~ 11 -200 -300 100 R 50 50 1 1 P
+X ~ 12 -200 -400 100 R 50 50 1 1 P
+X ~ 13 -200 -500 100 R 50 50 1 1 P
+X ~ 14 -200 -600 100 R 50 50 1 1 P
+X ~ 15 -200 -700 100 R 50 50 1 1 P
+X ~ 16 0 -850 100 U 50 50 1 1 P
+X ~ 2 -200 600 100 R 50 50 1 1 P
+X ~ 3 -200 500 100 R 50 50 1 1 P
+X ~ 4 -200 400 100 R 50 50 1 1 P
+X ~ 5 -200 300 100 R 50 50 1 1 P
+X ~ 6 -200 200 100 R 50 50 1 1 P
+X ~ 7 -200 100 100 R 50 50 1 1 P
+X ~ 8 -200 0 100 R 50 50 1 1 P
+X ~ 9 -200 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FPC_Amphenol_16p_0.50mm_SlideLock_Vert_SMD
+#
+DEF ~FPC_Amphenol_16p_0.50mm_SlideLock_Vert_SMD J 0 40 Y N 1 F N
+F0 "J" 0 900 50 H V C CNN
+F1 "FPC_Amphenol_16p_0.50mm_SlideLock_Vert_SMD" 0 -2400 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Amphenol_16p_0.50mm_SlideLock_Vert_SMD" 50 -2500 50 H I C CNN
+F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/62674.pdf" 0 -2600 50 H I C CNN
+F4 "FPC_16p_0.50mm_SlideLock_Vert_SMD" 0 0 50 V V C CNN "PartValue"
+F5 "PGF" 0 -2700 50 H I C CNN "Composition"
+F6 "50V" 0 -2800 50 H I C CNN "VoltageRating"
+F7 "0.5A" 0 -2900 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -3000 50 H I C CNN "PbFree"
+F9 "Y" 0 -3100 50 H I C CNN "RoHS"
+F10 "Amphenol IIC" 0 -3200 50 H I C CNN "Manufacturer"
+F11 "62674-161121ALF" 0 -3300 50 H I C CNN "MPN"
+F12 "649-62674-161121ALF" 0 -3400 50 H I C CNN "MouserPN"
+F13 "609-1206-1-ND" 0 -3500 50 H I C CNN "DigiKeyPN"
+F14 "0.70" 0 -3700 50 H I C CNN "MouserPrice"
+F15 "0.70" 0 -3800 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -100 850 100 -850 0 1 0 f
+X ~ 1 -200 750 100 R 50 50 1 1 P
+X ~ 10 -200 -150 100 R 50 50 1 1 P
+X ~ 11 -200 -250 100 R 50 50 1 1 P
+X ~ 12 -200 -350 100 R 50 50 1 1 P
+X ~ 13 -200 -450 100 R 50 50 1 1 P
+X ~ 14 -200 -550 100 R 50 50 1 1 P
+X ~ 15 -200 -650 100 R 50 50 1 1 P
+X ~ 16 -200 -750 100 R 50 50 1 1 P
+X ~ 17 0 -950 100 U 50 50 1 1 P
+X ~ 2 -200 650 100 R 50 50 1 1 P
+X ~ 3 -200 550 100 R 50 50 1 1 P
+X ~ 4 -200 450 100 R 50 50 1 1 P
+X ~ 5 -200 350 100 R 50 50 1 1 P
+X ~ 6 -200 250 100 R 50 50 1 1 P
+X ~ 7 -200 150 100 R 50 50 1 1 P
+X ~ 8 -200 50 100 R 50 50 1 1 P
+X ~ 9 -200 -50 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FPC_Amphenol_30p_0.50mm_SlideLock_Vert_SMD
+#
+DEF ~FPC_Amphenol_30p_0.50mm_SlideLock_Vert_SMD J 0 40 Y N 1 F N
+F0 "J" 0 1650 50 H V C CNN
+F1 "FPC_Amphenol_30p_0.50mm_SlideLock_Vert_SMD" 0 -2400 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Amphenol_30p_0.50mm_SlideLock_Vert_SMD" 50 -2500 50 H I C CNN
+F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/62674.pdf" 0 -2600 50 H I C CNN
+F4 "FPC_30p_0.50mm_SlideLock_Vert_SMD" 0 0 50 V V C CNN "PartValue"
+F5 "PGF" 0 -2700 50 H I C CNN "Composition"
+F6 "50V" 0 -2800 50 H I C CNN "VoltageRating"
+F7 "0.5A" 0 -2900 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -3000 50 H I C CNN "PbFree"
+F9 "Y" 0 -3100 50 H I C CNN "RoHS"
+F10 "Amphenol IIC" 0 -3200 50 H I C CNN "Manufacturer"
+F11 "62674-301121ALF" 0 -3300 50 H I C CNN "MPN"
+F12 "649-62674-301121ALF" 0 -3400 50 H I C CNN "MouserPN"
+F13 "609-1213-1-ND" 0 -3500 50 H I C CNN "DigiKeyPN"
+F14 "0.96" 0 -3700 50 H I C CNN "MouserPrice"
+F15 "0.96" 0 -3800 50 H I C CNN "DigiKeyPrice"
+F16 "0151660321" 0 -3900 50 H I C CNN "MatingPart"
+DRAW
+S -100 1600 100 -1600 0 1 0 f
+X ~ 1 -200 1450 100 R 50 50 1 1 P
+X ~ 10 -200 550 100 R 50 50 1 1 P
+X ~ 11 -200 450 100 R 50 50 1 1 P
+X ~ 12 -200 350 100 R 50 50 1 1 P
+X ~ 13 -200 250 100 R 50 50 1 1 P
+X ~ 14 -200 150 100 R 50 50 1 1 P
+X ~ 15 -200 50 100 R 50 50 1 1 P
+X ~ 16 -200 -50 100 R 50 50 1 1 P
+X ~ 17 -200 -150 100 R 50 50 1 1 P
+X ~ 18 -200 -250 100 R 50 50 1 1 P
+X ~ 19 -200 -350 100 R 50 50 1 1 P
+X ~ 2 -200 1350 100 R 50 50 1 1 P
+X ~ 20 -200 -450 100 R 50 50 1 1 P
+X ~ 21 -200 -550 100 R 50 50 1 1 P
+X ~ 22 -200 -650 100 R 50 50 1 1 P
+X ~ 23 -200 -750 100 R 50 50 1 1 P
+X ~ 24 -200 -850 100 R 50 50 1 1 P
+X ~ 25 -200 -950 100 R 50 50 1 1 P
+X ~ 26 -200 -1050 100 R 50 50 1 1 P
+X ~ 27 -200 -1150 100 R 50 50 1 1 P
+X ~ 28 -200 -1250 100 R 50 50 1 1 P
+X ~ 29 -200 -1350 100 R 50 50 1 1 P
+X ~ 3 -200 1250 100 R 50 50 1 1 P
+X ~ 30 -200 -1450 100 R 50 50 1 1 P
+X ~ 31 0 -1700 100 U 50 50 1 1 P
+X ~ 4 -200 1150 100 R 50 50 1 1 P
+X ~ 5 -200 1050 100 R 50 50 1 1 P
+X ~ 6 -200 950 100 R 50 50 1 1 P
+X ~ 7 -200 850 100 R 50 50 1 1 P
+X ~ 8 -200 750 100 R 50 50 1 1 P
+X ~ 9 -200 650 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# FPC_Molex_15p_1.00mm_SlideLock_Vert_SMD
+#
+DEF ~FPC_Molex_15p_1.00mm_SlideLock_Vert_SMD J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "FPC_Molex_15p_1.00mm_SlideLock_Vert_SMD" 0 -1150 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Molex_15p_1.00mm_SlideLock_Vert_SMD" 50 -1250 50 H I C CNN
+F3 "https://www.molex.com/pdm_docs/sd/526100672_sd.pdf" 0 -1350 50 H I C CNN
+F4 "FPC_15p_1.00mm_SlideLock_Vert_SMD" 0 0 50 V V C CNN "PartValue"
+F5 "PPS" 0 -1450 50 H I C CNN "Composition"
+F6 "125V" 0 -1550 50 H I C CNN "VoltageRating"
+F7 "1A" 0 -1650 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1750 50 H I C CNN "PbFree"
+F9 "Y" 0 -1850 50 H I C CNN "RoHS"
+F10 "Molex" 0 -1950 50 H I C CNN "Manufacturer"
+F11 "52610-1572" 0 -2050 50 H I C CNN "MPN"
+F12 "538-52610-1572" 0 -2150 50 H I C CNN "MouserPN"
+F13 "WM11008CT-ND" 0 -2250 50 H I C CNN "DigiKeyPN"
+F14 "1.46" 0 -2450 50 H I C CNN "MouserPrice"
+F15 "1.73" 0 -2550 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -100 750 100 -750 0 1 0 f
+X ~ 1 -200 700 100 R 50 50 1 1 P
+X ~ 10 -200 -200 100 R 50 50 1 1 P
+X ~ 11 -200 -300 100 R 50 50 1 1 P
+X ~ 12 -200 -400 100 R 50 50 1 1 P
+X ~ 13 -200 -500 100 R 50 50 1 1 P
+X ~ 14 -200 -600 100 R 50 50 1 1 P
+X ~ 15 -200 -700 100 R 50 50 1 1 P
+X ~ 2 -200 600 100 R 50 50 1 1 P
+X ~ 3 -200 500 100 R 50 50 1 1 P
+X ~ 4 -200 400 100 R 50 50 1 1 P
+X ~ 5 -200 300 100 R 50 50 1 1 P
+X ~ 6 -200 200 100 R 50 50 1 1 P
+X ~ 7 -200 100 100 R 50 50 1 1 P
+X ~ 8 -200 0 100 R 50 50 1 1 P
+X ~ 9 -200 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FPC_Molex_16p_1.00mm_SlideLock_Vert_SMD
 #
 DEF ~FPC_Molex_16p_1.00mm_SlideLock_Vert_SMD J 0 40 Y N 1 F N

@@ -16,6 +16,21 @@ X ~ 1 -250 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# MountingHole_M3
+#
+DEF ~MountingHole_M3 MTH 0 40 Y Y 1 F N
+F0 "MTH" 0 200 50 H V C CNN
+F1 "MountingHole_M3" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_3.2mm_M3_Pad_Via" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "M3" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MountingHole_M3_Pad_Via_NetTieNO
 #
 DEF ~MountingHole_M3_Pad_Via_NetTieNO MTH 0 40 Y Y 1 F N

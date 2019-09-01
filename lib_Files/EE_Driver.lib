@@ -69,7 +69,7 @@ ENDDEF
 DEF ~Driver_IFX007_HalfBridgeMotorDriver_TO-263-7 U 0 40 Y Y 1 F N
 F0 "U" 150 450 50 H V C CNN
 F1 "Driver_IFX007_HalfBridgeMotorDriver_TO-263-7" -50 -1650 50 H I C CNN
-F2 "EE_Package_TO_SOT_SMD:TO-263-7_TabPin8" -50 -1750 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:TO-263-7_TabPin8_ThermalVias" -50 -1750 50 H I C CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/Infineon%20PDFs/IFX007T_Rev1.0_2018-02-21.pdf" -50 -1850 50 H I C CNN
 F4 "IFX007" 250 -500 50 H V C CNN "PartValue"
 F5 "Motor Driver" -50 -1950 50 H I C CNN "Composition"
@@ -83,7 +83,7 @@ F12 "IFX007TAUMA1CT-ND" -50 -2950 50 H I C CNN "DigiKeyPN"
 F13 "2.80" -50 -3050 50 H I C CNN "MouserPrice"
 F14 "3.02" -50 -3150 50 H I C CNN "DigiKeyPrice"
 DRAW
-S -300 400 300 -450 0 1 0 N
+S -300 400 300 -450 0 1 0 f
 X GND 1 0 -550 100 U 50 50 1 1 W
 X IN 2 -400 150 100 R 50 50 1 1 I
 X INH 3 -400 50 100 R 50 50 1 1 I
