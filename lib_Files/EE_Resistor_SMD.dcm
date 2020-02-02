@@ -18,6 +18,12 @@ K 10k ThinFilm 1% 0603
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
+$CMP Resistor_SMD_100m_ThickFilm_5%_125mW_200ppm_0805
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP Resistor_SMD_10_ThickFilm_1%_200mW_100ppm_0402
 D 10k ThinFilm 1% 100mW 50ppm 0603
 K 10k ThinFilm 1% 0603
@@ -48,6 +54,18 @@ K 10k ThinFilm 1% 0603
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
+$CMP Resistor_SMD_1_ThickFilm_1%_100mW_200ppm_0603
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP Resistor_SMD_1_ThickFilm_1%_62.5mW_200ppm_0402
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP Resistor_SMD_1k_ThickFilm_1%_100mW_100ppm_0402
 D 10k ThinFilm 1% 100mW 50ppm 0603
 K 10k ThinFilm 1% 0603
@@ -60,7 +78,19 @@ K 1k ThinFilm 1% 0603
 F https://www.mouser.com/ds/2/427/mcx0x0xpro-223600.pdf
 $ENDCMP
 #
+$CMP Resistor_SMD_2.49k_ThickFilm_1%_100mW_100ppm_0402
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP Resistor_SMD_2.7k_ThickFilm_1%_100mW_100ppm_0402
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP Resistor_SMD_200m_ThickFilm_5%_100mW_300ppm_0402
 D 10k ThinFilm 1% 100mW 50ppm 0603
 K 10k ThinFilm 1% 0603
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
@@ -79,6 +109,12 @@ F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
 $CMP Resistor_SMD_2k_ThickFilm_1%_100mW_100ppm_0402
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP Resistor_SMD_3.3k_ThickFilm_1%_100mW_100ppm_0402
 D 10k ThinFilm 1% 100mW 50ppm 0603
 K 10k ThinFilm 1% 0603
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
@@ -108,7 +144,19 @@ K 10k ThinFilm 1% 0603
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
 $ENDCMP
 #
+$CMP Resistor_SMD_62_ThickFilm_1%_100mW_100ppm_0402
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
 $CMP Resistor_SMD_8.2_ThickFilm_1%_100mW_100ppm_0402
+D 10k ThinFilm 1% 100mW 50ppm 0603
+K 10k ThinFilm 1% 0603
+F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf
+$ENDCMP
+#
+$CMP Resistor_SMD_8.66k_ThickFilm_1%_100mW_100ppm_0402
 D 10k ThinFilm 1% 100mW 50ppm 0603
 K 10k ThinFilm 1% 0603
 F http://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf

@@ -190,4 +190,32 @@ X 2 2 150 0 50 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Cyrstal_XO_16MHz_25ppm_2.5x2.0mm-SMD
+#
+DEF ~Cyrstal_XO_16MHz_25ppm_2.5x2.0mm-SMD XO 0 40 Y Y 1 F N
+F0 "XO" 0 200 50 H V C CNN
+F1 "Cyrstal_XO_16MHz_25ppm_2.5x2.0mm-SMD" 0 -650 50 H I C CNN
+F2 "EE_Crystal:Crystal_DSC6001JE2A-016.0000" 0 -750 50 H I C CNN
+F3 "http://ww1.microchip.com/downloads/en/DeviceDoc/DSC60XX-Ultra-Small-Ultra-Low-Power-MEMS-Oscillator-DS20005625C.pdf" 50 -850 50 H I C CNN
+F4 "16MHz" 0 0 50 H V C CNN "PartValue"
+F5 "Cyrstal" 0 -950 50 H I C CNN "Composition"
+F6 "25ppm" 0 -1050 50 H I C CNN "Precision"
+F7 "25ppm" 0 -1250 50 H I C CNN "Tempco"
+F8 "Y" 0 -1400 50 H I C CNN "PbFree"
+F9 "Y" 0 -1500 50 H I C CNN "RoHS"
+F10 "Microchip Technology" 0 -1600 50 H I C CNN "Manufacturer"
+F11 "DSC6001JE2A-016.0000" 0 -1700 50 H I C CNN "MPN"
+F12 "579-001JE2A0160000" 0 -1800 50 H I C CNN "MouserPN"
+F13 "DSC6001JE2A-016.0000-ND" 0 -1900 50 H I C CNN "DigiKeyPN"
+F14 "0.87" 0 -2000 50 H I C CNN "MouserPrice"
+F15 "0.87" 0 -2100 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 150 250 -150 0 1 0 f
+X OE 1 350 100 100 L 50 50 1 1 I
+X GND 2 -350 -100 100 R 50 50 1 1 W
+X OUT 3 350 -100 100 L 50 50 1 1 O
+X VDD 4 -350 100 100 R 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
 #End Library

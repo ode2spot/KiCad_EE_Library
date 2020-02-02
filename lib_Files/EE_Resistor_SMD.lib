@@ -16,6 +16,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_0.5_ThickFilm_1%_1W_50ppm_2512
+#
+DEF ~Resistor_SMD_0.5_ThickFilm_1%_1W_50ppm_2512 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_0.5_ThickFilm_1%_1W_50ppm_2512" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_2512_6332Metric" 200 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/CRA.pdf" 300 0 60 V I C CNN
+F4 "0.5" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "3W" 600 0 60 V I C CNN "PowerRating"
+F8 "300ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RL2512FK-070R5L" 1300 50 60 V I C CNN "MPN"
+F13 "603-RL2512FK-070R5L" 1400 0 60 V I C CNN "MouserPN"
+F14 "YAG3408CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.65" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.49" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_0.62_ThickFilm_1%_0.125W_200ppm_0805
 #
 DEF ~Resistor_SMD_0.62_ThickFilm_1%_0.125W_200ppm_0805 R 0 40 N N 1 F N
@@ -36,6 +63,33 @@ F13 "603-RL0805FR-070R62L" 1400 0 60 V I C CNN "MouserPN"
 F14 "311-.62SCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
 F15 "0.35" 2000 0 60 V I C CNN "MouserPrice"
 F16 "0.35" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_0.68_ThickFilm_1%_250mW_300ppm_0603
+#
+DEF ~Resistor_SMD_0.68_ThickFilm_1%_250mW_300ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_0.68_ThickFilm_1%_250mW_300ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "0.68" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "250mW" 600 0 60 V I C CNN "PowerRating"
+F8 "300ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-3BQFR68V" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-3BQFR68V" 1400 0 60 V I C CNN "MouserPN"
+F14 "P17246CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.44" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.44" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -304,6 +358,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_100_ThinFilm_1%_16W_25ppm_2512
+#
+DEF ~Resistor_SMD_100_ThinFilm_1%_16W_25ppm_2512 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_100_ThinFilm_1%_16W_25ppm_2512" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_2512_6332Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/CPA.pdf" 300 0 60 V I C CNN
+F4 "100" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "16W" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "CPA2512E1000FS-T10" 1300 50 60 V I C CNN "MPN"
+F13 "754-CPA2512E1000FST" 1400 0 60 V I C CNN "MouserPN"
+F14 "CPA25E100CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "3.62" 2000 0 60 V I C CNN "MouserPrice"
+F16 "2.93" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_100_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_100_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -388,6 +469,87 @@ F18 "603-RT0603DRE07100KL" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "311-2395-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.12" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_100m_MetalElement_1%_3W_50ppm_2512
+#
+DEF ~Resistor_SMD_100m_MetalElement_1%_3W_50ppm_2512 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_100m_MetalElement_1%_3W_50ppm_2512" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_2512_6332Metric" 200 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/CRA.pdf" 300 0 60 V I C CNN
+F4 "100m" -100 0 60 V V C CNN "PartValue"
+F5 "MetalElement" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "3W" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Bourns" 1200 0 60 V I C CNN "Manufacturer"
+F12 "CRA2512-FZ-R100ELF" 1300 50 60 V I C CNN "MPN"
+F13 "652-CRA2512FZR100ELF" 1400 0 60 V I C CNN "MouserPN"
+F14 "CRA2512-FZ-R100ELFCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.62" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.68" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_100m_MetalFoil_1%_1W_150ppm_2512
+#
+DEF ~Resistor_SMD_100m_MetalFoil_1%_1W_150ppm_2512 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_100m_MetalFoil_1%_1W_150ppm_2512" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_2512_6332Metric" 200 -100 60 V I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773449-3&DocType=DS&DocLang=English" 300 0 60 V I C CNN
+F4 "100m" -100 0 60 V V C CNN "PartValue"
+F5 "MetalFoil" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "1W" 600 0 60 V I C CNN "PowerRating"
+F8 "150ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "TE Connectivity" 1200 0 60 V I C CNN "Manufacturer"
+F12 "TLR3A10WR10FTDG" 1300 50 60 V I C CNN "MPN"
+F13 "279-TLR3A10WR10FTDG" 1400 0 60 V I C CNN "MouserPN"
+F14 "A131774CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "1.00" 2000 0 60 V I C CNN "MouserPrice"
+F16 "1.58" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_100m_ThickFilm_5%_125mW_200ppm_0805
+#
+DEF ~Resistor_SMD_100m_ThickFilm_5%_125mW_200ppm_0805 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_100m_ThickFilm_5%_125mW_200ppm_0805" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0805_2012Metric" 200 -100 60 V I C CNN
+F3 "https://www.ctscorp.com/wp-content/uploads/2015/11/008-0337-0.pdf" 300 0 60 V I C CNN
+F4 "100m" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "5%" 500 0 60 V I C CNN "Precision"
+F7 "125mW" 600 0 60 V I C CNN "PowerRating"
+F8 "200ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "CTS Resistor Products" 1200 0 60 V I C CNN "Manufacturer"
+F12 "73L3R10J" 1300 50 60 V I C CNN "MPN"
+F13 "774-73L3R10J" 1400 0 60 V I C CNN "MouserPN"
+F14 "73L3R10JCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.16" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.17" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -555,6 +717,33 @@ F13 "667-ERJ-2RKF1242X" 1400 0 60 V I C CNN "MouserPN"
 F14 "P12.4KLCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
 F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
 F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_12.4k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_12.4k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_12.4k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "12.4k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-1242-D-10C" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-1242D10C" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P12.4KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -956,6 +1145,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_1M_ThinFilm_0.5%_100mW_50ppm_0603
+#
+DEF ~Resistor_SMD_1M_ThinFilm_0.5%_100mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_1M_ThinFilm_0.5%_100mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" 300 0 60 V I C CNN
+F4 "1M" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RT0603FRE071ML" 1300 50 60 V I C CNN "MPN"
+F13 "603-RT0603FRE071ML" 1400 0 60 V I C CNN "MouserPN"
+F14 "YAG5944CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_1M_ThinFilm_1%_62.5mW_50ppm_0805
 #
 DEF ~Resistor_SMD_1M_ThinFilm_1%_62.5mW_50ppm_0805 R 0 40 N N 1 F N
@@ -981,6 +1197,60 @@ F18 "603-RT0805FRE071ML" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "YAG3361CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.10" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_1_ThickFilm_1%_100mW_200ppm_0603
+#
+DEF ~Resistor_SMD_1_ThickFilm_1%_100mW_200ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_1_ThickFilm_1%_100mW_200ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "http://www.cyntec.com/upfile/products/download/SDER041H-000%20(B0).pdf" 300 0 60 V I C CNN
+F4 "1" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "200ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RC0603FR-071RL" 1300 50 60 V I C CNN "MPN"
+F13 "603-RC0603FR-071RL" 1400 0 60 V I C CNN "MouserPN"
+F14 "311-1.00HRCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.15" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_1_ThickFilm_1%_62.5mW_200ppm_0402
+#
+DEF ~Resistor_SMD_1_ThickFilm_1%_62.5mW_200ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_1_ThickFilm_1%_62.5mW_200ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_10.pdf" 300 0 60 V I C CNN
+F4 "1" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "200ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RC0402FR-071RL" 1300 50 60 V I C CNN "MPN"
+F13 "603-RC0402FR-071RL" 1400 0 60 V I C CNN "MouserPN"
+F14 "311-1.00LRCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -1136,6 +1406,60 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_2.49k_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_2.49k_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_2.49k_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "2.49k" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF2491X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF2491X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P2.49KLCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_2.49k_ThinFilm_0.5%_62.5mW_50ppm_0603
+#
+DEF ~Resistor_SMD_2.49k_ThinFilm_0.5%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_2.49k_ThinFilm_0.5%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "2.49k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-2491-D-39H" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-2491D39H" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P2.49KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_2.55k_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_2.55k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -1249,6 +1573,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_200_ThickFilm_1%_3W_25ppm_2512
+#
+DEF ~Resistor_SMD_200_ThickFilm_1%_3W_25ppm_2512 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_200_ThickFilm_1%_3W_25ppm_2512" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_2512_6332Metric" 200 -100 60 V I C CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=9-1773463-7&DocType=DS&DocLang=English" 300 0 60 V I C CNN
+F4 "200" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "3W" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "TE Connectivity" 1200 0 60 V I C CNN "Manufacturer"
+F12 "3522200RFT" 1300 50 60 V I C CNN "MPN"
+F13 "279-3522200RFT" 1400 0 60 V I C CNN "MouserPN"
+F14 "A121182CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.96" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.96" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_200k_ThinFilm_0.5%_62.5mW_25ppm_0603
 #
 DEF ~Resistor_SMD_200k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
@@ -1274,6 +1625,33 @@ F18 "603-RT0603DRE07200KL" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "311-2476-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.12" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_200m_ThickFilm_5%_100mW_300ppm_0402
+#
+DEF ~Resistor_SMD_200m_ThickFilm_5%_100mW_300ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_200m_ThickFilm_5%_100mW_300ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://www.ctscorp.com/wp-content/uploads/2015/11/008-0337-0.pdf" 300 0 60 V I C CNN
+F4 "200m" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "5%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "300ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "CTS Resistor Products" 1200 0 60 V I C CNN "Manufacturer"
+F12 "73L1R20J" 1300 50 60 V I C CNN "MPN"
+F13 "774-73L1R20J" 1400 0 60 V I C CNN "MouserPN"
+F14 "73L1R20JCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.14" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.14" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -1576,6 +1954,60 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_249k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_249k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_249k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "249k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-2493-D-39D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-2493D39D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P249KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_24k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_24k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_24k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "24k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-243-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-243D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P24.0KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_270_ThinFilm_0.5%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_270_ThinFilm_0.5%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -1689,6 +2121,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_2k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_2k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_2k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "2k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-202-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-202D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P2.0KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_3.24k_ThickFilm_1%_100mW_100ppm_0402
 #
 DEF ~Resistor_SMD_3.24k_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
@@ -1775,6 +2234,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_3.3k_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_3.3k_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_3.3k_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "3.3k" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF3301X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF3301X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P3.30KLDKR-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_3.3k_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_3.3k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -1830,6 +2316,33 @@ F16 "603-RT0603DRD073K48L" 2650 -50 60 V I C CNN "ALTMouserPN"
 F17 "YAG4801CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F18 "0.14" 2850 0 60 V I C CNN "ALTMouserPrice"
 F19 "0.13" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_30.9k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_30.9k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_30.9k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "30.9k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-3092-D-48C" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-3092D48C" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P30.9KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -1928,6 +2441,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_330k_ThinFilm_0.5%_62.5mW_50ppm_0603
+#
+DEF ~Resistor_SMD_330k_ThinFilm_0.5%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_330k_ThinFilm_0.5%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "330k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-334-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-334D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P330KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_33_ThickFilm_5%_100mW_200ppm_0603
 #
 DEF ~Resistor_SMD_33_ThickFilm_5%_100mW_200ppm_0603 R 0 40 N N 1 F N
@@ -1983,6 +2523,60 @@ F18 "594-MCT06030C3302FP5" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "MCT0603-33.0K-CFCT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.18" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_348k_ThinFilm_0.5%_100mW_50ppm_0603
+#
+DEF ~Resistor_SMD_348k_ThinFilm_0.5%_100mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_348k_ThinFilm_0.5%_100mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "348k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RT0603DRE07348KL" 1300 50 60 V I C CNN "MPN"
+F13 "603-RT0603DRE07348KL" 1400 0 60 V I C CNN "MouserPN"
+F14 "311-2098-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.16" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.13" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_374k_ThinFilm_0.5%_100mW_50ppm_0603
+#
+DEF ~Resistor_SMD_374k_ThinFilm_0.5%_100mW_50ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_374k_ThinFilm_0.5%_100mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RT_1-to-0.01_RoHS_L_11.pdf" 300 0 60 V I C CNN
+F4 "374k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RT0603DRE07374KL" 1300 50 60 V I C CNN "MPN"
+F13 "603-RT0603DRE07374KL" 1400 0 60 V I C CNN "MouserPN"
+F14 "311-2552-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.16" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.13" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -2111,6 +2705,33 @@ F18 "279-CPF0603B3K0E" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "A103096CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.68" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_4.02k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_4.02k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_4.02k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "4.02k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-4021-D-59H" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-4021D59H" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P4.02KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -2475,6 +3096,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_500m_ThickFilm_1%_1W_300ppm_2512
+#
+DEF ~Resistor_SMD_500m_ThickFilm_1%_1W_300ppm_2512 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_500m_ThickFilm_1%_1W_300ppm_2512" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_2512_6332Metric" 200 -100 60 V I C CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RL_Group_521_RoHS_L_2.pdf" 300 0 60 V I C CNN
+F4 "500m" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "1W" 600 0 60 V I C CNN "PowerRating"
+F8 "300ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Yaego" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RL2512FK-070R5L" 1300 50 60 V I C CNN "MPN"
+F13 "603-RL2512FK-070R5L" 1400 0 60 V I C CNN "MouserPN"
+F14 "YAG3408CT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.65" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.49" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_51.1k_ThinFilm_0.5%_62.5mW_25ppm_0603
 #
 DEF ~Resistor_SMD_51.1k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
@@ -2500,6 +3148,33 @@ F18 "603-RT0603DRE0751K1L" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "311-2613-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.13" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.12" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_510_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_510_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_510_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "510" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF5100X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF5100X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P510LCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -2810,6 +3485,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_62_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_62_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_62_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "62" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF62R0X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF62R0X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P62.0LCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_62_ThickFilm_5%_100mW_0603
 #
 DEF ~Resistor_SMD_62_ThickFilm_5%_100mW_0603 R 0 40 N N 1 F N
@@ -2904,11 +3606,70 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_7.5k_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_7.5k_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_7.5k_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "7.5k" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF7501X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF7501X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P7.50KLCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
 F0 "R" 100 0 60 V V C CNN
 F1 "Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
+F4 "7.5k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "50ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-752-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-752D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P7.5KDCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
+F17 "MCT06030C7501FP500" 2550 0 60 V I C CNN "ALTMPN"
+F18 "749-1680-1-ND" 2650 -50 60 V I C CNN "ALTMouserPN"
+F19 "311-2461-1-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
+F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
+F21 "0.18" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603_0
+#
+DEF ~Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603_0 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_7.5k_ThinFilm_1%_62.5mW_50ppm_0603_0" -200 0 60 V I C CNN
 F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
 F3 "https://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-1206438.pdf" 300 0 60 V I C CNN
 F4 "7.5k" -100 0 60 V V C CNN "PartValue"
@@ -2995,6 +3756,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Resistor_SMD_8.66k_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_8.66k_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_8.66k_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "8.66k" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF8661X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF8661X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P8.66KLCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Resistor_SMD_820_ThinFilm_1%_62.5mW_50ppm_0603
 #
 DEF ~Resistor_SMD_820_ThinFilm_1%_62.5mW_50ppm_0603 R 0 40 N N 1 F N
@@ -3020,6 +3808,33 @@ F18 "603-RT0603FRE07820RL" 2650 -50 60 V I C CNN "ALTMouserPN"
 F19 "YAG2324CT-ND" 2750 0 60 V I C CNN "ALTDigiKeyPN"
 F20 "0.10" 2850 0 60 V I C CNN "ALTMouserPrice"
 F21 "0.10" 2950 0 60 V I C CNN "ALTDigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_82_ThickFilm_1%_100mW_100ppm_0402
+#
+DEF ~Resistor_SMD_82_ThickFilm_1%_100mW_100ppm_0402 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_82_ThickFilm_1%_100mW_100ppm_0402" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0402_1005Metric" 200 -100 60 V I C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" 300 0 60 V I C CNN
+F4 "82" -100 0 60 V V C CNN "PartValue"
+F5 "ThickFilm" 400 -50 60 V I C CNN "Composition"
+F6 "1%" 500 0 60 V I C CNN "Precision"
+F7 "100mW" 600 0 60 V I C CNN "PowerRating"
+F8 "100ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Panasonic" 1200 0 60 V I C CNN "Manufacturer"
+F12 "ERJ-2RKF82R0X" 1300 50 60 V I C CNN "MPN"
+F13 "667-ERJ-2RKF82R0X" 1400 0 60 V I C CNN "MouserPN"
+F14 "P82.0LCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P
@@ -3106,6 +3921,33 @@ F13 "667-ERJ-2RKF9091X" 1400 0 60 V I C CNN "MouserPN"
 F14 "P9.09KLCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
 F15 "0.18" 2000 0 60 V I C CNN "MouserPrice"
 F16 "0.10" 2100 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Resistor_SMD_91k_ThinFilm_0.5%_62.5mW_25ppm_0603
+#
+DEF ~Resistor_SMD_91k_ThinFilm_0.5%_62.5mW_25ppm_0603 R 0 40 N N 1 F N
+F0 "R" 100 0 60 V V C CNN
+F1 "Resistor_SMD_91k_ThinFilm_0.5%_62.5mW_25ppm_0603" -200 0 60 V I C CNN
+F2 "EE_Resistor_SMD:R_0603_1608Metric" 200 -100 60 V I C CNN
+F3 "https://www.susumu.co.jp/common/pdf/n_catalog_partition05_en.pdf" 300 0 60 V I C CNN
+F4 "91k" -100 0 60 V V C CNN "PartValue"
+F5 "ThinFilm" 400 -50 60 V I C CNN "Composition"
+F6 "0.5%" 500 0 60 V I C CNN "Precision"
+F7 "62.5mW" 600 0 60 V I C CNN "PowerRating"
+F8 "25ppm" 900 0 60 V I C CNN "Tempco"
+F9 "Y" 1000 0 60 V I C CNN "PbFree"
+F10 "Y" 1100 0 60 V I C CNN "RoHS"
+F11 "Susumu" 1200 0 60 V I C CNN "Manufacturer"
+F12 "RR0816P-913-D" 1300 50 60 V I C CNN "MPN"
+F13 "754-RR0816P-913D" 1400 0 60 V I C CNN "MouserPN"
+F14 "RR08P91.0KDDKR-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F15 "0.10" 2000 0 60 V I C CNN "MouserPrice"
+F16 "0.11" 2100 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 S -40 -100 40 100 0 1 10 N
 X ~ 1 0 150 50 D 50 50 1 1 P

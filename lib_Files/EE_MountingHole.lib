@@ -1,6 +1,21 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# MountingHole_20mmSlidePot
+#
+DEF ~MountingHole_20mmSlidePot POT 0 40 Y Y 1 F N
+F0 "POT" 0 200 50 H V C CNN
+F1 "MountingHole_20mmSlidePot" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_20mm_SlidePot" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "POT" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MountingHole_220mil_125mil
 #
 DEF ~MountingHole_220mil_125mil MTH 0 40 Y Y 1 F N
@@ -9,6 +24,96 @@ F1 "MountingHole_220mil_125mil" 0 -600 50 H I C CNN
 F2 "EE_MountingHole:MountingHole_D220mil_Dr125mil" 0 -700 50 H I C CNN
 F3 "" 0 700 50 H I C CNN
 F4 "220mil_125mil" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_3.5mmJack
+#
+DEF ~MountingHole_3.5mmJack JACK 0 40 Y Y 1 F N
+F0 "JACK" 0 200 50 H V C CNN
+F1 "MountingHole_3.5mmJack" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_3.5mmJack" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "JACK" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_3mmLed
+#
+DEF ~MountingHole_3mmLed LED 0 40 Y Y 1 F N
+F0 "LED" 0 200 50 H V C CNN
+F1 "MountingHole_3mmLed" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_3mmLed" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "LED" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_5mmLed
+#
+DEF ~MountingHole_5mmLed LED 0 40 Y Y 1 F N
+F0 "LED" 0 200 50 H V C CNN
+F1 "MountingHole_5mmLed" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_5mmLed" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "LED" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_6mmBtn
+#
+DEF ~MountingHole_6mmBtn BTN 0 40 Y Y 1 F N
+F0 "BTN" 0 200 50 H V C CNN
+F1 "MountingHole_6mmBtn" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_6mmButton" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "BTN" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_9mmPot
+#
+DEF ~MountingHole_9mmPot POT 0 40 Y Y 1 F N
+F0 "POT" 0 200 50 H V C CNN
+F1 "MountingHole_9mmPot" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_9mmPot" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "POT" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_EuroPanelSlot
+#
+DEF ~MountingHole_EuroPanelSlot SLOT 0 40 Y Y 1 F N
+F0 "SLOT" 0 200 50 H V C CNN
+F1 "MountingHole_EuroPanelSlot" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_EuroMountSlot" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "SLOT" 0 300 50 H I C CNN "PartValue"
 DRAW
 C 0 0 50 0 1 0 F
 C 0 0 150 0 1 0 f
@@ -49,6 +154,21 @@ X ~ 2 0 -300 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# MountingHole_M3_noWasher
+#
+DEF ~MountingHole_M3_noWasher MTH 0 40 Y Y 1 F N
+F0 "MTH" 0 200 50 H V C CNN
+F1 "MountingHole_M3_noWasher" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "M3" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MountingHole_M4_Pad_Via_NetTieNO
 #
 DEF ~MountingHole_M4_Pad_Via_NetTieNO MTH 0 40 Y Y 1 F N
@@ -64,6 +184,21 @@ P 4 0 1 0 -25 -150 25 -150 0 -175 -25 -150 F
 P 6 0 1 0 -25 -175 0 -200 25 -175 25 -225 -25 -225 -25 -175 F
 X ~ 1 -250 0 100 R 50 50 1 1 P
 X ~ 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_SwitchMini
+#
+DEF ~MountingHole_SwitchMini SW 0 40 Y Y 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "MountingHole_SwitchMini" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_SwitchMini" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "SW" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

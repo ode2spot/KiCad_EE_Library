@@ -40,12 +40,32 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +24V_LED
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +24V_POE
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +24V_RAW
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +24V_SENSOR
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +2V5_REF
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V0_A
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -80,6 +100,16 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +5V_REF
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_USB
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +8V
 D power-flag symbol
 K Power Flag Symbol
@@ -110,6 +140,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +VREG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +V_RAW
 D power-flag symbol
 K Power Flag Symbol
@@ -126,6 +161,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP -15V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -2V5_REF
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP

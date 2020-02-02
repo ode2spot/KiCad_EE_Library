@@ -390,4 +390,37 @@ X ~ 9 -200 1150 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# FPC_Molex_8p_1.00mm_SlideLock_Vert_TH
+#
+DEF ~FPC_Molex_8p_1.00mm_SlideLock_Vert_TH J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "FPC_Molex_8p_1.00mm_SlideLock_Vert_TH" 0 -1150 50 H I C CNN
+F2 "EE_Connector_FFC:FPC_Amphenol_8p_1.0mm_SlideLock_Vert_TH" 50 -1250 50 H I C CNN
+F3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/slw01lf.pdf" 0 -1350 50 H I C CNN
+F4 "FPC_8p_1.00mm_SlideLock_Vert_TH" 150 0 50 V V C CNN "PartValue"
+F5 "PPS" 0 -1450 50 H I C CNN "Composition"
+F6 "100V" 0 -1550 50 H I C CNN "VoltageRating"
+F7 "1A" 0 -1650 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1750 50 H I C CNN "PbFree"
+F9 "Y" 0 -1850 50 H I C CNN "RoHS"
+F10 "Amphenol" 0 -1950 50 H I C CNN "Manufacturer"
+F11 "SLW8S-1C7LF" 0 -2050 50 H I C CNN "MPN"
+F12 "649-SLW8S-1C7LF" 0 -2150 50 H I C CNN "MouserPN"
+F13 "609-1935-ND" 0 -2250 50 H I C CNN "DigiKeyPN"
+F14 "0.32" 0 -2450 50 H I C CNN "MouserPrice"
+F15 "0.32" 0 -2550 50 H I C CNN "DigiKeyPrice"
+F16 "AFFC-100-08-051-11" 1300 1750 50 H I C CNN "MatingPart"
+DRAW
+S -100 400 100 -400 0 1 0 f
+X ~ 1 -200 350 100 R 50 50 1 1 P
+X ~ 2 -200 250 100 R 50 50 1 1 P
+X ~ 3 -200 150 100 R 50 50 1 1 P
+X ~ 4 -200 50 100 R 50 50 1 1 P
+X ~ 5 -200 -50 100 R 50 50 1 1 P
+X ~ 6 -200 -150 100 R 50 50 1 1 P
+X ~ 7 -200 -250 100 R 50 50 1 1 P
+X ~ 8 -200 -350 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

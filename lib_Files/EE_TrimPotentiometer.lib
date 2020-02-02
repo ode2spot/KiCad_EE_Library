@@ -33,6 +33,36 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# TrimPotentiometer_100k_Single_SMD
+#
+DEF ~TrimPotentiometer_100k_Single_SMD TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 -50 50 H V C CNN
+F1 "TrimPotentiometer_100k_Single_SMD" 0 -400 50 H I C CNN
+F2 "EE_TrimPotentiometer:TrimPotentiometer_TC33X-2" 0 -500 50 H I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 0 -600 50 H I C CNN
+F4 "100kB" -200 50 50 H V C CNN "PartValue"
+F5 "Cermet" 0 -700 50 H I C CNN "Composition"
+F6 "25%" 0 -800 50 H I C CNN "Precision"
+F7 "0.1W" 0 -900 50 H I C CNN "PowerRating"
+F8 "250ppm" 0 -1100 50 H I C CNN "Tempco"
+F9 "Y" 0 -1200 50 H I C CNN "PbFree"
+F10 "Y" 0 -1300 50 H I C CNN "RoHS"
+F11 "Bourns" 0 -1400 50 H I C CNN "Manufacturer"
+F12 "TC33X-1-104E" 0 -1500 50 H I C CNN "MPN"
+F13 "652-TC33X-1-104E" 0 -1600 50 H I C CNN "MouserPN"
+F14 "TC33X-1-104ECT-ND" 0 -1700 50 H I C CNN "DigiKeyPN"
+F15 "0.26" 0 -1900 50 H I C CNN "MouserPrice"
+F16 "0.28" 0 -2000 50 H I C CNN "DigiKeyPrice"
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 3 0 1 0 45 0 90 20 90 -20 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TrimPotentiometer_2k_25Turn
 #
 DEF ~TrimPotentiometer_2k_25Turn TRIM 0 40 Y N 1 F N
@@ -65,38 +95,6 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# TrimPotentiometer_2k_Single
-#
-DEF ~TrimPotentiometer_2k_Single TRIM 0 40 Y N 1 F N
-F0 "TRIM" -200 -50 50 H V C CNN
-F1 "TrimPotentiometer_2k_Single" 0 -400 50 H I C CNN
-F2 "EE_TrimPotentiometer:TrimPotentiometer_3362P" 0 -500 50 H I C CNN
-F3 "https://www.mouser.com/ds/2/54/362-776956.pdf" 0 -600 50 H I C CNN
-F4 "2kB" -200 50 50 H V C CNN "PartValue"
-F5 "Cermet" 0 -700 50 H I C CNN "Composition"
-F6 "10%" 0 -800 50 H I C CNN "Precision"
-F7 "0.5W" 0 -900 50 H I C CNN "PowerRating"
-F8 "100ppm" 0 -1100 50 H I C CNN "Tempco"
-F9 "Y" 0 -1200 50 H I C CNN "PbFree"
-F10 "Y" 0 -1300 50 H I C CNN "RoHS"
-F11 "Bourns" 0 -1400 50 H I C CNN "Manufacturer"
-F12 "3362P-1-202LF" 0 -1500 50 H I C CNN "MPN"
-F13 "652-3362P-1-202LF" 0 -1600 50 H I C CNN "MouserPN"
-F14 "3362P-202LF-ND" 0 -1700 50 H I C CNN "DigiKeyPN"
-F15 "A-607" 0 -1800 50 H I C CNN "TaydaPN"
-F16 "1.02" 0 -1900 50 H I C CNN "MouserPrice"
-F17 "1.02" 0 -2000 50 H I C CNN "DigiKeyPrice"
-F18 "0.19" 0 -2100 50 H I C CNN "TaydaPrice"
-DRAW
-S 40 100 -40 -100 0 1 10 N
-P 2 0 1 0 100 0 60 0 N
-P 3 0 1 0 45 0 90 20 90 -20 F
-X 1 1 0 150 50 D 50 50 1 1 P
-X 2 2 150 0 50 L 50 50 1 1 P
-X 3 3 0 -150 50 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # TrimPotentiometer_5k_25Turn
 #
 DEF ~TrimPotentiometer_5k_25Turn TRIM 0 40 Y N 1 F N
@@ -119,6 +117,36 @@ F15 "A-597" 0 -1800 50 H I C CNN "TaydaPN"
 F16 "2.41" 0 -1900 50 H I C CNN "MouserPrice"
 F17 "2.41" 0 -2000 50 H I C CNN "DigiKeyPrice"
 F18 "0.28" 0 -2100 50 H I C CNN "TaydaPrice"
+DRAW
+S 40 100 -40 -100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 3 0 1 0 45 0 90 20 90 -20 F
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# TrimPotentiometer_5k_Single_SMD
+#
+DEF ~TrimPotentiometer_5k_Single_SMD TRIM 0 40 Y N 1 F N
+F0 "TRIM" -200 -50 50 H V C CNN
+F1 "TrimPotentiometer_5k_Single_SMD" 0 -400 50 H I C CNN
+F2 "EE_TrimPotentiometer:TrimPotentiometer_TC33X-2" 0 -500 50 H I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" 0 -600 50 H I C CNN
+F4 "5kB" -200 50 50 H V C CNN "PartValue"
+F5 "Cermet" 0 -700 50 H I C CNN "Composition"
+F6 "25%" 0 -800 50 H I C CNN "Precision"
+F7 "0.1W" 0 -900 50 H I C CNN "PowerRating"
+F8 "250ppm" 0 -1100 50 H I C CNN "Tempco"
+F9 "Y" 0 -1200 50 H I C CNN "PbFree"
+F10 "Y" 0 -1300 50 H I C CNN "RoHS"
+F11 "Bourns" 0 -1400 50 H I C CNN "Manufacturer"
+F12 "TC33X-2-502E" 0 -1500 50 H I C CNN "MPN"
+F13 "652-TC33X-2-502E" 0 -1600 50 H I C CNN "MouserPN"
+F14 "TC33X-502ECT-ND" 0 -1700 50 H I C CNN "DigiKeyPN"
+F15 "0.26" 0 -1900 50 H I C CNN "MouserPrice"
+F16 "0.28" 0 -2000 50 H I C CNN "DigiKeyPrice"
 DRAW
 S 40 100 -40 -100 0 1 10 N
 P 2 0 1 0 100 0 60 0 N

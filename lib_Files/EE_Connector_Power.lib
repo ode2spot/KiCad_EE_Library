@@ -1,6 +1,57 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Power_Keystone-1287-ST_QuickConnect_Vert
+#
+DEF ~Connector_Power_Keystone-1287-ST_QuickConnect_Vert J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "Connector_Power_Keystone-1287-ST_QuickConnect_Vert" 0 -650 50 H I C CNN
+F2 "EE_Connector_Power:Connector_Power_Keystone_1287-ST" 50 -750 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/215/287-ST-741853.pdf" 0 -850 50 H I C CNN
+F4 "QuickConnect-Vert" 50 -150 50 H V C CNN "PartValue"
+F5 "Brass/Tin" 0 -950 50 H I C CNN "Composition"
+F6 "20A" 0 -1150 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -1250 50 H I C CNN "PbFree"
+F8 "Y" 0 -1350 50 H I C CNN "RoHS"
+F9 "Keystone" 0 -1450 50 H I C CNN "Manufacturer"
+F10 "1287-ST" 0 -1550 50 H I C CNN "MPN"
+F11 "534-1287-ST" 0 -1650 50 H I C CNN "MouserPN"
+F12 "36-1287-ST-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F13 "0.19" 0 -1950 50 H I C CNN "MouserPrice"
+F14 "0.19" 0 -2050 50 H I C CNN "DigiKeyPrice"
+DRAW
+C 200 0 50 0 1 0 F
+P 7 0 1 0 0 100 300 100 350 50 350 -50 300 -100 0 -100 0 100 f
+X ~ 1 -100 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Power_Keystone-4908_QuickConnect_Angled
+#
+DEF ~Connector_Power_Keystone-4908_QuickConnect_Angled J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "Connector_Power_Keystone-4908_QuickConnect_Angled" 0 -650 50 H I C CNN
+F2 "EE_Connector_Power:Connector_Power_Keystone_4908_noSmdPad" 50 -750 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/215/908-743258.pdf" 0 -850 50 H I C CNN
+F4 "QuickConnect-30deg" 50 -150 50 H V C CNN "PartValue"
+F5 "Brass/Tin" 0 -950 50 H I C CNN "Composition"
+F6 "20A" 0 -1150 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -1250 50 H I C CNN "PbFree"
+F8 "Y" 0 -1350 50 H I C CNN "RoHS"
+F9 "Keystone" 0 -1450 50 H I C CNN "Manufacturer"
+F10 "4908" 0 -1550 50 H I C CNN "MPN"
+F11 "534-4908" 0 -1650 50 H I C CNN "MouserPN"
+F12 "36-4908-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F13 "0.41" 0 -1950 50 H I C CNN "MouserPrice"
+F14 "0.41" 0 -2050 50 H I C CNN "DigiKeyPrice"
+DRAW
+C 200 0 50 0 1 0 F
+S -200 100 0 -100 0 1 0 f
+P 7 0 1 0 0 100 300 100 350 50 350 -50 300 -100 0 -100 0 100 f
+X ~ 1 -300 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Power_Molex-0039299023_2pin_Vert_TH
 #
 DEF ~Connector_Power_Molex-0039299023_2pin_Vert_TH J 0 40 Y N 1 F N
@@ -30,6 +81,33 @@ C 200 0 71 1 1 0 F
 S -150 150 150 -300 0 1 0 f
 X ~ 1 0 250 100 D 50 50 1 1 P
 X ~ 2 0 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Power_Shunt_Keystone-5102_6.9mm
+#
+DEF ~Connector_Power_Shunt_Keystone-5102_6.9mm J 0 40 Y N 1 F N
+F0 "J" 0 150 50 H V C CNN
+F1 "Connector_Power_Shunt_Keystone-5102_6.9mm" 0 -650 50 H I C CNN
+F2 "EE_Connector_Power:Connector_Power_Shunt_Keystone_5102" 50 -750 50 H I C CNN
+F3 "https://www.keyelco.com/userAssets/file/M65p54.pdf" 0 -850 50 H I C CNN
+F4 "Shunt_20A" 50 -150 50 H V C CNN "PartValue"
+F5 "Silver" 0 -950 50 H I C CNN "Composition"
+F6 "20A" 0 -1150 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -1250 50 H I C CNN "PbFree"
+F8 "Y" 0 -1350 50 H I C CNN "RoHS"
+F9 "Keystone" 0 -1450 50 H I C CNN "Manufacturer"
+F10 "5102" 0 -1550 50 H I C CNN "MPN"
+F11 "534-5102" 0 -1650 50 H I C CNN "MouserPN"
+F12 "36-5102-ND" 0 -1750 50 H I C CNN "DigiKeyPN"
+F13 "023" 0 -1950 50 H I C CNN "MouserPrice"
+F14 "0.23" 0 -2050 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 100 -100 -100 0 1 0 f
+S -100 100 100 -100 0 1 0 f
+S 100 100 250 -100 1 1 0 f
+X ~ 1 -350 0 100 R 50 50 1 1 B
+X ~ 2 350 0 100 L 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #

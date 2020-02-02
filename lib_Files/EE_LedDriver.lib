@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# LedDriver_RT9288AGE_Backlight,Boost_FixedFreq_SOT23-6
+#
+DEF ~LedDriver_RT9288AGE_Backlight,Boost_FixedFreq_SOT23-6 U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "LedDriver_RT9288AGE_Backlight,Boost_FixedFreq_SOT23-6" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-6" 0 650 50 H I C CNN
+F3 "https://www.richtek.com/assets/product_file/RT9288A/DS9288A-02.pdf" 0 550 50 H I C CNN
+F4 "RT9288A" 0 200 40 H V C CNN "PartValue"
+F5 "Boost" 200 550 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F7 "13.5V" 500 850 50 H I C CNN "VoltageRating"
+F8 "Y" 800 1150 50 H I C CNN "PbFree"
+F9 "Y" 900 1250 50 H I C CNN "RoHS"
+F10 "Richtek" 1000 1350 50 H I C CNN "Manufacturer"
+F11 "RT9288AGE" 1100 1450 50 H I C CNN "MPN"
+F12 "1028-1187-1-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F13 "0.83" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -600 0 1 0 f
+X VDD 1 -350 100 100 R 50 50 1 1 W
+X EN 2 -350 -200 100 R 50 50 1 1 I
+X FB 3 350 -500 100 L 50 50 1 1 I
+X COMP 4 350 -200 100 L 50 50 1 1 B
+X GND 5 -350 -500 100 R 50 50 1 1 W
+X EXT 6 350 100 100 L 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+# LedDriver_TPS54201_LedBuck_FixedFreq_SOT23-6
+#
+DEF ~LedDriver_TPS54201_LedBuck_FixedFreq_SOT23-6 U 0 10 Y Y 1 F N
+F0 "U" 0 300 50 H V C CNN
+F1 "LedDriver_TPS54201_LedBuck_FixedFreq_SOT23-6" -50 450 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-23-6" 0 650 50 H I C CNN
+F3 "http://www.ti.com/lit/ds/symlink/tps54200.pdf" 0 550 50 H I C CNN
+F4 "TPS54201" 0 200 40 H V C CNN "PartValue"
+F5 "Buck" 200 550 50 H I C CNN "Composition"
+F6 "Thermally Limited" 400 750 50 H I C CNN "PowerRating"
+F7 "28V" 500 850 50 H I C CNN "VoltageRating"
+F8 "Y" 800 1150 50 H I C CNN "PbFree"
+F9 "Y" 900 1250 50 H I C CNN "RoHS"
+F10 "Texas Instruments" 1000 1350 50 H I C CNN "Manufacturer"
+F11 "TPS54201DDCT" 1100 1450 50 H I C CNN "MPN"
+F12 "595-TPS54201DDCR" 1100 1400 50 H I C CNN "MouserPN"
+F13 "296-46565-1-ND" 1300 1650 50 H I C CNN "DigiKeyPN"
+F14 "1.45" 1200 1500 50 H I C CNN "MouserPrice"
+F15 "1.54" 1800 2150 50 H I C CNN "DigiKeyPrice"
+DRAW
+S -250 250 250 -600 0 1 0 f
+X GND 1 -350 100 100 R 50 50 1 1 W
+X SW 2 -350 -200 100 R 50 50 1 1 C
+X VIN 3 -350 -500 100 R 50 50 1 1 W
+X FB 4 350 -500 100 L 50 50 1 1 I
+X PWM 5 350 -200 100 L 50 50 1 1 I
+X BOOT 6 350 100 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

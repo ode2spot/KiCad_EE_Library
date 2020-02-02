@@ -1,6 +1,129 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Fixed_Inductor_SMD_100u_WirewoundFerrite_20%_150mA_1.4Ohm_1210
+#
+DEF ~Fixed_Inductor_SMD_100u_WirewoundFerrite_20%_150mA_1.4Ohm_1210 L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_100u_WirewoundFerrite_20%_150mA_1.4Ohm_1210" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_1210_3225Metric" 400 -100 60 V I C CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=LBC3225T101KR%20%20&u=M" 500 0 60 V I C CNN
+F4 "100u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "150mA" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F11 "LBC3225T101KR" 1300 50 60 V I C CNN "MPN"
+F12 "963-LBC3225T101KR" 1400 0 60 V I C CNN "MouserPN"
+F13 "587-2422-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.20" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.21" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_10A_16.5mOhm_13.5mmX12.5mm
+#
+DEF ~Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_10A_16.5mOhm_13.5mmX12.5mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_10A_16.5mOhm_13.5mmX12.5mm" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_SRP1265A" 400 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/SRP1265A.pdf" 500 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "10A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Bourns" 1200 0 60 V I C CNN "Manufacturer"
+F11 "SRP1265A-100M" 1300 50 60 V I C CNN "MPN"
+F12 "652-SRP1265A-100M" 1400 0 60 V I C CNN "MouserPN"
+F13 "587-3453-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "1.25" 1600 0 60 V I C CNN "MouserPrice"
+F15 "1.68" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_2.1A_70mOhm_4.9mmX4.9mm
+#
+DEF ~Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_2.1A_70mOhm_4.9mmX4.9mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_2.1A_70mOhm_4.9mmX4.9mm" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering" 400 -100 60 V I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/wound04_e.pdf" 500 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "1.7A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F11 "NRS5030T100MMGJ" 1300 50 60 V I C CNN "MPN"
+F12 "963-NRS5030T100MMGJ" 1400 0 60 V I C CNN "MouserPN"
+F13 "587-3453-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.38" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.38" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_6.5A_18mOhm_12mmX12mm
 #
 DEF ~Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_6.5A_18mOhm_12mmX12mm L 0 40 N N 1 F N
@@ -20,6 +143,129 @@ F12 "652-SRR1210-100M" 1400 0 60 V I C CNN "MouserPN"
 F13 "SRR1210-100MCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
 F14 "1.20" 1600 0 60 V I C CNN "MouserPrice"
 F15 "1.33" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_900mA_172.9mOhm_1210
+#
+DEF ~Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_900mA_172.9mOhm_1210 L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_900mA_172.9mOhm_1210" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_1210_3225Metric" 400 -100 60 V I C CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=CBC3225T100MR%20%20&u=M" 500 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "900mA" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F11 "CBC3225T100MR" 1300 50 60 V I C CNN "MPN"
+F12 "963-CBC3225T100MR" 1400 0 60 V I C CNN "MouserPN"
+F13 "587-1625-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.26" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.25" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_900mA_172.9mOhms_1210
+#
+DEF ~Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_900mA_172.9mOhms_1210 L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_10u_WirewoundFerrite_20%_900mA_172.9mOhms_1210" -300 350 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_1210_3225Metric" 400 -100 60 V I C CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=CBC3225T100MR%20%20&u=M" 500 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "900mA" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F11 "CBC3225T100MR" 1300 50 60 V I C CNN "MPN"
+F12 "963-CBC3225T100MR" 1400 0 60 V I C CNN "MouserPN"
+F13 "587-1625-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.26" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.25" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_12u_WirewoundFerrite_20%_2.2A_58mOhm_6mmX6mm
+#
+DEF ~Fixed_Inductor_SMD_12u_WirewoundFerrite_20%_2.2A_58mOhm_6mmX6mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_12u_WirewoundFerrite_20%_2.2A_58mOhm_6mmX6mm" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_ASPI-6045S" 400 -100 60 V I C CNN
+F3 "https://abracon.com/Magnetics/power/ASPI-6045S.pdf" 500 0 60 V I C CNN
+F4 "12u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "2.2A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Abracon LLC" 1200 0 60 V I C CNN "Manufacturer"
+F11 "ASPI-6045S-120M-T" 1300 50 60 V I C CNN "MPN"
+F12 "815-ASPI-6045S-120MT" 1400 0 60 V I C CNN "MouserPN"
+F13 "ASPI-6045S-120M-TCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.56" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.78" 1700 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
 A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
@@ -166,6 +412,47 @@ X 2 2 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Fixed_Inductor_SMD_2.7u_WirewoundFerrite_20%_17A_7.3mOhms_13.9mmX13.5mm
+#
+DEF ~Fixed_Inductor_SMD_2.7u_WirewoundFerrite_20%_17A_7.3mOhms_13.9mmX13.5mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_2.7u_WirewoundFerrite_20%_17A_7.3mOhms_13.9mmX13.5mm" -300 350 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_SRP1250" 400 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/SRP1250.pdf" 500 0 60 V I C CNN
+F4 "2.7u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "17A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Bourns" 1200 0 60 V I C CNN "Manufacturer"
+F11 "SRP1250-2R7M" 1300 50 60 V I C CNN "MPN"
+F12 "652-SRP1250-2R7M" 1400 0 60 V I C CNN "MouserPN"
+F13 "SRP1250-2R7MCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "1.33" 1600 0 60 V I C CNN "MouserPrice"
+F15 "1.79" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Fixed_Inductor_SMD_22u_WirewoundFerrite_20%_1.05A_180mOhm_4.9mmX4.9mm
 #
 DEF ~Fixed_Inductor_SMD_22u_WirewoundFerrite_20%_1.05A_180mOhm_4.9mmX4.9mm L 0 40 N N 1 F N
@@ -226,6 +513,129 @@ F12 "652-SRR1280A-220M" 1400 0 60 V I C CNN "MouserPN"
 F13 "SRR1280A-220MCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
 F14 "1.13" 1600 0 60 V I C CNN "MouserPrice"
 F15 "1.45" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_27u_WirewoundFerrite_20%_1.3A_198mOhm_5mmX5mm
+#
+DEF ~Fixed_Inductor_SMD_27u_WirewoundFerrite_20%_1.3A_198mOhm_5mmX5mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_27u_WirewoundFerrite_20%_1.3A_198mOhm_5mmX5mm" -250 0 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Taiyo-Yuden_NR-50xx_HandSoldering" 400 -100 60 V I C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/SRN5040.pdf" 500 0 60 V I C CNN
+F4 "27u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "1.3A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Bourns" 1200 0 60 V I C CNN "Manufacturer"
+F11 "SRN5040-270M" 1300 50 60 V I C CNN "MPN"
+F12 "652-SRN5040-270M" 1400 0 60 V I C CNN "MouserPN"
+F13 "SRN5040-270MCT-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.36" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.46" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_330u_WirewoundFerrite_20%_570mA_1.27Ohms_6mmX6mm
+#
+DEF ~Fixed_Inductor_SMD_330u_WirewoundFerrite_20%_570mA_1.27Ohms_6mmX6mm L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_330u_WirewoundFerrite_20%_570mA_1.27Ohms_6mmX6mm" -300 350 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_Laird_6x6mm" 400 -100 60 V I C CNN
+F3 "http://assets.lairdtech.com/home/brandworld/files/TYS6045331M-10.pdf" 500 0 60 V I C CNN
+F4 "330u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "570mA" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Laird" 1200 0 60 V I C CNN "Manufacturer"
+F11 "TYS6045331M-10" 1300 50 60 V I C CNN "MPN"
+F12 "875-TYS6045331M-10" 1400 0 60 V I C CNN "MouserPN"
+F13 "240-2744-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.28" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.67" 1700 0 60 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
+A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50
+A 0 25 25 901 -901 1 1 0 N 0 50 0 0
+A 0 75 25 901 -901 1 1 0 N 0 100 0 50
+P 2 1 1 0 -60 -110 -60 -90 N
+P 2 1 1 0 -60 -70 -60 -50 N
+P 2 1 1 0 -60 -30 -60 -10 N
+P 2 1 1 0 -60 10 -60 30 N
+P 2 1 1 0 -60 50 -60 70 N
+P 2 1 1 0 -60 90 -60 110 N
+P 2 1 1 0 -40 -90 -40 -110 N
+P 2 1 1 0 -40 -50 -40 -70 N
+P 2 1 1 0 -40 -10 -40 -30 N
+P 2 1 1 0 -40 30 -40 10 N
+P 2 1 1 0 -40 70 -40 50 N
+P 2 1 1 0 -40 110 -40 90 N
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 0 150 50 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Fixed_Inductor_SMD_4.7u_WirewoundFerrite_20%_1.01A_130mOhms_1210
+#
+DEF ~Fixed_Inductor_SMD_4.7u_WirewoundFerrite_20%_1.01A_130mOhms_1210 L 0 40 N N 1 F N
+F0 "L" 100 0 60 V V C CNN
+F1 "Fixed_Inductor_SMD_4.7u_WirewoundFerrite_20%_1.01A_130mOhms_1210" -300 350 60 V I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_1210_3225Metric" 400 -100 60 V I C CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=CBC3225T4R7MR%20%20&u=M" 500 0 60 V I C CNN
+F4 "4.7u" -150 0 60 V V C CNN "PartValue"
+F5 "Wirewound Ferrite" 600 -50 60 V I C CNN "Composition"
+F6 "20%" 700 0 60 V I C CNN "Precision"
+F7 "1.01A" 900 0 50 V I C CNN "CurrentRating"
+F8 "Y" 1000 0 60 V I C CNN "PbFree"
+F9 "Y" 1100 0 60 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 1200 0 60 V I C CNN "Manufacturer"
+F11 "CBC3225T4R7MR" 1300 50 60 V I C CNN "MPN"
+F12 "963-CBC3225T4R7MR" 1400 0 60 V I C CNN "MouserPN"
+F13 "587-1624-1-ND" 1500 0 60 V I C CNN "DigiKeyPN"
+F14 "0.26" 1600 0 60 V I C CNN "MouserPrice"
+F15 "0.27" 1700 0 60 V I C CNN "DigiKeyPrice"
 DRAW
 A 0 -75 25 901 -901 1 1 0 N 0 -50 0 -100
 A 0 -25 25 901 -901 1 1 0 N 0 0 0 -50

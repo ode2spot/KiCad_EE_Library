@@ -12,4 +12,10 @@ K connector USB micro
 F ~
 $ENDCMP
 #
+$CMP Connector_USB_B-Micro_Vertical_GTC_USB3140
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
 #End Doc Library

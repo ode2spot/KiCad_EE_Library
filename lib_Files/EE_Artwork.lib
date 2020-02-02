@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Artwork_Pfortner_Panel_bg_Mask
+#
+DEF ~Artwork_Pfortner_Panel_bg_Mask MASK 0 40 Y Y 1 F N
+F0 "MASK" 0 200 50 H V C CNN
+F1 "Artwork_Pfortner_Panel_bg_Mask" 0 -600 50 H I C CNN
+F2 "EE_Decal:Panel_Pfortner_V1_0_mask" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "Pfortner_Panel_bg_Mask" 0 300 50 H I C CNN "PartValue"
+DRAW
+S -150 150 150 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# Artwork_Pfortner_Panel_bg_Silk
+#
+DEF ~Artwork_Pfortner_Panel_bg_Silk SILK 0 40 Y Y 1 F N
+F0 "SILK" 0 200 50 H V C CNN
+F1 "Artwork_Pfortner_Panel_bg_Silk" 0 -600 50 H I C CNN
+F2 "EE_Decal:Panel_Pfortner_V1_0_silk" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "Pfortner_Panel_bg_Silk" 0 300 50 H I C CNN "PartValue"
+DRAW
+S -150 150 150 -150 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+#End Library

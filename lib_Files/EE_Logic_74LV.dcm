@@ -1,10 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP EE_Logic_74AHCT595_8-BitSerialInParallelOut_TSSOP16
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
 $CMP EE_Logic_74LV_08_Quad-2-Input-AND_SOIC14
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
 #
 $CMP EE_Logic_74LV_161_4-BitBinaryCounter_TSSOP16
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
+$CMP EE_Logic_74LV_165_8-BitParallelInSerialOut_TSSOP16
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
 #
@@ -29,6 +37,14 @@ F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
 #
 $CMP EE_Logic_74LV_C2G04_2CH-INVERTER_SC70-6
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
+$CMP EE_Logic_74LV_SingleXOR_74AHCT1G86SE_SC70-5
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
+$CMP EE_Logic_74LV_SingleXOR_74LVC1G86SE_SC70-5
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
 #

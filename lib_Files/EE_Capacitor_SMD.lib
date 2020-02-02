@@ -257,14 +257,11 @@ F7 "50V" 550 0 50 V I C CNN "VoltageRating"
 F8 "Y" 650 0 50 V I C CNN "PbFree"
 F9 "Y" 750 0 50 V I C CNN "RoHS"
 F10 "Murata" 850 0 50 V I C CNN "Manufacturer"
-F11 "GRM1885C1H103JA01J" 950 -50 50 V I C CNN "MPN"
-F12 "81-GRM1885C1H103JA1J" 1050 -50 50 V I C CNN "MouserPN"
-F13 "0.21" 1250 0 50 V I C CNN "MouserPrice"
-F14 "GRM1885C1H103JA01D" 1450 0 50 V I C CNN "ALTMPN"
-F15 "81-GRM1885C1H103JA1D" 1550 0 50 V I C CNN "ALTMouserPN"
-F16 "490-9666-1-ND" 1650 0 50 V I C CNN "ALTDigiKeyPN"
-F17 "0.21" 1750 0 50 V I C CNN "ALTMouserPrice"
-F18 "0.14" 1850 0 50 V I C CNN "ALTDigiKeyPrice"
+F11 "GRM1885C1H103JA01D" 950 -50 50 V I C CNN "MPN"
+F12 "81-GRM1885C1H103JA1D" 1050 -50 50 V I C CNN "MouserPN"
+F13 "490-9666-1-ND" 1750 1600 50 V I C CNN "DigiKeyPN"
+F14 "0.21" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.20" 1850 1700 50 V I C CNN "DigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -1172,7 +1169,7 @@ ENDDEF
 DEF ~Capacitor_SMD_22n_X7R_10%_50V_0402 C 0 40 N N 1 F N
 F0 "C" 150 0 60 V V C CNN
 F1 "Capacitor_SMD_22n_X7R_10%_50V_0402" -300 -50 60 V I C CNN
-F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0402_1005Metric" 250 0 60 V I C CNN
 F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" 350 0 60 V I C CNN
 F4 "22n" -150 0 60 V V C CNN "PartValue"
 F5 "X7R" 350 200 50 V I C CNN "Composition"
@@ -1186,6 +1183,31 @@ F12 "810-CGA2B3X7R1H223K" 1050 -50 50 V I C CNN "MouserPN"
 F13 "445-6895-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
 F14 "0.10" 1250 0 50 V I C CNN "MouserPrice"
 F15 "0.10" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_22u_X5R_10%_25V_1210
+#
+DEF ~Capacitor_SMD_22u_X5R_10%_25V_1210 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_22u_X5R_10%_25V_1210" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_1210_3225Metric" 250 0 60 V I C CNN
+F3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/05/10/19-CL32A226KAJNNNE.pdf" 350 0 60 V I C CNN
+F4 "22u" -150 0 60 V V C CNN "PartValue"
+F5 "X5R" 350 200 50 V I C CNN "Composition"
+F6 "10%" 450 0 50 V I C CNN "Precision"
+F7 "25V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Samsung" 850 0 50 V I C CNN "Manufacturer"
+F11 "CL32A226KAJNNNE" 950 -50 50 V I C CNN "MPN"
+F12 "1276-1101-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F13 "0.51" 1350 0 50 V I C CNN "DigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N
@@ -1418,6 +1440,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_4.7n_C0G_5%_50V_0603
+#
+DEF ~Capacitor_SMD_4.7n_C0G_5%_50V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_4.7n_C0G_5%_50V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx?la=en-us" 350 0 60 V I C CNN
+F4 "4.7n" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Murata" 850 0 50 V I C CNN "Manufacturer"
+F11 "GRM1885C1H472JA01D" 950 -50 50 V I C CNN "MPN"
+F12 "81-GRM1885C1H472JA1D" 1050 -50 50 V I C CNN "MouserPN"
+F13 "GRM1885C1H472JA01D" 1750 1600 50 V I C CNN "DigiKeyPN"
+F14 "0.18" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.18" 1850 1700 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_4.7n_C0G_5%_50V_0805
 #
 DEF ~Capacitor_SMD_4.7n_C0G_5%_50V_0805 C 0 40 N N 1 F N
@@ -1615,6 +1664,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_4.7u_X7R_10%_50V_1206
+#
+DEF ~Capacitor_SMD_4.7u_X7R_10%_50V_1206 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_4.7u_X7R_10%_50V_1206" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_1206_3216Metric" 250 0 60 V I C CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155R61H104KE14-01.pdf" 350 0 60 V I C CNN
+F4 "4.7u" -150 0 60 V V C CNN "PartValue"
+F5 "X7R" 350 200 50 V I C CNN "Composition"
+F6 "10%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 850 0 50 V I C CNN "Manufacturer"
+F11 "UMK316AB7475KL-T" 950 -50 50 V I C CNN "MPN"
+F12 "963-UMK316AB7475KL-T" 1050 -50 50 V I C CNN "MouserPN"
+F13 "587-2994-1-ND" 1750 1600 50 V I C CNN "DigiKeyPN"
+F14 "0.31" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.38" 1850 1700 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_470n_X5R_10%_50V_0603
 #
 DEF ~Capacitor_SMD_470n_X5R_10%_50V_0603 C 0 40 N N 1 F N
@@ -1696,6 +1772,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_47n_C0G_5%_50V_1206
+#
+DEF ~Capacitor_SMD_47n_C0G_5%_50V_1206 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_47n_C0G_5%_50V_1206" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_1206_3216Metric" 250 0 60 V I C CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31M5C1H473JA01-01.pdf" 350 0 60 V I C CNN
+F4 "47n" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Murata" 850 0 50 V I C CNN "Manufacturer"
+F11 "GRM31M5C1H473JA01L" 950 -50 50 V I C CNN "MPN"
+F12 "81-GRM31M5C1H473JA01" 1050 -50 50 V I C CNN "MouserPN"
+F13 "490-1764-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.58" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.58" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_47n_PPS_2%_16V_1206
 #
 DEF ~Capacitor_SMD_47n_PPS_2%_16V_1206 C 0 40 N N 1 F N
@@ -1767,6 +1870,33 @@ F10 "Murata" 850 0 50 V I C CNN "Manufacturer"
 F11 "GRM1555C1H470JA01D" 950 -50 50 V I C CNN "MPN"
 F12 "81-GRM1555C1H470JA1D" 1050 -50 50 V I C CNN "MouserPN"
 F13 "490-5942-1-ND" 1750 1600 50 V I C CNN "DigiKeyPN"
+F14 "0.10" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.10" 1850 1700 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_47p_C0G_5%_50V_0603
+#
+DEF ~Capacitor_SMD_47p_C0G_5%_50V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_47p_C0G_5%_50V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0402_1005Metric" 250 0 60 V I C CNN
+F3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_17.pdf" 350 0 60 V I C CNN
+F4 "47p" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Yaego" 850 0 50 V I C CNN "Manufacturer"
+F11 "CC0603JRNPO9BN470" 950 -50 50 V I C CNN "MPN"
+F12 "603-CC603JRNPO9BN470" 1050 -50 50 V I C CNN "MouserPN"
+F13 "311-1065-1-ND" 1750 1600 50 V I C CNN "DigiKeyPN"
 F14 "0.10" 1250 0 50 V I C CNN "MouserPrice"
 F15 "0.10" 1850 1700 50 V I C CNN "DigiKeyPrice"
 DRAW
@@ -1999,6 +2129,33 @@ F12 "667-ECH-U1C683GX5" 1050 -50 50 V I C CNN "MouserPN"
 F13 "PCF1187CT-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
 F14 "0.76" 1250 0 50 V I C CNN "MouserPrice"
 F15 "0.74" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_68p_C0G_5%_50V_0603
+#
+DEF ~Capacitor_SMD_68p_C0G_5%_50V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_68p_C0G_5%_50V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_17.pdf" 350 0 60 V I C CNN
+F4 "68p" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Yaego" 850 0 50 V I C CNN "Manufacturer"
+F11 "CC0603JRNPO9BN680" 950 -50 50 V I C CNN "MPN"
+F12 "603-C0603JRNPO9BN680" 1050 -50 50 V I C CNN "MouserPN"
+F13 "311-1067-1-ND" 1750 1600 50 V I C CNN "DigiKeyPN"
+F14 "0.10" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.10" 1850 1700 50 V I C CNN "DigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N

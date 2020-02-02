@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CapTouch_Button_10mm
+#
+DEF CapTouch_Button_10mm CBTN 0 40 Y N 1 F N
+F0 "CBTN" 0 300 50 H V C CNN
+F1 "CapTouch_Button_10mm" -50 200 50 H V C CNN
+F2 "EE_CapTouch:CapTouch_10mm_Circular" 0 450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 112 0 1 0 F
+C 0 0 141 0 1 0 N
+X G 1 0 -250 110 U 50 50 1 1 W
+X PAD 2 250 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CapTouch_Button_9mm
+#
+DEF CapTouch_Button_9mm CBTN 0 40 Y N 1 F N
+F0 "CBTN" 0 300 50 H V C CNN
+F1 "CapTouch_Button_9mm" -50 200 50 H V C CNN
+F2 "EE_CapTouch:CapTouch_9mm_Circular" 0 450 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+C 0 0 112 0 1 0 F
+C 0 0 141 0 1 0 N
+X PAD 1 250 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
