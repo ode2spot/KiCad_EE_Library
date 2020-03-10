@@ -106,6 +106,21 @@ X ~ 1 -250 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# MountingHole_9mmPot_plasticShaft
+#
+DEF ~MountingHole_9mmPot_plasticShaft POT 0 40 Y Y 1 F N
+F0 "POT" 0 200 50 H V C CNN
+F1 "MountingHole_9mmPot_plasticShaft" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_9mmPot_plasticShaft" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "POT" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # MountingHole_EuroPanelSlot
 #
 DEF ~MountingHole_EuroPanelSlot SLOT 0 40 Y Y 1 F N
@@ -193,6 +208,21 @@ DEF ~MountingHole_SwitchMini SW 0 40 Y Y 1 F N
 F0 "SW" 0 200 50 H V C CNN
 F1 "MountingHole_SwitchMini" 0 -600 50 H I C CNN
 F2 "EE_MountingHole:MountingHole_SwitchMini" 0 -700 50 H I C CNN
+F3 "" 0 700 50 H I C CNN
+F4 "SW" 0 300 50 H I C CNN "PartValue"
+DRAW
+C 0 0 50 0 1 0 F
+C 0 0 150 0 1 0 f
+X ~ 1 -250 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MountingHole_SwitchSubMini
+#
+DEF ~MountingHole_SwitchSubMini SW 0 40 Y Y 1 F N
+F0 "SW" 0 200 50 H V C CNN
+F1 "MountingHole_SwitchSubMini" 0 -600 50 H I C CNN
+F2 "EE_MountingHole:MountingHole_SwitchSubMini" 0 -700 50 H I C CNN
 F3 "" 0 700 50 H I C CNN
 F4 "SW" 0 300 50 H I C CNN "PartValue"
 DRAW

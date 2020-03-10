@@ -111,6 +111,32 @@ X ~ 3 250 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt
+#
+DEF ~Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt" 50 -600 50 H I C CNN
+F2 "EE_Connector_Audio:Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt" 50 -700 50 H I C CNN
+F3 "http://www.qingpu-electronics.com/en/products/WQP-PJ301M-12-306.html" 100 -800 50 H I C CNN
+F4 "3.5mm" 0 150 50 H V C CNN "PartValue"
+F5 "Plastic/Chrome" 0 -900 50 H I C CNN "Composition"
+F6 "Y" 0 -1200 50 H I C CNN "PbFree"
+F7 "Y" 0 -1300 50 H I C CNN "RoHS"
+F8 "QingPu" 0 -1400 50 H I C CNN "Manufacturer"
+F9 "3.5mm Stereo Enclosed Socket Chassis Jack" 50 -1500 50 H I C CNN "MPN"
+DRAW
+T 0 -50 0 30 0 1 0 1 Normal 0 C C
+S -135 75 150 -75 1 1 10 f
+S -125 -50 -155 50 1 1 0 F
+P 2 1 1 0 25 45 40 15 N
+P 4 1 1 0 150 -50 25 -50 25 45 10 15 N
+P 4 1 1 10 150 50 -25 50 -50 25 -75 50 N
+X ~ 1 -150 -150 100 U 50 50 1 1 P
+X ~ 2 250 -50 100 L 50 50 1 1 P
+X ~ 3 250 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal
 #
 DEF ~Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal J 0 40 Y N 1 F N
