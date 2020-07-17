@@ -1,6 +1,33 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# FerriteBead_1k_1A_200mOhms_0603
+#
+DEF ~FerriteBead_1k_1A_200mOhms_0603 FB 0 40 Y Y 1 F N
+F0 "FB" 0 150 50 H V C CNN
+F1 "FerriteBead_1k_1A_200mOhms_0603" 0 -400 50 H I C CNN
+F2 "EE_Fixed_Inductor_SMD:L_0603_1608Metric" 0 -500 50 H I C CNN
+F3 "https://www.murata.com/en-us/products/productdata/8796750610462/QNFA9122.pdf" -300 -600 50 H I C CNN
+F4 "1k 1A" 0 -150 50 H V C CNN "PartValue"
+F5 "Ferrite" 0 -700 50 H I C CNN "Composition"
+F6 "1A" 0 -900 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -1000 50 H I C CNN "PbFree"
+F8 "Y" 0 -1100 50 H I C CNN "RoHS"
+F9 "Murata" 0 -1200 50 H I C CNN "Manufacturer"
+F10 "BLM18KG102SZ1D" 0 -1300 50 H I C CNN "MPN"
+F11 "81-BLM18KG102SZ1D" 0 -1400 50 H I C CNN "MouserPN"
+F12 "490-17350-1-ND" 0 -1500 50 H I C CNN "DigiKeyPN"
+F13 "0.10" 0 -1600 50 H I C CNN "MouserPrice"
+F14 "0.10" 0 -1700 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 0 -50 0 -51 0 N
+P 2 0 1 0 50 0 48 0 N
+P 5 0 1 0 -16 -109 -89 -67 12 109 85 66 -16 -109 N
+X ~ 1 -150 0 100 R 50 50 1 1 P
+X ~ 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # FerriteBead_1k_200mA_25%_800mOhms_0603
 #
 DEF ~FerriteBead_1k_200mA_25%_800mOhms_0603 FB 0 40 Y Y 1 F N

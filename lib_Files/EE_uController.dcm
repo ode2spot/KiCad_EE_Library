@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP STM32H753VITx
+D ARM Cortex-M7 MCU, 2048KB flash, 864KB RAM, 400MHz, 1.7-3.6V, 82 GPIO, LQFP-100
+K ARM Cortex-M7 STM32H7 STM32H7x3
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00388325.pdf
+$ENDCMP
+#
 $CMP uController_STM32F031_M0_48MHz_32kBF_4kBSRAM_LQFP48
 D Core: ARM Cortex-M0, Package: LQFP48, Flash: 16 kB, RAM: 4 kB, Frequency: 48 MHz, Voltage: 2..3.6V, I/O pins: 39
 K ARM Cortex-M0 STM32F0 STM32F0x1
@@ -54,7 +60,19 @@ K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
 $ENDCMP
 #
+$CMP uController_STM32G030F6P6_M0+_64MHz_32kBF_8kBSRAM_TSSOP20
+D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
 $CMP uController_STM32G031F6P6_M0+_64MHz_32kBF_8kBSRAM_TSSOP20
+D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP uController_STM32G031G8U6_M0+_64MHz_64kBF_8kBSRAM_QFN-28
 D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
 K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
@@ -97,6 +115,18 @@ F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datas
 $ENDCMP
 #
 $CMP uController_STM32G431RBT6_170MHz_128kBF_32kBSRAM_LQFP64
+D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP uController_STM32H750IBK6_M7_480MHz_128kBF_1MBSRAM_UFBGA201
+D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
+$CMP uController_STM32H750VBT6_M7_480MHz_128kBF_1MBSRAM_LQFP100
 D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
 K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf

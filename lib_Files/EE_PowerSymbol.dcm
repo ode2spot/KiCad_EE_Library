@@ -80,7 +80,22 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +3V3_ANA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +3V3_A_ETH
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3_DIG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3_FILT
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -90,12 +105,32 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +5V5
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +5V_A
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +5V_ANA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +5V_B
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_DIG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +5V_LED
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -120,7 +155,22 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +9V_ANA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +9V_OPAMP
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +9V_Pol
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +V
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -135,12 +185,22 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP +VPOE
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP +VREF
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
 $CMP +VREG
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +V_OPAMP
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -180,6 +240,11 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP -5V_ANA
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP -5V_B
 D power-flag symbol
 K Power Flag Symbol
@@ -190,7 +255,22 @@ D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP -9V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -V
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 $CMP -VREF
+D power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP -V_OPAMP
 D power-flag symbol
 K Power Flag Symbol
 $ENDCMP
@@ -211,6 +291,11 @@ K Power Flag Symbol
 $ENDCMP
 #
 $CMP GND_D
+D (reference supply) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP GND_JACK
 D (reference supply) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP

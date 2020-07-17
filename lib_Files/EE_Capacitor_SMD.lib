@@ -1024,6 +1024,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_2.2u_X7R_10%_100V_1206
+#
+DEF ~Capacitor_SMD_2.2u_X7R_10%_100V_1206 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_2.2u_X7R_10%_100V_1206" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_1206_3216Metric" 250 0 60 V I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/mlcc06_e.pdf" 350 0 60 V I C CNN
+F4 "2.2u" -150 0 60 V V C CNN "PartValue"
+F5 "X7R" 350 200 50 V I C CNN "Composition"
+F6 "10%" 450 0 50 V I C CNN "Precision"
+F7 "100V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "TDK" 850 0 50 V I C CNN "Manufacturer"
+F11 "HMK316ABJ225KL-TE" 950 -50 50 V I C CNN "MPN"
+F12 "963-HMK316ABJ225KL" 1050 -50 50 V I C CNN "MouserPN"
+F13 "587-5023-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.61" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.61" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_2.7n_PPS_5%_50V_0805
 #
 DEF ~Capacitor_SMD_2.7n_PPS_5%_50V_0805 C 0 40 N N 1 F N
@@ -1885,7 +1912,7 @@ ENDDEF
 DEF ~Capacitor_SMD_47p_C0G_5%_50V_0603 C 0 40 N N 1 F N
 F0 "C" 150 0 60 V V C CNN
 F1 "Capacitor_SMD_47p_C0G_5%_50V_0603" -300 -50 60 V I C CNN
-F2 "EE_Capacitor_SMD:C_0402_1005Metric" 250 0 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
 F3 "http://www.yageo.com/documents/recent/UPY-GP_NP0_16V-to-50V_17.pdf" 350 0 60 V I C CNN
 F4 "47p" -150 0 60 V V C CNN "PartValue"
 F5 "C0G" 350 200 50 V I C CNN "Composition"
@@ -1953,6 +1980,33 @@ F12 "81-GRM31CR61A476ME5L" 1750 1600 50 V I C CNN "MouserPN"
 F13 "490-5528-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
 F14 "0.93" 1850 1700 50 V I C CNN "MouserPrice"
 F15 "0.84" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_47u_X5R_20%_16V_1210
+#
+DEF ~Capacitor_SMD_47u_X5R_20%_16V_1210 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_47u_X5R_20%_16V_1210" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_1210_3225Metric" 250 0 60 V I C CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/ut/detail?pn=EMK325BJ476MM-P%20&u=M" 350 0 60 V I C CNN
+F4 "47u" -150 0 60 V V C CNN "PartValue"
+F5 "X5R" 350 200 50 V I C CNN "Composition"
+F6 "20%" 450 0 50 V I C CNN "Precision"
+F7 "16V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Taiyo Yuden" 850 0 50 V I C CNN "Manufacturer"
+F11 "EMK325BJ476MM-P" 950 -50 50 V I C CNN "MPN"
+F12 "963-EMK325BJ476MM-P" 1750 1600 50 V I C CNN "MouserPN"
+F13 "587-5436-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.71" 1850 1700 50 V I C CNN "MouserPrice"
+F15 "0.71" 1350 0 50 V I C CNN "DigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N

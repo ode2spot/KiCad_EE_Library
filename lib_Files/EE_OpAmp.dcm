@@ -12,6 +12,12 @@ K Dual SingleSupply BiPolar OpAmp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf
 $ENDCMP
 #
+$CMP OpAmp_LME49724_SOIC-8
+D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Dual Low-Noise JFET OpAmp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
 $CMP OpAmp_MCP6001-SC70-5
 D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
 K Dual Low-Noise JFET OpAmp
@@ -36,7 +42,25 @@ K Dual Low-Noise JFET OpAmp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf
 $ENDCMP
 #
+$CMP OpAmp_OPA1678_SOIC8
+D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Dual Low-Noise JFET OpAmp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP OpAmp_OPA1678_SON8
+D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Dual Low-Noise JFET OpAmp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
 $CMP OpAmp_PGA113_VSSOP10
+D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
+K Dual Low-Noise JFET OpAmp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP OpAmp_THS4521_SOIC-8
 D Dual Low-Noise JFET 36V 18nV/sqrt(Hz) 3MHz 13V/us 18uV/C OpAmp
 K Dual Low-Noise JFET OpAmp
 F http://www.ti.com/lit/ds/symlink/lm358.pdf

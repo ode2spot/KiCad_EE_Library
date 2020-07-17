@@ -78,6 +78,12 @@ K Dual CA 5.1V 300mW Zener
 F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
 $ENDCMP
 #
+$CMP Diode_SMD_PTVS58V_TVS_58V_6.4A_0
+D Dual Common Anode 5.1V 300mW Zener
+K Dual CA 5.1V 300mW Zener
+F https://www.mouser.com/ds/2/395/AZ23C2V7%20SERIES_C14-1021449.pdf
+$ENDCMP
+#
 $CMP Diode_SMD_SMBJ10CA-TR_DualTVS_10V_DO214AA
 D Dual Common Anode 5.1V 300mW Zener
 K Dual CA 5.1V 300mW Zener

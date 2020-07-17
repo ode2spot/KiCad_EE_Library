@@ -18,4 +18,10 @@ K connector USB micro
 F ~
 $ENDCMP
 #
+$CMP Connector_USB_C_GCT_USB4110-GF-A_SMD
+D USB Micro Type B connector
+K connector USB micro
+F ~
+$ENDCMP
+#
 #End Doc Library

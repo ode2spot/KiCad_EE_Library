@@ -237,6 +237,36 @@ X K 3 -150 0 100 R 50 50 2 1 P
 ENDDRAW
 ENDDEF
 #
+# Diode_SMD_BAT54C_DualCK_Schottky_30V_200mA_SOT323-3
+#
+DEF ~Diode_SMD_BAT54C_DualCK_Schottky_30V_200mA_SOT323-3 D 0 40 Y N 2 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "Diode_SMD_BAT54C_DualCK_Schottky_30V_200mA_SOT323-3" 0 -250 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-323_SC-70" -50 -350 50 H I C CNN
+F3 "https://www.onsemi.com/pub/Collateral/BAT54CWT1-D.PDF" 50 -450 50 H I C CNN
+F4 "BAT54C" 0 -150 50 H V C CNN "PartValue"
+F5 "Si Schottky" 0 -550 50 H I C CNN "Composition"
+F6 "200mW" 0 -650 50 H I C CNN "PowerRating"
+F7 "30V" 0 -750 50 H I C CNN "VoltageRating"
+F8 "200mA" 0 -850 50 H I C CNN "CurrentRating"
+F9 "Y" 0 -950 50 H I C CNN "PbFree"
+F10 "Y" 0 -1050 50 H I C CNN "RoHS"
+F11 "ON Semiconductor" 0 -1150 50 H I C CNN "Manufacturer"
+F12 "BAT54CWT1G" 0 -1250 50 H I C CNN "MPN"
+F13 "863-BAT54CWT1G" 0 -1350 50 H I C CNN "MouserPN"
+F14 "BAT54CWT1GOSCT-ND" 0 -1450 50 H I C CNN "DigiKeyPN"
+F15 "0.20" 0 -1550 50 H I C CNN "MouserPrice"
+F16 "0.21" 0 -1650 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X A 1 150 0 100 L 50 50 1 1 P
+X K 3 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 2 1 P
+X K 3 -150 0 100 R 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
 # Diode_SMD_BAT54S_DualSeries_Schottky_30V_200mA
 #
 DEF ~Diode_SMD_BAT54S_DualSeries_Schottky_30V_200mA D 0 40 Y N 2 F N
@@ -262,6 +292,36 @@ F18 "771-BAT54SW-T/R" 0 -1850 50 H I C CNN "ALTMouserPN"
 F19 "1727-2905-1-ND" 0 -1950 50 H I C CNN "ALTDigiKeyPN"
 F20 "0.21" 0 -2050 50 H I C CNN "ALTMouserPrice"
 F21 "0.23" 0 -2150 50 H I C CNN "ALTDigiKeyPrice"
+DRAW
+P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X A 1 150 0 100 L 50 50 1 1 P
+X K 3 -150 0 100 R 50 50 1 1 P
+X K 2 -150 0 100 R 50 50 2 1 P
+X A 3 150 0 100 L 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_SMD_BAT54S_DualSeries_Schottky_30V_200mA_SOT323-3
+#
+DEF ~Diode_SMD_BAT54S_DualSeries_Schottky_30V_200mA_SOT323-3 D 0 40 Y N 2 F N
+F0 "D" 0 150 50 H V C CNN
+F1 "Diode_SMD_BAT54S_DualSeries_Schottky_30V_200mA_SOT323-3" 0 -250 50 H I C CNN
+F2 "EE_Package_TO_SOT_SMD:SOT-323_SC-70" -50 -350 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/BAT54W_SER.pdf" 50 -450 50 H I C CNN
+F4 "BAT54S" 0 -150 50 H V C CNN "PartValue"
+F5 "Si Schottky" 0 -550 50 H I C CNN "Composition"
+F6 "200mW" 0 -650 50 H I C CNN "PowerRating"
+F7 "30V" 0 -750 50 H I C CNN "VoltageRating"
+F8 "200mA" 0 -850 50 H I C CNN "CurrentRating"
+F9 "Y" 0 -950 50 H I C CNN "PbFree"
+F10 "Y" 0 -1050 50 H I C CNN "RoHS"
+F11 "Nexperia" 0 -1150 50 H I C CNN "Manufacturer"
+F12 "BAT54SW,115" 0 -1250 50 H I C CNN "MPN"
+F13 "771-BAT54SW-T/R" 0 -1350 50 H I C CNN "MouserPN"
+F14 "1727-2905-1-ND" 0 -1450 50 H I C CNN "DigiKeyPN"
+F15 "0.21" 0 -1550 50 H I C CNN "MouserPrice"
+F16 "0.21" 0 -1650 50 H I C CNN "DigiKeyPrice"
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
@@ -860,6 +920,34 @@ F15 "0.60" 0 -1650 50 H I C CNN "DigiKeyPrice"
 DRAW
 P 4 0 1 8 50 50 50 -50 -50 0 50 50 N
 P 6 0 1 8 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Diode_SMD_PTVS58V_TVS_58V_6.4A_0
+#
+DEF ~Diode_SMD_PTVS58V_TVS_58V_6.4A_0 TVS 0 40 Y N 1 F N
+F0 "TVS" 0 150 50 H V C CNN
+F1 "Diode_SMD_PTVS58V_TVS_58V_6.4A_0" 0 -250 50 H I C CNN
+F2 "EE_Diode_SMD:D_SOD-128" -50 -350 50 H I C CNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PTVSXP1UTP_SER.pdf" 50 -450 50 H I C CNN
+F4 "58V" 0 -150 50 H V C CNN "PartValue"
+F5 "TVS" 0 -550 50 H I C CNN "Composition"
+F6 "58V" 0 -750 50 H I C CNN "VoltageRating"
+F7 "6.4A" 0 -850 50 H I C CNN "CurrentRating"
+F8 "Y" 0 -1100 50 H I C CNN "PbFree"
+F9 "Y" 0 -1200 50 H I C CNN "RoHS"
+F10 "Diodes Inc" 0 -1300 50 H I C CNN "Manufacturer"
+F11 "PTVS58VP1UTP,115" 0 -1400 50 H I C CNN "MPN"
+F12 "771-PTVS58VP1UTP,115" 0 -1500 50 H I C CNN "MouserPN"
+F13 "1727-1429-2-ND" 0 -1600 50 H I C CNN "DigiKeyPN"
+F14 "0.43" 0 -1700 50 H I C CNN "MouserPrice"
+F15 "0.43" 0 -1800 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 8 -50 -50 -50 50 -30 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 F
 X K 1 -150 0 100 R 50 50 1 1 P
 X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW

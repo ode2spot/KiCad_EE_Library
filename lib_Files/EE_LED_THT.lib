@@ -1,6 +1,34 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# LED_THT_G_2x5mm
+#
+DEF ~LED_THT_G_2x5mm LED 0 40 Y N 1 F N
+F0 "LED" 0 150 50 H V C CNN
+F1 "LED_THT_G_2x5mm" 0 -300 50 H I C CNN
+F2 "EE_LED_THT:LED_2x5mm" 0 -500 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-433G.pdf" 0 -400 50 H I C CNN
+F4 "LED_G" 0 -150 50 H V C CNN "PartValue"
+F5 "2.1V" 0 -600 50 H I C CNN "VoltageRating"
+F6 "20mA" 0 -700 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -800 50 H I C CNN "PbFree"
+F8 "Y" 0 -900 50 H I C CNN "RoHS"
+F9 "Lite-On Inc" 0 -1000 50 H I C CNN "Manufacturer"
+F10 "LTL-433G" 0 -1100 50 H I C CNN "MPN"
+F11 "859-LTL-433G" 0 -1200 50 H I C CNN "MouserPN"
+F12 "160-1972-ND" 0 -1300 50 H I C CNN "DigiKeyPN"
+F13 "0.12" 0 -1500 50 H I C CNN "MouserPrice"
+F14 "0.46" 0 -1600 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED_THT_G_5mm_WaterClear_525nm_11000mcd
 #
 DEF ~LED_THT_G_5mm_WaterClear_525nm_11000mcd LED 0 40 Y N 1 F N
@@ -175,6 +203,34 @@ X BA 4 200 -200 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# LED_THT_R_2x5mm
+#
+DEF ~LED_THT_R_2x5mm LED 0 40 Y N 1 F N
+F0 "LED" 0 150 50 H V C CNN
+F1 "LED_THT_R_2x5mm" 0 -300 50 H I C CNN
+F2 "EE_LED_THT:LED_2x5mm" 0 -500 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-433HR.pdf" 0 -400 50 H I C CNN
+F4 "LED_R" 0 -150 50 H V C CNN "PartValue"
+F5 "2.0V" 0 -600 50 H I C CNN "VoltageRating"
+F6 "20mA" 0 -700 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -800 50 H I C CNN "PbFree"
+F8 "Y" 0 -900 50 H I C CNN "RoHS"
+F9 "Lite-On Inc" 0 -1000 50 H I C CNN "Manufacturer"
+F10 "LTL-433HR" 0 -1100 50 H I C CNN "MPN"
+F11 "859-LTL-433HR" 0 -1200 50 H I C CNN "MouserPN"
+F12 "160-1973-ND" 0 -1300 50 H I C CNN "DigiKeyPN"
+F13 "0.12" 0 -1500 50 H I C CNN "MouserPrice"
+F14 "0.46" 0 -1600 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # LED_THT_R_3mm_Diffused_635nm_160mcd
 #
 DEF ~LED_THT_R_3mm_Diffused_635nm_160mcd LED 0 40 Y N 1 F N
@@ -277,6 +333,34 @@ P 5 1 1 0 70 130 130 190 100 190 130 190 130 160 N
 P 5 1 1 0 120 130 180 190 150 190 180 190 180 160 N
 X K 1 -200 0 100 R 50 50 1 1 P
 X A 2 200 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_THT_Y_2x5mm
+#
+DEF ~LED_THT_Y_2x5mm LED 0 40 Y N 1 F N
+F0 "LED" 0 150 50 H V C CNN
+F1 "LED_THT_Y_2x5mm" 0 -300 50 H I C CNN
+F2 "EE_LED_THT:LED_2x5mm" 0 -500 50 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTL-433Y.pdf" 0 -400 50 H I C CNN
+F4 "LED_Y" 0 -150 50 H V C CNN "PartValue"
+F5 "2.1V" 0 -600 50 H I C CNN "VoltageRating"
+F6 "20mA" 0 -700 50 H I C CNN "CurrentRating"
+F7 "Y" 0 -800 50 H I C CNN "PbFree"
+F8 "Y" 0 -900 50 H I C CNN "RoHS"
+F9 "Lite-On Inc" 0 -1000 50 H I C CNN "Manufacturer"
+F10 "LTL-433Y" 0 -1100 50 H I C CNN "MPN"
+F11 "859-LTL-433Y" 0 -1200 50 H I C CNN "MouserPN"
+F12 "160-1975-ND" 0 -1300 50 H I C CNN "DigiKeyPN"
+F13 "0.12" 0 -1500 50 H I C CNN "MouserPrice"
+F14 "0.46" 0 -1600 50 H I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 150 0 100 L 50 50 1 1 P
+X A 2 -150 0 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
