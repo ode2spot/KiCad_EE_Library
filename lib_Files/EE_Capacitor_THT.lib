@@ -1,4 +1,31 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Capacitor_THT_10u_ALP_20%_50V_D5mm_P2mm_H12.5mm
+#
+DEF ~Capacitor_THT_10u_ALP_20%_50V_D5mm_P2mm_H12.5mm C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_THT_10u_ALP_20%_50V_D5mm_P2mm_H12.5mm" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_THT:CP_Radial_D5.0mm_P2.00mm_L12.5mm" 250 0 60 V I C CNN
+F3 "https://www.nichicon.co.jp/english/products/pdfs/e-ufw.pdf" 350 0 60 V I C CNN
+F4 "10u" -150 0 60 V V C CNN "PartValue"
+F5 "ALP" 450 0 50 V I C CNN "Composition"
+F6 "20%" 550 0 50 V I C CNN "Precision"
+F7 "50V" 650 0 50 V I C CNN "VoltageRating"
+F8 "Y" 750 0 50 V I C CNN "PbFree"
+F9 "Y" 850 0 50 V I C CNN "RoHS"
+F10 "Nichicon" 950 0 50 V I C CNN "Manufacturer"
+F11 "UFW1H100MDD1TD" 1050 -50 50 V I C CNN "MPN"
+F12 "647-UFW1H100MDD1TD" 1150 -50 50 V I C CNN "MouserPN"
+F13 "493-11003-1-ND" 1250 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.17" 1350 0 50 V I C CNN "MouserPrice"
+F15 "0.23" 1450 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+A 0 -150 120 1316 484 1 1 20 N -80 -60 80 -60
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library

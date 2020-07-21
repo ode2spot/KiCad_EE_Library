@@ -543,6 +543,33 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Capacitor_SMD_15n_C0G_5%_50V_0805
+#
+DEF ~Capacitor_SMD_15n_C0G_5%_50V_0805 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_15n_C0G_5%_50V_0805" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0805_2012Metric" 250 0 60 V I C CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_automotive_general_en.pdf" 350 0 60 V I C CNN
+F4 "15n" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Panasonic" 850 0 50 V I C CNN "Manufacturer"
+F11 "CGA4F2C0G1H153J085AA" 950 -50 50 V I C CNN "MPN"
+F12 "810-CGA4F2C0G1H153J" 1050 -50 50 V I C CNN "MouserPN"
+F13 "445-6948-1-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
+F14 "0.35" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.33" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Capacitor_SMD_15n_PPS_5%_16V_1206
 #
 DEF ~Capacitor_SMD_15n_PPS_5%_16V_1206 C 0 40 N N 1 F N
@@ -1397,6 +1424,33 @@ F12 "667-ECH-U1H271JX5" 1050 -50 50 V I C CNN "MouserPN"
 F13 "PCF1321CT-ND" 1150 -50 50 V I C CNN "DigiKeyPN"
 F14 "0.50" 1250 0 50 V I C CNN "MouserPrice"
 F15 "0.44" 1350 0 50 V I C CNN "DigiKeyPrice"
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Capacitor_SMD_3.9n_C0G_5%_50V_0603
+#
+DEF ~Capacitor_SMD_3.9n_C0G_5%_50V_0603 C 0 40 N N 1 F N
+F0 "C" 150 0 60 V V C CNN
+F1 "Capacitor_SMD_3.9n_C0G_5%_50V_0603" -300 -50 60 V I C CNN
+F2 "EE_Capacitor_SMD:C_0603_1608Metric" 250 0 60 V I C CNN
+F3 "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c03e.ashx?la=en-us" 350 0 60 V I C CNN
+F4 "3.9n" -150 0 60 V V C CNN "PartValue"
+F5 "C0G" 350 200 50 V I C CNN "Composition"
+F6 "5%" 450 0 50 V I C CNN "Precision"
+F7 "50V" 550 0 50 V I C CNN "VoltageRating"
+F8 "Y" 650 0 50 V I C CNN "PbFree"
+F9 "Y" 750 0 50 V I C CNN "RoHS"
+F10 "Murata" 850 0 50 V I C CNN "Manufacturer"
+F11 "GCM1885C1H392JA16D" 950 -50 50 V I C CNN "MPN"
+F12 "81-GCM1885C1H392JA6D" 1050 -50 50 V I C CNN "MouserPN"
+F13 "490-11958-1-ND" 1750 1600 50 V I C CNN "DigiKeyPN"
+F14 "0.18" 1250 0 50 V I C CNN "MouserPrice"
+F15 "0.18" 1850 1700 50 V I C CNN "DigiKeyPrice"
 DRAW
 P 2 0 1 20 -80 -30 80 -30 N
 P 2 0 1 20 -80 30 80 30 N

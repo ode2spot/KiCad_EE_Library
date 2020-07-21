@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# PCBSupport_hole3.2mm_Keystone_8884
+#
+DEF ~PCBSupport_hole3.2mm_Keystone_8884 SPRT 0 10 Y Y 1 F N
+F0 "SPRT" 0 200 50 H V C CNN
+F1 "PCBSupport_hole3.2mm_Keystone_8884" 0 -1150 50 H I C CNN
+F2 "EE_PCBSupport:PCBSupport_drill3.2mm_Keystone_8884" 0 -1250 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/215/879-8887-743235.pdf" 0 -1350 50 H I C CNN
+F4 "Keystone_8884" 0 300 50 H I C CNN "PartValue"
+F5 "Y" 0 -2000 50 H I C CNN "PbFree"
+F6 "Y" 0 -2100 50 H I C CNN "RoHS"
+F7 "Keystone Electronics" 0 -2200 50 H I C CNN "Manufacturer"
+F8 "8884" 0 -2300 50 H I C CNN "MPN"
+F9 "534-8884" 0 -2400 50 H I C CNN "MouserPN"
+F10 "36-8884-ND" 0 -2500 50 H I C CNN "DigiKeyPN"
+F11 "0.27" 0 -2600 50 H I C CNN "MouserPrice"
+F12 "0.27" 0 -2700 50 H I C CNN "DigiKeyPrice"
+DRAW
+C 0 0 50 1 1 0 F
+C 0 0 150 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+#End Library
