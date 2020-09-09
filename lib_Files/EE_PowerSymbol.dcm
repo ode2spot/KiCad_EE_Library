@@ -315,4 +315,9 @@ D (reference supply) ground power-flag symbol
 K Power Flag Symbol
 $ENDCMP
 #
+$CMP GND_SIG
+D (reference supply) ground power-flag symbol
+K Power Flag Symbol
+$ENDCMP
+#
 #End Doc Library
