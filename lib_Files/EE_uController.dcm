@@ -72,6 +72,12 @@ K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
 F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
 $ENDCMP
 #
+$CMP uController_STM32G030J6M6_M0+_64MHz_32kBF_8kBSRAM_SOIC8
+D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
+K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line
+F http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141386.pdf
+$ENDCMP
+#
 $CMP uController_STM32G031F6P6_M0+_64MHz_32kBF_8kBSRAM_TSSOP20
 D Core: ARM Cortex-M0, Package: LQFP64, Flash: 128 kB, RAM: 16 kB, Frequency: 48 MHz, Voltage: 2.4..3.6V, I/O pins: 51
 K ARM Cortex-M0 STM32F0 STM32F0x0 Value Line

@@ -131,6 +131,36 @@ X 3 3 0 150 50 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Potentiometer_10kA_Alpha_16mm_PC_RightAngle_Dual
+#
+DEF ~Potentiometer_10kA_Alpha_16mm_PC_RightAngle_Dual POT 0 40 Y N 2 F N
+F0 "POT" -200 50 50 H V C CNN
+F1 "Potentiometer_10kA_Alpha_16mm_PC_RightAngle_Dual" 100 -400 50 H I C CNN
+F2 "EE_Potentiometer:Potentiometer_Alpha_RV16A01F-20_dual" 50 -500 50 H I C CNN
+F3 "https://www.taydaelectronics.com/datasheets/files/Dual-A.pdf" 50 -600 50 H I C CNN
+F4 "10kA" -200 -50 50 H V C CNN "PartValue"
+F5 "Carbon" 0 -700 50 H I C CNN "Composition"
+F6 "20%" 0 -800 50 H I C CNN "Precision"
+F7 "125mW" 0 -900 50 H I C CNN "PowerRating"
+F8 "Y" 0 -1050 50 H I C CNN "PbFree"
+F9 "Y" 0 -1150 50 H I C CNN "RoHS"
+F10 "Alpha" 0 -1250 50 H I C CNN "Manufacturer"
+F11 "RV16A01F-20" 50 -1350 50 H I C CNN "MPN"
+F12 "A-1917" 0 -1750 50 H I C CNN "TaydaPN"
+F13 "0.80" 0 -2150 50 H I C CNN "TaydaPrice"
+DRAW
+S 40 -100 -40 100 0 1 10 N
+P 2 0 1 0 100 0 60 0 N
+P 3 0 1 0 45 0 90 -20 90 20 F
+X 1 1 0 -150 50 U 50 50 1 1 P
+X 2 2 150 0 50 L 50 50 1 1 P
+X 3 3 0 150 50 D 50 50 1 1 P
+X ~ 4 0 -150 50 U 50 50 2 1 P
+X ~ 5 150 0 50 L 50 50 2 1 P
+X ~ 6 0 150 50 D 50 50 2 1 P
+ENDDRAW
+ENDDEF
+#
 # Potentiometer_10kB_Alpha_16mm_PC_RA_Dual
 #
 DEF ~Potentiometer_10kB_Alpha_16mm_PC_RA_Dual POT 0 40 Y N 2 F N
