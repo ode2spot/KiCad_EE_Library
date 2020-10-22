@@ -16,6 +16,10 @@ $CMP EE_Logic_74LV_165_8-BitParallelInSerialOut_TSSOP16
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
 #
+$CMP EE_Logic_74LV_C1G17_SC70-5
+F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
+$ENDCMP
+#
 $CMP EE_Logic_74LV_C1G57_SOT23-6
 F http://www.ti.com/lit/ds/symlink/sn74lvc1gx04.pdf
 $ENDCMP
