@@ -48,6 +48,32 @@ X ~ 3 250 50 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical
+#
+DEF ~Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical" 50 -600 50 H I C CNN
+F2 "EE_Connector_Audio:Jack_3.5mm_WQP-WQP419GR_Vertical" 50 -700 50 H I C CNN
+F3 "http://www.qingpu-electronics.com/en/products/WQP-PJ366ST-364.html" 100 -800 50 H I C CNN
+F4 "3.5mm TRS" 0 150 50 H V C CNN "PartValue"
+F5 "Plastic/Chrome" 0 -900 50 H I C CNN "Composition"
+F6 "Y" 0 -1200 50 H I C CNN "PbFree"
+F7 "Y" 0 -1300 50 H I C CNN "RoHS"
+F8 "QingPu" 0 -1400 50 H I C CNN "Manufacturer"
+F9 "WQP-WQP419GR" 50 -1500 50 H I C CNN "MPN"
+DRAW
+T 0 -10 -25 30 0 1 0 R Normal 0 C C
+T 0 55 20 30 0 1 0 T Normal 0 C C
+S -135 75 150 -75 1 1 10 f
+S -125 -50 -155 50 1 1 0 F
+P 4 1 0 10 150 -50 -25 -50 -50 -30 -75 -50 N
+P 4 1 1 10 150 50 40 50 15 25 -10 50 N
+X ~ 1 -150 -150 100 U 50 50 1 1 P
+X ~ 2 250 -50 100 L 50 50 1 1 P
+X ~ 3 250 50 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Jack_3.5mm_Tayda_A853_Horizontal
 #
 DEF ~Jack_3.5mm_Tayda_A853_Horizontal J 0 40 Y N 1 F N
