@@ -1,8 +1,8 @@
-(module MountingHole_9mmPot_plasticShaft (layer F.Cu) (tedit 5E3FDF6C)
+(module MountingHole_9mmPot_plasticShaft (layer F.Cu) (tedit 5FA7B6A0)
   (descr "Mounting Hole 3.2mm, M3")
   (tags "mounting hole 3.2mm m3")
   (attr virtual)
-  (fp_text reference REF** (at 0 -4.2) (layer F.SilkS) hide
+  (fp_text reference POT1 (at 0 -4.2) (layer F.SilkS) hide
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
   (fp_text value MountingHole_9mmPot_plasticShaft (at 0 7.62) (layer F.Fab)
@@ -13,10 +13,10 @@
   (fp_text user %R (at 0 5) (layer F.Fab) hide
     (effects (font (size 0.7 0.7) (thickness 0.15)))
   )
-  (fp_circle (center 0 0) (end 3.7 0) (layer Cmts.User) (width 0.15))
-  (fp_circle (center 0 0) (end 3.8 -0.1) (layer B.Fab) (width 0.15))
-  (fp_circle (center 0 0) (end 3.8 -0.1) (layer F.Fab) (width 0.15))
-  (pad 1 thru_hole circle (at 0 0) (size 7.5 7.5) (drill 6.05) (layers *.Cu *.Mask))
+  (fp_circle (center 0 0) (end 3.6 0) (layer Cmts.User) (width 0.15))
+  (fp_circle (center 0 0) (end 3.6 0) (layer B.Fab) (width 0.15))
+  (fp_circle (center 0 0) (end 3.6 0) (layer F.Fab) (width 0.15))
+  (pad 1 thru_hole circle (at 0 0) (size 7.2 7.2) (drill 6.05) (layers *.Cu *.Mask))
   (model ${KIUSR3DMOD}/EE_Potentiometer.3dshapes/ALPS-RK09K.step
     (offset (xyz 0 0 -11))
     (scale (xyz 1 1 1))

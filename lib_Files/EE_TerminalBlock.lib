@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# TerminalBlock_Molex_1x03_DG126-03P
+#
+DEF ~TerminalBlock_Molex_1x03_DG126-03P J 0 40 Y N 1 F N
+F0 "J" 0 250 50 H V C CNN
+F1 "TerminalBlock_Molex_1x03_DG126-03P" 0 -550 50 H I C CNN
+F2 "EE_TerminalBlock:TerminalBlock_DG126-03P" 0 -650 50 H I C CNN
+F3 "http://www.degson.com/en/pro_detail/id/555" 0 -750 50 H I C CNN
+F4 "DG126-03P" 150 0 50 V V C CNN "PartValue"
+F5 "DEGSON" 200 800 50 H I C CNN "Manufacturer"
+F6 "DG126-03P" 100 700 50 H I C CNN "MPN"
+F7 "A-663" 300 900 50 H I C CNN "TaydaPN"
+F8 "0.20" 400 1000 50 H I C CNN "TaydaPrice"
+DRAW
+S 0 -95 50 -105 1 1 6 N
+S 0 5 50 -5 1 1 6 N
+S 0 105 50 95 1 1 6 N
+S 0 150 100 -150 1 1 10 f
+X Pin_1 1 -150 100 150 R 50 50 1 1 P
+X Pin_2 2 -150 0 150 R 50 50 1 1 P
+X Pin_3 3 -150 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TerminalBlock_Molex_1x08_1.27mm_Vert
 #
 DEF ~TerminalBlock_Molex_1x08_1.27mm_Vert J 0 40 Y N 1 F N
