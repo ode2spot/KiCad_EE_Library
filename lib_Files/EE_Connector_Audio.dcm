@@ -6,4 +6,8 @@ K audio jack receptable mono headphones phone TS connector
 F ~
 $ENDCMP
 #
+$CMP JACK_3.5mm_DAIER_3F07_HORZ
+F https://www.taydaelectronics.com/datasheets/A-853.jpg
+$ENDCMP
+#
 #End Doc Library

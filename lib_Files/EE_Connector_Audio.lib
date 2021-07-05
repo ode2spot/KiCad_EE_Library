@@ -21,9 +21,39 @@ X ~ 3 200 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# JACK_3.5mm_DAIER_3F07_HORZ
+#
+DEF JACK_3.5mm_DAIER_3F07_HORZ J 0 40 Y N 1 F N
+F0 "J" 0 450 50 H V C CNN
+F1 "JACK_3.5mm_DAIER_3F07_HORZ" 50 -600 50 H I C CNN
+F2 "MDLIB:Jack_3.5mm_Tayda_A853_Horizontal" 50 -700 50 H I C CNN
+F3 "" 100 -800 50 H I C CNN
+F4 "3.5mm PC Audio Jack" 50 -450 50 H V C CNN "DisplayValue"
+F5 "Yueqing Daier Electron" 0 -1400 50 H I C CNN "MFG"
+F6 "3F07" 0 -1600 50 H I C CNN "MPN"
+DRAW
+T 0 200 400 50 0 0 0 R Normal 0 C C
+T 0 200 300 50 0 0 0 RN Normal 0 C C
+T 0 200 -300 50 0 0 0 S Normal 0 C C
+T 0 200 0 50 0 0 0 T Normal 0 C C
+T 0 200 100 50 0 0 0 TN Normal 0 C C
+P 5 0 0 0 -500 -350 -650 -350 -650 350 -500 350 -500 -350 f
+P 2 0 1 0 250 -350 -500 -350 N
+P 5 0 1 0 -150 -50 0 -50 50 0 100 -50 250 -50 N
+P 5 0 1 0 250 50 -50 50 -100 -50 -150 50 -50 50 f
+P 5 0 1 0 250 250 -250 250 -300 350 -350 250 -250 250 f
+P 5 0 1 0 250 350 -100 350 -150 300 -200 350 -400 350 N
+X S 1 450 -350 200 L 50 50 1 1 P
+X R 2 450 350 200 L 50 50 1 1 P
+X T 3 450 -50 200 L 50 50 1 1 P
+X RN 4 450 250 200 L 50 50 1 1 P
+X TN 5 450 50 200 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Jack_3.5mm_PJ-301BM_Vertical
 #
-DEF ~Jack_3.5mm_PJ-301BM_Vertical J 0 40 Y N 1 F N
+DEF Jack_3.5mm_PJ-301BM_Vertical J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "Jack_3.5mm_PJ-301BM_Vertical" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_3.5mm_Tayda-A-2566_PJ-301BM_Vertical" 50 -700 50 H I C CNN
@@ -50,7 +80,7 @@ ENDDEF
 #
 # Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical
 #
-DEF ~Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical J 0 40 Y N 1 F N
+DEF Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "Jack_3.5mm_Stereo_WQP-WQP419GR_Vertical" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_3.5mm_WQP-WQP419GR_Vertical" 50 -700 50 H I C CNN
@@ -76,7 +106,7 @@ ENDDEF
 #
 # Jack_3.5mm_Tayda_A853_Horizontal
 #
-DEF ~Jack_3.5mm_Tayda_A853_Horizontal J 0 40 Y N 1 F N
+DEF Jack_3.5mm_Tayda_A853_Horizontal J 0 40 Y N 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "Jack_3.5mm_Tayda_A853_Horizontal" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_3.5mm_Tayda_A853_Horizontal" 50 -700 50 H I C CNN
@@ -113,7 +143,7 @@ ENDDEF
 #
 # Jack_3.5mm_WQP-PJ301M-12_Vertical
 #
-DEF ~Jack_3.5mm_WQP-PJ301M-12_Vertical J 0 40 Y N 1 F N
+DEF Jack_3.5mm_WQP-PJ301M-12_Vertical J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "Jack_3.5mm_WQP-PJ301M-12_Vertical" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_3.5mm_WQP-PJ301M-12_Vertical" 50 -700 50 H I C CNN
@@ -139,7 +169,7 @@ ENDDEF
 #
 # Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt
 #
-DEF ~Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt J 0 40 Y N 1 F N
+DEF Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt J 0 40 Y N 1 F N
 F0 "J" 0 250 50 H V C CNN
 F1 "Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_3.5mm_WQP-PJ301M-12_Vertical_RightJunt" 50 -700 50 H I C CNN
@@ -165,7 +195,7 @@ ENDDEF
 #
 # Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal
 #
-DEF ~Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal J 0 40 Y N 1 F N
+DEF Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal J 0 40 Y N 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_6.35mm_Neutric_NMJ6HCD2_Horizontal" 50 -700 50 H I C CNN
@@ -209,7 +239,7 @@ ENDDEF
 #
 # Jack_6.35mm_Tayda_A1122_Horizontal
 #
-DEF ~Jack_6.35mm_Tayda_A1122_Horizontal J 0 40 Y N 1 F N
+DEF Jack_6.35mm_Tayda_A1122_Horizontal J 0 40 Y N 1 F N
 F0 "J" 0 450 50 H V C CNN
 F1 "Jack_6.35mm_Tayda_A1122_Horizontal" 50 -600 50 H I C CNN
 F2 "EE_Connector_Audio:Jack_6.35mm_Tayda_A1122_Horizontal" 50 -700 50 H I C CNN
